@@ -251,7 +251,17 @@ def main():
         {"role": "user", "content": user_prompt},
     ]
     print(f"调用 {model} …（候选 {len(raw['items'])} 条，prompt {len(user_prompt)} 字）", file=sys.stderr)
-    content, _ = call_api(api_key, base_url, model, messages)
+    try:
+        content, _ = call_api(api_key, base_url, model, messages)
+    except RuntimeError as e:
+        msg = str(e)
+        print(f"ERROR: {msg}", file=sys.stderr)
+        if "401" in msg or "403" in msg or "invalid" in msg.lower():
+            print("提示：API key 必须是从平台控制台创建、形如 sk-xxxxxxxx 的密钥；"
+                  "UUID 形式的字符串通常不是 API key。", file=sys.stderr)
+        elif "402" in msg or "balance" in msg.lower():
+            print("提示：账户余额不足，去控制台充值。", file=sys.stderr)
+        return 2
     if args.keep_response:
         open(args.keep_response, "w", encoding="utf-8").write(content)
 

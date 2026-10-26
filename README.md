@@ -94,6 +94,10 @@ GitHub 的服务器在境外。第 5 步「真发一封」就是用来验证这�
 ## 本地调试
 
 ```powershell
+# 0) 先确认 key 能用、账户有钱（30 秒，强烈建议先跑这个）
+$env:DEEPSEEK_API_KEY="sk-xxxx"
+python check_api.py
+
 # 只抓新闻，看看源通不通（不需要任何 key）
 python fetch_news.py --out raw.json
 
