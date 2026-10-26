@@ -35,6 +35,17 @@ def step(msg):
     print(f"\n=== {msg} ===", file=sys.stderr, flush=True)
 
 
+def mark(stage, **extra):
+    """记录当前进行到哪一步，供失败告警读取。任何异常都不许影响主流程。"""
+    try:
+        payload = {"stage": stage, "at": datetime.now(TZ).isoformat()}
+        payload.update(extra)
+        (BASE / "status.json").write_text(
+            json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+    except Exception:
+        pass
+
+
 def run_script(name, extra=None):
     cmd = [sys.executable, str(BASE / name)] + (extra or [])
     proc = subprocess.run(cmd, cwd=str(BASE))
@@ -68,8 +79,10 @@ def main():
     else:
         if not args.no_fetch:
             step("1/3 抓取新闻源")
+            mark("1/3 抓取新闻源")
             rc = run_script("fetch_news.py", ["--out", str(raw_path)])
             if rc != 0:
+                mark("1/3 抓取新闻源（失败）", failed_stage="fetch")
                 print("ERROR: 抓取失败，没有任何新闻可写", file=sys.stderr)
                 return 3
         else:
@@ -78,12 +91,14 @@ def main():
                 return 3
 
         step("2/3 交给模型写稿")
+        mark("2/3 模型写稿")
         rc = run_script("write_digest.py", [
             "--raw", str(raw_path),
             "--out", str(digest_path),
             "--keep-response", str(BASE / "last_response.txt"),
         ])
         if rc != 0:
+            mark("2/3 模型写稿（失败）", failed_stage="write")
             print("ERROR: 写稿失败（检查 DEEPSEEK_API_KEY / 余额 / 网络）", file=sys.stderr)
             return 4
         d = json.load(open(digest_path, encoding="utf-8"))
@@ -107,7 +122,9 @@ def main():
         print(f"  - {s['title_zh']} ({len(s['items'])} 条)", file=sys.stderr)
 
     step("3/3 发送邮件")
+    mark("3/3 发送邮件")
     if args.dry_run:
+        mark("完成（dry-run，未发送）", ok=True)
         print(f"[dry-run] 未发送。预览: {html_copy}", file=sys.stderr)
         print(f"[dry-run] 标题: {subject}", file=sys.stderr)
         return 0
@@ -116,8 +133,10 @@ def main():
     try:
         to = mailer.send(subject, html_body, text_body)
     except mailer.MailError as e:
+        mark("3/3 发送邮件（失败）", failed_stage="send", error=str(e)[:300])
         print(f"ERROR: {e}", file=sys.stderr)
         return 5
+    mark("完成", ok=True, sent_to=to, subject=subject)
     print(f"已发送 -> {', '.join(to)}", file=sys.stderr)
     return 0
 

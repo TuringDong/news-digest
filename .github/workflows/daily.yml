@@ -47,6 +47,21 @@ jobs:
         if: always()
         run: python show_raw.py || true
 
+      - name: 失败告警（用同一个邮箱通知你）
+        # 前面任何一步挂了就发一封告警信，带上原因和排查建议
+        # 注意：如果故障本身是 SMTP 授权码失效，这封信也发不出，那种情况只能靠 GitHub 自己的通知
+        if: failure()
+        continue-on-error: true
+        env:
+          SMTP_HOST: smtp.qq.com
+          SMTP_PORT: "465"
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          FROM_NAME: AI 日报告警
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python notify_failure.py
+
       - name: 归档到仓库（同时防止 60 天不活跃被停用）
         # 邮件已经发出去了，归档失败不该把整次运行判成失败；但必须留下痕迹
         continue-on-error: true

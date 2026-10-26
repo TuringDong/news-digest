@@ -112,15 +112,42 @@ $env:DEEPSEEK_API_KEY="sk-xxx"; $env:SMTP_USER="..."; $env:SMTP_PASS="..."; $env
 python run.py
 ```
 
+## 失败告警
+
+工作流最后有一个 `if: failure()` 的步骤：**任何一步失败，就用同一个 QQ 邮箱给你发一封告警信**，
+标题是「⚠️ 今日 AI 日报没发出去 · 日期」，正文会写清卡在哪一步、具体原因、怎么处理。
+
+告警靠 `status.json`（记录进度）和 `raw.json`（判断抓取是否成功）来定位问题，覆盖四类情况：
+
+| 卡在哪 | 告警会说 |
+| --- | --- |
+| 启动就崩 | 没有进度记录，去看日志第一条报错 |
+| 抓取阶段 | 哪个源出错了 / 完全没抓到 |
+| 写稿阶段 | API key 无效、余额不足（402）等 |
+| 发送阶段 | 授权码填错、SMTP 服务被关 |
+
+**一个覆盖不到的死角**：如果故障本身是 SMTP 授权码失效，告警邮件也发不出去。
+那种情况只能靠 GitHub 自己的失败通知，所以两边都开着最稳妥。
+
+本地验证告警文案（不发信）：
+
+```powershell
+python notify_failure.py --dry-run
+python notify_failure.py --test      # 真发一封，标题带［测试］前缀
+```
+
 ## 文件说明
 
 | 文件 | 作用 |
 | --- | --- |
-| `run.py` | 主流程，串起下面四步 |
+| `run.py` | 主流程，串起下面四步，并记录进度喂给告警 |
 | `fetch_news.py` | 抓 13 个 RSS 源，按时间窗口过滤、去重、容错 |
 | `write_digest.py` | 调 DeepSeek 写双语稿，并校验链接不许自造 |
 | `render.py` | 渲染成 HTML + 纯文本 |
 | `mailer.py` | 发信（465 SSL / 587 STARTTLS 都支持） |
+| `notify_failure.py` | 失败时发告警信 |
+| `check_api.py` | 单独验证 API key 与余额 |
+| `show_raw.py` | 打印抓取概况，排查某个源是否挂了 |
 | `outbox/` | 每天成品归档（会被自动提交进仓库） |
 
 ## 改内容风格

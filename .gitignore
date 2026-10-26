@@ -2,5 +2,6 @@ __pycache__/
 *.pyc
 raw.json
 digest.json
+status.json
 last_response.txt
 .env
