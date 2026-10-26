@@ -1,69 +1,75 @@
 {
   "date": "2026-10-26",
-  "subject": "AI 与科技日报 2026-10-26 · Daily AI & Tech Brief（预览 v2）",
-  "headline_zh": "OpenAI 断网训练最前沿模型、2.2 万亿美元算力退潮、巴西大选进入决选轮",
-  "headline_en": "OpenAI goes air-gapped, a $2.2T compute rout, and Brazil heads to a runoff",
-  "meta": "预览 v2 · 统计窗口 2026-10-25 00:00 → 2026-10-26 17:00 (UTC+8)",
+  "subject": "AI 与科技日报 2026-10-26 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-10-25 00:00 → 2026-10-26 19:26 (UTC+8)",
+  "headline_zh": "卢拉赢下巴西第四任期，塞尔维亚武契奇认输；AI 投资回报遭质疑",
+  "headline_en": "Lula wins Brazil's presidency again, Vucic concedes in Serbia, and an Apollo economist questions AI's payoff",
   "sections": [
     {
-      "title_zh": "AI 前沿",
-      "title_en": "AI Frontier",
+      "title_zh": "AI 与科技",
+      "title_en": "AI & Tech",
       "items": [
         {
-          "title_zh": "OpenAI 让最先进模型「断网闭关」训练",
-          "title_en": "OpenAI trains its frontier models air-gapped",
-          "body_zh": "OpenAI 公布新的前沿模型训练安全方案：训练与评估环境完全隔断互联网，模型在训练期间无法访问外部网络，以此压缩提示注入、越狱和外部攻击面。公司把它定位为「在具备更强安全措施之前」的默认状态，而非临时举措。",
-          "body_en": "OpenAI published a new security design for frontier-model training: training and evaluation run in an air-gapped environment with no internet access, shrinking the prompt-injection, jailbreak and external-attack surface. The company frames it as the default posture until stronger safeguards exist, not a temporary measure.",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-          "tag": "安全"
+          "title_zh": "Apollo 经济学家：AI 对多数企业“零财务回报”",
+          "title_en": "Apollo economist: AI delivers 'zero financial payoff' to most companies",
+          "body_zh": "Apollo 首席经济学家在接受 TechCrunch 采访时说，除了科技行业本身，美国企业界在 AI 上投入巨大却几乎没有看到财务回报。这一判断给当前的基础设施投资热潮泼了冷水。",
+          "body_en": "An Apollo chief economist told TechCrunch that outside the tech sector itself, corporate America has seen essentially no financial return on its heavy AI spending. The verdict lands squarely on the infrastructure boom.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+          "tag": "市场"
         },
         {
-          "title_zh": "英国设立 AI 生物安全实验室，OpenAI 与 Anthropic 出算力",
-          "title_en": "UK launches AI biosecurity lab, with compute from OpenAI and Anthropic",
-          "body_zh": "英国政府 24 日宣布设立 AI 生物安全实验室：政府投入 1 亿英镑，OpenAI 与 Anthropic 另提供最高合计 2 亿英镑的算力等技术资源，并与谷歌 DeepMind 及英国生物科技企业合作。机构以独立非营利形式运营，重点用 AI 更早发现新兴生物威胁，并加速疫苗与治疗药物的研发测试，同时为「AI 设计药物」的监管提供参考。",
-          "body_en": "The UK government announced the lab with £100M of public funding plus up to £200M combined in compute and other resources from OpenAI and Anthropic, partnering with Google DeepMind and UK biotech firms. Run as an independent non-profit, it aims to detect emerging biological threats earlier, speed vaccine and drug R&D, and inform regulation of AI-designed medicines.",
-          "source": "央视新闻 CCTV",
-          "url": "https://news.cctv.com/2026/10/25/ARTIPqNLWKDCSNgzsMhEJJ1m261025.shtml",
+          "title_zh": "IBM CEO：开源权重模型已足够好、足够便宜",
+          "title_en": "IBM CEO says open-weight models are now good and cheap on-prem",
+          "body_zh": "IBM CEO 在 The Register 的报道中表示，开源权重模型的质量和成本已经让企业本地部署变得有吸引力。这对依赖闭源 API 收费的厂商是个压力信号。",
+          "body_en": "IBM's CEO argued in remarks reported by The Register that open-weight models are now good and cheap enough to run on-premises. That is a pressure signal for vendors whose business rests on closed API pricing.",
+          "source": "Hacker News",
+          "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+          "tag": "模型"
+        },
+        {
+          "title_zh": "三星、SK 海力士传 2027Q2 量产 8Hi HBM4 供英伟达",
+          "title_en": "Samsung, SK Hynix reportedly to mass-produce 8Hi HBM4 for Nvidia in Q2 2027",
+          "body_zh": "韩媒 ZDNET Korea 报道称，两家 DRAM 厂计划 2027 年第二季度全面量产八层堆叠 HBM4 并向英伟达出货。报道说英伟达 2026 年第三季度就此事与两家认真讨论，动机是 Rubin 系列采用 8Hi 方案。",
+          "body_en": "Korean outlet ZDNET Korea reports the two DRAM makers plan full mass production of 8-high HBM4 stacks for Nvidia in Q2 2027. Nvidia reportedly began serious talks with both in Q3 2026, driven by plans to use 8Hi parts in Rubin and Rubin Ultra.",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/018/125.htm",
+          "tag": "硬件"
+        },
+        {
+          "title_zh": "软银据报拟在马来西亚投 500 亿美元科技",
+          "title_en": "SoftBank reportedly plans $50B tech investment in Malaysia",
+          "body_zh": "CNBC 报道，软银计划向马来西亚科技领域投入 500 亿美元，后者正把自己定位为“AI 国家”。这是 AI 基础设施资本向东南亚扩散的最新一例。",
+          "body_en": "CNBC reports SoftBank plans a $50 billion tech investment in Malaysia, which is pitching itself as an 'AI nation.' It is the latest sign of AI infrastructure capital spreading across Southeast Asia.",
+          "source": "Google AI 检索",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd0hIc09wcC1xcjlvazNhRnBtTUdRS1BzaHhmMlFjcXcwejdZOF81T1ktekRjSXoxaUFvbVM2a1Q3dXc1UkNPSnZiOUVRY3pGZ0JCQU1BTW1jWWVRV2pvZmRrazlDNmhfcW1SMTFqYkxTNExjazV5NTloOUZHMkZsazJkQUdQMUnSAYwBQVVfeXFMUENBS2U3QWF2ankzUFZPc2o5NnN4YVdZcURROVdRdFhtR0FoczM5N09sdlpNcEZDTW10c1JneXNDam15MldDc0pPcm9IRFA4OGhjRzdKbUFtSUlwcnQxc0N5QTEwZDZxQTFjQmFCU2pNcC12ZVBUQzRpX29BOEdkU1oySTEyb3hTbERzUHk?oc=5",
+          "tag": "投资"
+        },
+        {
+          "title_zh": "Anthropic CEO 呼吁加强对 AI 的监管",
+          "title_en": "Anthropic CEO calls for stronger AI regulation",
+          "body_zh": "ABC News 独家报道，Anthropic CEO 公开主张对 AI 施加更严格的监管。头部模型公司主动要求被管，与行业整体的放松监管呼声形成对照。",
+          "body_en": "In an ABC News exclusive, Anthropic's CEO publicly called for stronger regulation of AI. A leading model developer asking to be regulated cuts against the industry's broader push for lighter rules.",
+          "source": "Google AI 检索",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTnFDeXdUaGRRY3FzRWFMbVpRbFBrVXVhOHNDWDRMaFQ1T1kzclBENEtWa3R5UDBDQktzb3Z3N0FYUjJsejBwZUY5eURuejdvaFg4eXJrSndRLWdvTGtDcVdwOFdXeHZlVWo4eXJDc3ZGWlg0aTZwak1ySWwtS3hkSzNmdVR3MEhGXzdGRDRjV3dpMzVTOFhDX0o1Z3FBSDBqamfSAacBQVVfeXFMTzVVZEpXZk9NbHhzV241am1weGozclJlMUV6WFd1VFFQSnhoLXhibFlnVnNQaGRsUm5QNjFtT2F4ZXdQUk9BN0VCbHgweEUySVhkMjRHZDROSmRoem1FUGwzTXVVd2wxZWkycDdWZld1RW5JaFJJd0tQMkx2VlkwNG9wS3Z6blByVkFpLV9lbEhjMjNSTDdoQzROTDhPbnlGbTdlRHJIUE0?oc=5",
           "tag": "政策"
         },
         {
-          "title_zh": "无问芯穹与三体宇宙发布「智子 Agent 1.0」",
-          "title_en": "Infinigence AI and Three-Body Universe release 'Sophon Agent 1.0'",
-          "body_zh": "无问芯穹联合《三体》版权方三体宇宙推出智子 Agent 1.0，把科幻 IP 世界观接进智能体产品，主打角色化多轮交互与任务执行。这体现国产算力厂商正把「模型 + Agent + IP」打包成面向消费端的成品。",
-          "body_en": "Infinigence AI and Three-Body Universe, holder of the Three-Body IP, released Sophon Agent 1.0 — an agent product built on the fictional universe, centered on character-driven multi-turn interaction and task execution. It shows Chinese AI-infrastructure vendors bundling model + agent + IP into consumer-ready products.",
-          "source": "证券时报 stcn",
-          "url": "https://www.stcn.com/article/detail/4245638.html",
-          "tag": "产品"
-        }
-      ]
-    },
-    {
-      "title_zh": "算力与市场",
-      "title_en": "Compute & Markets",
-      "items": [
+          "title_zh": "Grok 放出 AI 生成《奥德赛》前七分钟",
+          "title_en": "Grok releases first seven minutes of AI-generated 'Odyssey'",
+          "body_zh": "Grok 发布了 AI 生成影片《奥德赛》的开头七分钟。TechCrunch 的评价是画面尚可，但别指望艺术性或人文趣味。",
+          "body_en": "Grok released the first seven minutes of its AI-generated 'Odyssey.' TechCrunch's read: the footage looks okay, as long as you are not after artistry or human interest.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+          "tag": "内容"
+        },
         {
-          "title_zh": "「AI 算力过剩论」发酵，美股半导体 10 月市值蒸发约 2.2 万亿美元",
-          "title_en": "'AI compute glut' fears erase ~$2.2 trillion from US semis in October",
-          "body_zh": "市场对 AI 资本开支回报周期的质疑升温，美股半导体板块 10 月合计蒸发约 2.2 万亿美元市值。马斯克、黄仁勋与 IMF 接连发声：黄仁勋重申需求「爆表」、订单能见度强，但市场开始追问「谁来为这轮建设付费、回报何时兑现」，这正是当前 AI 估值分歧的核心。",
-          "body_en": "Doubts about the payback period of AI capex intensified, with US semiconductor names shedding roughly $2.2 trillion of market value in October. Musk, Jensen Huang and the IMF all weighed in: Huang again said demand is off the charts with strong order visibility, while investors press on who ultimately funds the build-out and when returns land — the crux of today's AI valuation split.",
-          "source": "东方财富 / The Motley Fool",
-          "url": "https://finance.eastmoney.com/a/202610243907072178.html",
-          "tag": "市场"
-        }
-      ]
-    },
-    {
-      "title_zh": "机器人与硬件",
-      "title_en": "Robotics & Hardware",
-      "items": [
-        {
-          "title_zh": "人形机器人加速落地：宇树发布新品，启元第 5000 台个人机器人下线",
-          "title_en": "Humanoids ramp up: Unitree unveils a new model, Qiyuan ships its 5,000th personal robot",
-          "body_zh": "宇树科技发布新一款人形机器人；启元机器人宣布第 5000 台个人机器人正式下线。行业叙事正从「演示视频」转向「订单验证」，量产与交付能力成为关键催化剂。",
-          "body_en": "Unitree showed a new humanoid, while Qiyuan Robotics said its 5,000th personal robot came off the production line. The narrative is shifting from demo videos to order validation, with mass production and delivery capacity now the key catalysts.",
-          "source": "CCTV+ / 搜狐科技",
-          "url": "https://www.cctvplus.com/news/20261023/8504943.shtml",
+          "title_zh": "iFixit 拆解 iPhone Duo：铰链与屏幕疑为裂屏元凶",
+          "title_en": "iFixit teardown of iPhone Duo points to hinge and screen",
+          "body_zh": "iFixit 拆开苹果首款折叠机 iPhone Duo，给出 5/10 的可维修分，并指出苹果可能如何掩盖折痕。社交平台上大量用户报告铰链卡住后屏幕爆裂，一名 YouTuber 的拆解也指向同一位置。",
+          "body_en": "iFixit tore down Apple's first foldable, the iPhone Duo, scoring it 5/10 for repairability and flagging how Apple may be hiding the crease. Users across social media report the hinge catching and the screen cracking within hours, and a YouTuber's teardown points to the same spot.",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge",
           "tag": "硬件"
         }
       ]
@@ -73,43 +79,43 @@
       "title_en": "Beyond Tech",
       "items": [
         {
-          "title_zh": "巴西大选进入决选轮：卢拉对决弗拉维奥·博索纳罗",
-          "title_en": "Brazil heads to a runoff: Lula faces Flavio Bolsonaro",
-          "body_zh": "巴西 2026 年总统选举第二轮投票于当地时间 25 日 8 时开始，全国投票站 17 时关闭。现任总统、劳工党候选人卢拉，与自由党候选人、前总统雅伊尔·博索纳罗之子弗拉维奥·博索纳罗对决——两人在第一轮投票中得票领先进入决选。",
-          "body_en": "Voting in the second round of Brazil's 2026 presidential election began at 8 a.m. local time on Sunday, with polling stations nationwide closing at 5 p.m. Incumbent President Luiz Inacio Lula da Silva of the Workers' Party faces Flavio Bolsonaro of the Liberal Party — son of former president Jair Bolsonaro — after the two topped the first round.",
-          "source": "新华社 Xinhua",
-          "url": "https://english.news.cn/20261025/347a6bf311ac41e6b9cb39c4a5401238/c.html",
+          "title_zh": "卢拉赢下巴西大选第四任期，博索纳罗阵营拒认输",
+          "title_en": "Lula wins fourth term in Brazil as Bolsonaro camp refuses to concede",
+          "body_zh": "左翼的卢拉·达席尔瓦在第二轮投票中击败极右翼参议员弗拉维奥·博索纳罗，第四次当选巴西总统。多国领导人已致贺，博索纳罗阵营拒绝承认结果，当地选举法院下令恢复全部计票信息。",
+          "body_en": "Leftist Luiz Inácio Lula da Silva beat far-right Senator Flávio Bolsonaro in the runoff to win a fourth, non-consecutive term as Brazil's president. World leaders have congratulated him, the Bolsonaro camp refuses to concede, and the electoral court ordered full results restored.",
+          "source": "The Guardian World",
+          "url": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
           "tag": "地缘"
         },
         {
-          "title_zh": "俄乌就局部停火时间达成一致，俄美乌三方会谈时间大致敲定",
-          "title_en": "Russia and Ukraine agree on a partial-ceasefire timetable; trilateral talks take shape",
-          "body_zh": "据央视新闻 25 日国际新闻汇总，俄乌双方已就局部停火的时间安排达成一致，俄美乌三方会谈的大致时间也已敲定。若落实，这将是冲突爆发以来少见的实质性降级步骤，后续需关注停火范围与监督机制如何界定。",
-          "body_en": "CCTV's international roundup on Oct 25 reported that Russia and Ukraine have agreed on a timetable for a partial ceasefire, and that a rough schedule for trilateral Russia-US-Ukraine talks has been set. If implemented, it would mark one of the few substantive de-escalation steps since the war began; the scope of the truce and its monitoring mechanism remain the key questions.",
-          "source": "央视新闻 CCTV",
-          "url": "https://ysxw.cctv.cn/article.html?toc_style_id=feeds_default&item_id=2792275722523466103",
+          "title_zh": "武契奇承认败选，塞尔维亚学生运动上台",
+          "title_en": "Vucic concedes defeat as student-led movement wins Serbia",
+          "body_zh": "执政 12 年的武契奇承认其政党在议会选举中落败，学生主导的“学生名单-学生获胜”宣布胜选。贝尔格莱德出现庆祝场面，接下来外界关注的是这批学生背景的领导人如何执政。",
+          "body_en": "After 12 years in power, Aleksandar Vučić conceded his party lost the parliamentary election to the student-led 'Students Win' movement. Celebrations broke out in Belgrade, and attention now turns to how the student-backed leaders will govern.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
           "tag": "地缘"
         },
         {
-          "title_zh": "胡塞武装称以弹道导弹打击沙特机场等目标",
-          "title_en": "Houthis say they struck Saudi airport and other targets with ballistic missiles",
-          "body_zh": "据央视新闻汇总，胡塞武装宣布使用弹道导弹打击沙特阿拉伯境内机场等目标，地区紧张局势再度升级。沙特方面损失与拦截情况尚待披露，红海航运与能源通道风险随之受到关注。",
-          "body_en": "Per CCTV's roundup, the Houthis said they struck an airport and other targets inside Saudi Arabia with ballistic missiles, escalating regional tensions again. Damage and interception details from the Saudi side were not immediately disclosed, with attention turning to Red Sea shipping and energy-corridor risk.",
-          "source": "央视新闻 CCTV",
-          "url": "https://ysxw.cctv.cn/article.html?toc_style_id=feeds_default&item_id=10491440931309583329",
-          "tag": "冲突"
+          "title_zh": "胡塞武装称袭击沙特输油站与利雅得机场",
+          "title_en": "Houthis claim attacks on Saudi oil stations and Riyadh airport",
+          "body_zh": "胡塞武装宣称袭击了沙特多处输油泵站和利雅得机场，沙特方面称拦截了来袭目标。以沙特为首的联军表示已摧毁也门叛军的导弹设施，交战烈度明显上升。",
+          "body_en": "The Houthis said they struck Saudi oil pumping stations and Riyadh airport, while Saudi authorities reported intercepting the incoming attacks. The Saudi-led coalition said it destroyed the rebels' missile facilities as fighting escalates.",
+          "source": "Google News World",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORlYwOVl3Z1hlOFdacWVmeXZVNnVhejFlWDVOR0toczJ2MWNjT1FMRWZjVU0xd1hGaGtzNU9VcGdYSnR1Z2NVQjFfRVpKallEcEVuTzNweldmeEdYOE05UXFOejl1ekR1ZjlxUlhHT1NLa3J0cmZYWUxhSEs2eXNGb2xNNUJycVNWci1ZVzZUOXBSNGc0bzRJNWVTTnVlWHhXRlBrLWRTOV9HbmlJTmVfZk95N0FIQnBLQTlTa3N3eFBaVDJMWGptVU1VN3A?oc=5",
+          "tag": "安全"
         }
       ]
     }
   ],
   "quick_zh": [
-    "美联储下周议息，市场押注约 90% 概率「按兵不动」；黄金跌破每盎司 4000 美元。",
-    "肯尼亚内罗毕—蒙巴萨公路发生客车与卡车正面相撞，至少 22 人死亡、6 人受伤。",
-    "国家发展改革委表示将推动存量政策与增量政策协同发力，稳增长部署继续加码。"
+    "越南首座前端晶圆厂进度落后，路透称 2027 年底试产目标恐难实现，Viettel 正与 ASML 谈 DUV 设备。",
+    "苏丹快速支援部队用无人机袭击东部五座电站，造成大范围停电。",
+    "英国财政大臣 John Healey 将于 10 月 28 日公布预算，拟为低收入养老金领取者减税。"
   ],
   "quick_en": [
-    "Markets price roughly 90% odds the Fed holds rates next week; gold slipped below $4,000/oz.",
-    "At least 22 killed and six injured when a passenger bus and a truck collided head-on on Kenya's Nairobi-Mombasa highway.",
-    "China's NDRC said it will coordinate existing and incremental policies to sustain growth."
+    "Vietnam's first front-end wafer fab is behind schedule; Reuters says a 2027 trial production target looks unlikely, and Viettel is negotiating with ASML for a DUV tool.",
+    "Sudan's Rapid Support Forces hit five power stations in the east with drones, causing widespread outages.",
+    "UK Chancellor John Healey presents his Budget on 28 October, with plans to shield low-income pensioners from income tax."
   ]
 }

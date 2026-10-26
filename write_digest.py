@@ -96,12 +96,15 @@ def build_user_prompt(raw, now):
 }}
 
 硬性规则：
-1. 科技/AI 是主线，约占三分之一到三分之二的篇幅；但**其他领域（地缘、财经、社会、科学、重大事故）必须单独成区**，标题用「其他要闻 / Beyond Tech」，条数和规格与科技条目完全一样，不许压进 quick 里。
-2. 条数不设配额：新闻多的日子可以多写，平淡的日子少写几条也行。**绝对不要为了凑数或凑满分区而收录平庸的新闻**。宁可只写 5 条全是硬货。
-3. 但即使再平淡，科技和其他这两个方向也各至少要有 1 条。
-4. 分区数量自由，2-5 个都可以，不必固定。
-5. url 只能来自上面的候选，逐字复制，不许自己拼。找不到可用的就换一条候选。
-6. quick_zh/quick_en 只放确实次要的补充，条数一一对应。
+1. 科技/AI 是主线，篇幅必须**明显多于**其他领域，大约 2:1（例如 6 条科技配 3 条其他）。
+   其他领域**必须单独成区**，标题用「其他要闻 / Beyond Tech」，规格与科技条目完全一样，不许压进 quick 里。
+2. 即使某天政治/地缘大新闻扎堆、看着比科技更刺激，也要守住上面的比例：**砍掉其他领域里次要的那几条**，
+   而不是让其他领域反超科技。这是这份日报的定位，不要临场发挥。
+3. 条数不设配额：新闻多的日子可以多写，平淡的日子少写几条也行。绝对不要为了凑数或凑满分区而收录平庸的新闻。
+4. 但即使再平淡，科技和其他这两个方向也各至少要有 1 条。
+5. 分区数量自由，2-5 个都可以，不必固定。
+6. url 只能来自上面的候选，逐字复制，不许自己拼（链接很长时务必整段复制，不要截断）。
+7. quick_zh/quick_en 只放确实次要的补充，条数一一对应。
 """
 
 
@@ -153,6 +156,66 @@ def parse_json_block(text):
         raise
 
 
+def resolve_url(url, allowed):
+    """把模型给的链接对回候选集。
+
+    模型抄超长链接（尤其 Google News 那种一长串 base64）时常截断几个字符，
+    直接逐字比对会误杀真新闻。所以按「精确 -> 前缀 -> 文章 id」三级回退。
+    只有确实对不上（等于自造）才返回 None。
+    """
+    url = (url or "").strip()
+    if url in allowed:
+        return url
+    if len(url) < 25:
+        return None
+    cands = [k for k in allowed if k.startswith(url[:70]) or url.startswith(k[:70])]
+    if len(cands) == 1:
+        return cands[0]
+    m = re.search(r"/articles/([A-Za-z0-9_\-]{12,})", url)
+    if m:
+        frag = m.group(1)[:28]
+        c2 = [k for k in allowed if frag in k]
+        if len(c2) == 1:
+            return c2[0]
+    return None
+
+
+def rebalance(sections, allowed, warn):
+    """守住「科技为主」：其他领域条目不得超过科技条目的六成左右。
+
+    模型遇到政治大新闻扎堆的日子会写嗨，把其他领域堆得比科技还多。
+    这里按模型自己给的优先级（越靠前越重要）从尾部裁掉多余的，宁可少而准。
+    """
+    def cat(it):
+        return (allowed.get(it.get("url", "")) or {}).get("cat", "")
+
+    tech = sum(1 for s in sections for it in s["items"] if cat(it) == "tech")
+    other = sum(1 for s in sections for it in s["items"] if cat(it) == "other")
+    limit = max(1, tech // 2 + 1)
+    if other <= limit or tech == 0:
+        return sections, 0
+
+    budget = limit
+    trimmed = 0
+    kept = []
+    for sec in sections:
+        items = []
+        for it in sec["items"]:
+            if cat(it) == "other":
+                if budget > 0:
+                    budget -= 1
+                    items.append(it)
+                else:
+                    trimmed += 1
+            else:
+                items.append(it)
+        if items:
+            kept.append(dict(sec, items=items))
+    if trimmed:
+        warn(f"其他领域 {other} 条 > 科技 {tech} 条，按优先级裁掉尾部 {trimmed} 条以守住科技为主")
+    return kept, trimmed
+
+
 def validate(data, raw, warn):
     """校验并就地清洗；返回 (data, dropped)。"""
     allowed = {it["link"]: it for it in raw["items"]}
@@ -166,11 +229,12 @@ def validate(data, raw, warn):
             continue
         items = []
         for it in sec.get("items") or []:
-            url = (it.get("url") or "").strip()
-            if url not in allowed:
+            url = resolve_url(it.get("url"), allowed)
+            if not url:
                 dropped += 1
-                warn(f"丢弃无出处条目: {str(it.get('title_zh'))[:40]} url={url[:60]}")
+                warn(f"丢弃无出处条目: {str(it.get('title_zh'))[:40]} url={str(it.get('url'))[:60]}")
                 continue
+            it["url"] = url
             for f in ("title_zh", "title_en", "body_zh", "body_en"):
                 it[f] = (it.get(f) or "").strip()
             if not all(it[f] for f in ("title_zh", "title_en", "body_zh")):
@@ -192,10 +256,17 @@ def validate(data, raw, warn):
     if not clean_sections:
         raise ValueError("清洗后没有任何有效条目（可能链接全部为模型自造）")
 
+    clean_sections, _ = rebalance(clean_sections, allowed, warn)
+
     total = sum(len(s["items"]) for s in clean_sections)
-    cats = {allowed_url_cat(s, allowed) for s in clean_sections for _ in s["items"]}
-    if "other" not in cats:
-        warn("警告：这次没有「其他领域」条目，可能违反编辑方针")
+    def _cat(it):
+        return (allowed.get(it.get("url", "")) or {}).get("cat", "")
+    tech = sum(1 for s in clean_sections for it in s["items"] if _cat(it) == "tech")
+    other = sum(1 for s in clean_sections for it in s["items"] if _cat(it) == "other")
+    if other == 0:
+        warn("警告：这期没有「其他领域」条目，可能违反编辑方针")
+    if tech == 0:
+        warn("警告：这期没有科技条目，跑偏了")
 
     qz = [str(x).strip() for x in (data.get("quick_zh") or []) if str(x).strip()]
     qe = [str(x).strip() for x in (data.get("quick_en") or []) if str(x).strip()]
@@ -207,17 +278,9 @@ def validate(data, raw, warn):
         "quick_zh": qz[:n][:3],
         "quick_en": qe[:n][:3],
     }
-    warn(f"校验通过：{len(clean_sections)} 个分区 / {total} 条，丢弃 {dropped} 条")
+    warn(f"校验通过：{len(clean_sections)} 个分区 / {total} 条"
+         f"（tech={tech} other={other}），丢弃 {dropped} 条")
     return data, dropped
-
-
-def allowed_url_cat(sec, allowed):
-    # 用第一条推断整个分区的类别（分区通常单一来源类型）
-    for it in sec["items"]:
-        src = allowed.get(it.get("url", ""))
-        if src:
-            return src["cat"]
-    return ""
 
 
 def main():
