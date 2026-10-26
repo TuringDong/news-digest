@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-26",
+  "subject": "AI 与科技日报 2026-10-26 · Daily AI & Tech Brief（预览 v2）",
+  "headline_zh": "OpenAI 断网训练最前沿模型、2.2 万亿美元算力退潮、巴西大选进入决选轮",
+  "headline_en": "OpenAI goes air-gapped, a $2.2T compute rout, and Brazil heads to a runoff",
+  "meta": "预览 v2 · 统计窗口 2026-10-25 00:00 → 2026-10-26 17:00 (UTC+8)",
+  "sections": [
+    {
+      "title_zh": "AI 前沿",
+      "title_en": "AI Frontier",
+      "items": [
+        {
+          "title_zh": "OpenAI 让最先进模型「断网闭关」训练",
+          "title_en": "OpenAI trains its frontier models air-gapped",
+          "body_zh": "OpenAI 公布新的前沿模型训练安全方案：训练与评估环境完全隔断互联网，模型在训练期间无法访问外部网络，以此压缩提示注入、越狱和外部攻击面。公司把它定位为「在具备更强安全措施之前」的默认状态，而非临时举措。",
+          "body_en": "OpenAI published a new security design for frontier-model training: training and evaluation run in an air-gapped environment with no internet access, shrinking the prompt-injection, jailbreak and external-attack surface. The company frames it as the default posture until stronger safeguards exist, not a temporary measure.",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+          "tag": "安全"
+        },
+        {
+          "title_zh": "英国设立 AI 生物安全实验室，OpenAI 与 Anthropic 出算力",
+          "title_en": "UK launches AI biosecurity lab, with compute from OpenAI and Anthropic",
+          "body_zh": "英国政府 24 日宣布设立 AI 生物安全实验室：政府投入 1 亿英镑，OpenAI 与 Anthropic 另提供最高合计 2 亿英镑的算力等技术资源，并与谷歌 DeepMind 及英国生物科技企业合作。机构以独立非营利形式运营，重点用 AI 更早发现新兴生物威胁，并加速疫苗与治疗药物的研发测试，同时为「AI 设计药物」的监管提供参考。",
+          "body_en": "The UK government announced the lab with £100M of public funding plus up to £200M combined in compute and other resources from OpenAI and Anthropic, partnering with Google DeepMind and UK biotech firms. Run as an independent non-profit, it aims to detect emerging biological threats earlier, speed vaccine and drug R&D, and inform regulation of AI-designed medicines.",
+          "source": "央视新闻 CCTV",
+          "url": "https://news.cctv.com/2026/10/25/ARTIPqNLWKDCSNgzsMhEJJ1m261025.shtml",
+          "tag": "政策"
+        },
+        {
+          "title_zh": "无问芯穹与三体宇宙发布「智子 Agent 1.0」",
+          "title_en": "Infinigence AI and Three-Body Universe release 'Sophon Agent 1.0'",
+          "body_zh": "无问芯穹联合《三体》版权方三体宇宙推出智子 Agent 1.0，把科幻 IP 世界观接进智能体产品，主打角色化多轮交互与任务执行。这体现国产算力厂商正把「模型 + Agent + IP」打包成面向消费端的成品。",
+          "body_en": "Infinigence AI and Three-Body Universe, holder of the Three-Body IP, released Sophon Agent 1.0 — an agent product built on the fictional universe, centered on character-driven multi-turn interaction and task execution. It shows Chinese AI-infrastructure vendors bundling model + agent + IP into consumer-ready products.",
+          "source": "证券时报 stcn",
+          "url": "https://www.stcn.com/article/detail/4245638.html",
+          "tag": "产品"
+        }
+      ]
+    },
+    {
+      "title_zh": "算力与市场",
+      "title_en": "Compute & Markets",
+      "items": [
+        {
+          "title_zh": "「AI 算力过剩论」发酵，美股半导体 10 月市值蒸发约 2.2 万亿美元",
+          "title_en": "'AI compute glut' fears erase ~$2.2 trillion from US semis in October",
+          "body_zh": "市场对 AI 资本开支回报周期的质疑升温，美股半导体板块 10 月合计蒸发约 2.2 万亿美元市值。马斯克、黄仁勋与 IMF 接连发声：黄仁勋重申需求「爆表」、订单能见度强，但市场开始追问「谁来为这轮建设付费、回报何时兑现」，这正是当前 AI 估值分歧的核心。",
+          "body_en": "Doubts about the payback period of AI capex intensified, with US semiconductor names shedding roughly $2.2 trillion of market value in October. Musk, Jensen Huang and the IMF all weighed in: Huang again said demand is off the charts with strong order visibility, while investors press on who ultimately funds the build-out and when returns land — the crux of today's AI valuation split.",
+          "source": "东方财富 / The Motley Fool",
+          "url": "https://finance.eastmoney.com/a/202610243907072178.html",
+          "tag": "市场"
+        }
+      ]
+    },
+    {
+      "title_zh": "机器人与硬件",
+      "title_en": "Robotics & Hardware",
+      "items": [
+        {
+          "title_zh": "人形机器人加速落地：宇树发布新品，启元第 5000 台个人机器人下线",
+          "title_en": "Humanoids ramp up: Unitree unveils a new model, Qiyuan ships its 5,000th personal robot",
+          "body_zh": "宇树科技发布新一款人形机器人；启元机器人宣布第 5000 台个人机器人正式下线。行业叙事正从「演示视频」转向「订单验证」，量产与交付能力成为关键催化剂。",
+          "body_en": "Unitree showed a new humanoid, while Qiyuan Robotics said its 5,000th personal robot came off the production line. The narrative is shifting from demo videos to order validation, with mass production and delivery capacity now the key catalysts.",
+          "source": "CCTV+ / 搜狐科技",
+          "url": "https://www.cctvplus.com/news/20261023/8504943.shtml",
+          "tag": "硬件"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "巴西大选进入决选轮：卢拉对决弗拉维奥·博索纳罗",
+          "title_en": "Brazil heads to a runoff: Lula faces Flavio Bolsonaro",
+          "body_zh": "巴西 2026 年总统选举第二轮投票于当地时间 25 日 8 时开始，全国投票站 17 时关闭。现任总统、劳工党候选人卢拉，与自由党候选人、前总统雅伊尔·博索纳罗之子弗拉维奥·博索纳罗对决——两人在第一轮投票中得票领先进入决选。",
+          "body_en": "Voting in the second round of Brazil's 2026 presidential election began at 8 a.m. local time on Sunday, with polling stations nationwide closing at 5 p.m. Incumbent President Luiz Inacio Lula da Silva of the Workers' Party faces Flavio Bolsonaro of the Liberal Party — son of former president Jair Bolsonaro — after the two topped the first round.",
+          "source": "新华社 Xinhua",
+          "url": "https://english.news.cn/20261025/347a6bf311ac41e6b9cb39c4a5401238/c.html",
+          "tag": "地缘"
+        },
+        {
+          "title_zh": "俄乌就局部停火时间达成一致，俄美乌三方会谈时间大致敲定",
+          "title_en": "Russia and Ukraine agree on a partial-ceasefire timetable; trilateral talks take shape",
+          "body_zh": "据央视新闻 25 日国际新闻汇总，俄乌双方已就局部停火的时间安排达成一致，俄美乌三方会谈的大致时间也已敲定。若落实，这将是冲突爆发以来少见的实质性降级步骤，后续需关注停火范围与监督机制如何界定。",
+          "body_en": "CCTV's international roundup on Oct 25 reported that Russia and Ukraine have agreed on a timetable for a partial ceasefire, and that a rough schedule for trilateral Russia-US-Ukraine talks has been set. If implemented, it would mark one of the few substantive de-escalation steps since the war began; the scope of the truce and its monitoring mechanism remain the key questions.",
+          "source": "央视新闻 CCTV",
+          "url": "https://ysxw.cctv.cn/article.html?toc_style_id=feeds_default&item_id=2792275722523466103",
+          "tag": "地缘"
+        },
+        {
+          "title_zh": "胡塞武装称以弹道导弹打击沙特机场等目标",
+          "title_en": "Houthis say they struck Saudi airport and other targets with ballistic missiles",
+          "body_zh": "据央视新闻汇总，胡塞武装宣布使用弹道导弹打击沙特阿拉伯境内机场等目标，地区紧张局势再度升级。沙特方面损失与拦截情况尚待披露，红海航运与能源通道风险随之受到关注。",
+          "body_en": "Per CCTV's roundup, the Houthis said they struck an airport and other targets inside Saudi Arabia with ballistic missiles, escalating regional tensions again. Damage and interception details from the Saudi side were not immediately disclosed, with attention turning to Red Sea shipping and energy-corridor risk.",
+          "source": "央视新闻 CCTV",
+          "url": "https://ysxw.cctv.cn/article.html?toc_style_id=feeds_default&item_id=10491440931309583329",
+          "tag": "冲突"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "美联储下周议息，市场押注约 90% 概率「按兵不动」；黄金跌破每盎司 4000 美元。",
+    "肯尼亚内罗毕—蒙巴萨公路发生客车与卡车正面相撞，至少 22 人死亡、6 人受伤。",
+    "国家发展改革委表示将推动存量政策与增量政策协同发力，稳增长部署继续加码。"
+  ],
+  "quick_en": [
+    "Markets price roughly 90% odds the Fed holds rates next week; gold slipped below $4,000/oz.",
+    "At least 22 killed and six injured when a passenger bus and a truck collided head-on on Kenya's Nairobi-Mombasa highway.",
+    "China's NDRC said it will coordinate existing and incremental policies to sustain growth."
+  ]
+}

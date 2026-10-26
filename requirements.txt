@@ -1,0 +1,3 @@
+# 无需第三方依赖
+# 本项目只用 Python 3.9+ 标准库（urllib / smtplib / email / xml / zoneinfo）
+# 故意不引入 feedparser、requests、lxml，避免 Actions 里装包失败或版本冲突

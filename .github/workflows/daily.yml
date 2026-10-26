@@ -1,0 +1,63 @@
+name: Daily AI & Tech Digest
+
+# 定时说明：GitHub Actions 的 cron 一律按 UTC 解析。
+# 0 0 * * *  =  北京时间每天 08:00
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "只生成不发信（用于测试）"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write          # 需要写权限来提交归档（同时保养仓库活跃度）
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: 取出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 生成并发送日报
+        working-directory: news-digest
+        env:
+          TZ: Asia/Shanghai
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: |
+          python run.py ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: 显示抓取概况（便于排查某个源挂了）
+        if: always()
+        working-directory: news-digest
+        run: python show_raw.py || true
+
+      - name: 归档到仓库（同时防止 60 天不活跃被停用）
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name  "digest-bot"
+          git config user.email "digest-bot@users.noreply.github.com"
+          git add -A news-digest/outbox
+          if git diff --staged --quiet; then
+            echo "本次无新归档"
+          else
+            git commit -m "digest: $(TZ=Asia/Shanghai date +%F)"
+            git push
+          fi

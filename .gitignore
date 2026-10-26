@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+raw.json
+digest.json
+last_response.txt
+.env
