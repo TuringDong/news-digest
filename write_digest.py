@@ -84,8 +84,8 @@ def build_user_prompt(raw, now):
           "title_en": "English headline",
           "body_zh": "2-3 句中文，说清事实与意义",
           "body_en": "2-3 sentences of idiomatic English",
+          "ref": 候选编号（整数，就是上面每个条目开头方括号里的数字）,
           "source": "来源名，用候选里括号内的 source",
-          "url": "候选条目里的链接，必须逐字复制",
           "tag": "一个 2-4 字的中文标签，如 政策/市场/安全/硬件/地缘"
         }}
       ]
@@ -103,7 +103,8 @@ def build_user_prompt(raw, now):
 3. 条数不设配额：新闻多的日子可以多写，平淡的日子少写几条也行。绝对不要为了凑数或凑满分区而收录平庸的新闻。
 4. 但即使再平淡，科技和其他这两个方向也各至少要有 1 条。
 5. 分区数量自由，2-5 个都可以，不必固定。
-6. url 只能来自上面的候选，逐字复制，不许自己拼（链接很长时务必整段复制，不要截断）。
+6. ref 必须是上面候选条目开头的编号（整数），并且确实对应你写的那条事件，不要编造编号。
+   链接由程序按编号自动填充，你不需要抄 URL——抄长链接容易错，所以别抄。
 7. quick_zh/quick_en 只放确实次要的补充，条数一一对应。
 """
 
@@ -154,6 +155,18 @@ def parse_json_block(text):
         if m:
             return json.loads(m.group(0))
         raise
+
+
+def by_ref(ref, raw):
+    """按候选编号取回原始条目。比让模型抄 URL 可靠得多——长链接它总会抄错几个字符。"""
+    try:
+        i = int(str(ref).strip().strip("[]"))
+    except (TypeError, ValueError):
+        return None
+    items = raw.get("items") or []
+    if 1 <= i <= len(items):
+        return items[i - 1]
+    return None
 
 
 def resolve_url(url, allowed):
@@ -229,21 +242,25 @@ def validate(data, raw, warn):
             continue
         items = []
         for it in sec.get("items") or []:
-            url = resolve_url(it.get("url"), allowed)
-            if not url:
+            cand = by_ref(it.get("ref"), raw)
+            if cand is None:
+                url = resolve_url(it.get("url"), allowed)
+                cand = allowed.get(url) if url else None
+            if cand is None:
                 dropped += 1
-                warn(f"丢弃无出处条目: {str(it.get('title_zh'))[:40]} url={str(it.get('url'))[:60]}")
+                warn(f"丢弃无出处条目: {str(it.get('title_zh'))[:40]} "
+                     f"ref={it.get('ref')} url={str(it.get('url'))[:60]}")
                 continue
-            it["url"] = url
+            it["url"] = cand["link"]
+            it["source"] = (it.get("source") or "").strip() or cand["source"]
             for f in ("title_zh", "title_en", "body_zh", "body_en"):
                 it[f] = (it.get(f) or "").strip()
             if not all(it[f] for f in ("title_zh", "title_en", "body_zh")):
                 dropped += 1
-                warn(f"字段不全，丢弃: {it.get('title_zh') or url}")
+                warn(f"字段不全，丢弃: {it.get('title_zh') or it.get('url')}")
                 continue
             if not it["body_en"]:
                 it["body_en"] = it["title_en"]
-            it["source"] = (it.get("source") or allowed[url]["source"]).strip()
             it["tag"] = (it.get("tag") or "").strip()[:6]
             items.append(it)
         if items:

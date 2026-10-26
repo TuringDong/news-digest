@@ -51,7 +51,7 @@ git push -u origin main
 | Name | 值 |
 | --- | --- |
 | `DEEPSEEK_API_KEY` | `sk-xxxxxxxx` |
-| `SMTP_USER` | 发件邮箱，如 `2960792563@qq.com` |
+| `SMTP_USER` | 发件邮箱，如 `you@qq.com` |
 | `SMTP_PASS` | QQ 邮箱的 **16 位 SMTP 授权码**（不是登录密码） |
 | `MAIL_TO` | 收件邮箱；多个用英文逗号分隔 |
 
