@@ -48,14 +48,18 @@ jobs:
         run: python show_raw.py || true
 
       - name: 归档到仓库（同时防止 60 天不活跃被停用）
-        if: ${{ !inputs.dry_run }}
+        # 邮件已经发出去了，归档失败不该把整次运行判成失败；但必须留下痕迹
+        continue-on-error: true
         run: |
+          set -x
           git config user.name  "digest-bot"
           git config user.email "digest-bot@users.noreply.github.com"
+          # 定时触发的运行可能是 detached HEAD，先强制落到 main 上
+          git checkout -B main
           git add -A outbox
           if git diff --staged --quiet; then
             echo "本次无新归档"
-          else
-            git commit -m "digest: $(TZ=Asia/Shanghai date +%F)"
-            git push
+            exit 0
           fi
+          git commit -m "digest: $(TZ=Asia/Shanghai date +%F)"
+          git push origin HEAD:main
