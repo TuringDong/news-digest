@@ -1,0 +1,4 @@
+# 在 Windows 上编辑，仓库里一律存 LF，避免 Actions 里的 shell 脚本带 \r 出怪问题
+* text=auto eol=lf
+*.png binary
+*.jpg binary
