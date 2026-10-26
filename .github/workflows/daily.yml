@@ -34,7 +34,6 @@ jobs:
           python-version: "3.12"
 
       - name: 生成并发送日报
-        working-directory: news-digest
         env:
           TZ: Asia/Shanghai
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -46,7 +45,6 @@ jobs:
 
       - name: 显示抓取概况（便于排查某个源挂了）
         if: always()
-        working-directory: news-digest
         run: python show_raw.py || true
 
       - name: 归档到仓库（同时防止 60 天不活跃被停用）
@@ -54,7 +52,7 @@ jobs:
         run: |
           git config user.name  "digest-bot"
           git config user.email "digest-bot@users.noreply.github.com"
-          git add -A news-digest/outbox
+          git add -A outbox
           if git diff --staged --quiet; then
             echo "本次无新归档"
           else
