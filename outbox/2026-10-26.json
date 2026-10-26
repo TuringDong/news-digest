@@ -1,76 +1,100 @@
 {
   "date": "2026-10-26",
   "subject": "AI 与科技日报 2026-10-26 · Daily AI & Tech Brief",
-  "meta": "统计窗口 2026-10-25 00:00 → 2026-10-26 19:26 (UTC+8)",
-  "headline_zh": "卢拉赢下巴西第四任期，塞尔维亚武契奇认输；AI 投资回报遭质疑",
-  "headline_en": "Lula wins Brazil's presidency again, Vucic concedes in Serbia, and an Apollo economist questions AI's payoff",
+  "meta": "统计窗口 2026-10-25 00:00 → 2026-10-26 19:53 (UTC+8)",
+  "headline_zh": "卢拉连任巴西总统，武契奇承认败选；Meta 拟发股募资 350 亿美元投 AI",
+  "headline_en": "Lula wins a fourth term in Brazil, Vucic concedes in Serbia, and Meta moves to raise $35 billion for AI",
   "sections": [
     {
-      "title_zh": "AI 与科技",
-      "title_en": "AI & Tech",
+      "title_zh": "AI 与算力",
+      "title_en": "AI & Compute",
       "items": [
+        {
+          "title_zh": "Meta 启动 350 亿美元股票发行，为 AI 扩张筹资",
+          "title_en": "Meta launches $35 billion stock offering to fund AI expansion",
+          "body_zh": "路透报道，Meta 启动 350 亿美元股票发行，用于支持其人工智能扩张。这是大型科技公司为 AI 基础设施继续加码的最新一笔大规模融资。",
+          "body_en": "Meta has launched a $35 billion stock offering to bankroll its AI expansion, Reuters reported. It is the latest mega-fundraise by a Big Tech firm to keep pace with AI infrastructure spending.",
+          "source": "Google AI 检索",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclhjOFJvYkM0S0hLUmxaY0l2X3hCdWI0N1prZlo2QXhXdmt5T0pNQVpFODVpYzgycWdZcHM2NkZ2LTdaMEVUVlpTXzVFUzc2ZEdVdlpTeThUVkZtc3V4cEFTelk5bDd2Z0dfRDFsb0dGQ0MxRXhYMExFZTlXVkNjRXF6TDBLalZ5ZTFBbFMyX24wMVBTQW1GQkJNRjNYWTRiVGJJWWdialBfV1oyQUZNN3I4RQ?oc=5",
+          "tag": "市场"
+        },
         {
           "title_zh": "Apollo 经济学家：AI 对多数企业“零财务回报”",
           "title_en": "Apollo economist: AI delivers 'zero financial payoff' to most companies",
-          "body_zh": "Apollo 首席经济学家在接受 TechCrunch 采访时说，除了科技行业本身，美国企业界在 AI 上投入巨大却几乎没有看到财务回报。这一判断给当前的基础设施投资热潮泼了冷水。",
-          "body_en": "An Apollo chief economist told TechCrunch that outside the tech sector itself, corporate America has seen essentially no financial return on its heavy AI spending. The verdict lands squarely on the infrastructure boom.",
+          "body_zh": "Apollo 经济学家指出，尽管投入巨大、炒作不断，AI 对美国科技行业以外的企业几乎没有带来财务回报。这一判断给当前 AI 投资热潮泼了一盆冷水。",
+          "body_en": "An Apollo economist says AI has delivered \"zero financial payoff\" to corporate America outside tech, despite massive investment and hype. The verdict is a sober counterpoint to the current AI spending boom.",
           "source": "TechCrunch",
           "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
           "tag": "市场"
         },
         {
-          "title_zh": "IBM CEO：开源权重模型已足够好、足够便宜",
-          "title_en": "IBM CEO says open-weight models are now good and cheap on-prem",
-          "body_zh": "IBM CEO 在 The Register 的报道中表示，开源权重模型的质量和成本已经让企业本地部署变得有吸引力。这对依赖闭源 API 收费的厂商是个压力信号。",
-          "body_en": "IBM's CEO argued in remarks reported by The Register that open-weight models are now good and cheap enough to run on-premises. That is a pressure signal for vendors whose business rests on closed API pricing.",
+          "title_zh": "寒武纪陈天石否认“明年出货超百万颗”传闻",
+          "title_en": "Cambricon CEO denies rumored million-chip shipment target for next year",
+          "body_zh": "针对市场传闻的百万颗芯片出货量，寒武纪董事长陈天石表示公司从未进行过相关沟通，提醒投资者以公告为准。寒武纪是本土 AI 算力芯片的主要供应商之一。",
+          "body_en": "Cambricon chairman Chen Tianshi said the company never communicated a rumored target of shipping over a million AI chips next year, urging investors to rely on official filings. Cambricon is a major domestic supplier of AI compute chips.",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/018/135.htm",
+          "tag": "芯片"
+        },
+        {
+          "title_zh": "IBM CEO：开源权重模型已足够好、足够便宜，可本地部署",
+          "title_en": "IBM CEO says open-weight models are now good and cheap enough for on-prem",
+          "body_zh": "IBM CEO 表示，开源权重模型如今质量与成本都足以支撑企业本地部署。这为不愿把数据交给云端 API 的客户提供了更现实的选项。",
+          "body_en": "IBM's CEO says open-weight models are now good and cheap enough to run on-premises. That gives enterprises wary of cloud APIs a more practical option.",
           "source": "Hacker News",
           "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
           "tag": "模型"
         },
         {
-          "title_zh": "三星、SK 海力士传 2027Q2 量产 8Hi HBM4 供英伟达",
-          "title_en": "Samsung, SK Hynix reportedly to mass-produce 8Hi HBM4 for Nvidia in Q2 2027",
-          "body_zh": "韩媒 ZDNET Korea 报道称，两家 DRAM 厂计划 2027 年第二季度全面量产八层堆叠 HBM4 并向英伟达出货。报道说英伟达 2026 年第三季度就此事与两家认真讨论，动机是 Rubin 系列采用 8Hi 方案。",
-          "body_en": "Korean outlet ZDNET Korea reports the two DRAM makers plan full mass production of 8-high HBM4 stacks for Nvidia in Q2 2027. Nvidia reportedly began serious talks with both in Q3 2026, driven by plans to use 8Hi parts in Rubin and Rubin Ultra.",
-          "source": "IT之家",
-          "url": "https://www.ithome.com/1/018/125.htm",
-          "tag": "硬件"
-        },
-        {
-          "title_zh": "软银据报拟在马来西亚投 500 亿美元科技",
-          "title_en": "SoftBank reportedly plans $50B tech investment in Malaysia",
-          "body_zh": "CNBC 报道，软银计划向马来西亚科技领域投入 500 亿美元，后者正把自己定位为“AI 国家”。这是 AI 基础设施资本向东南亚扩散的最新一例。",
-          "body_en": "CNBC reports SoftBank plans a $50 billion tech investment in Malaysia, which is pitching itself as an 'AI nation.' It is the latest sign of AI infrastructure capital spreading across Southeast Asia.",
-          "source": "Google AI 检索",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd0hIc09wcC1xcjlvazNhRnBtTUdRS1BzaHhmMlFjcXcwejdZOF81T1ktekRjSXoxaUFvbVM2a1Q3dXc1UkNPSnZiOUVRY3pGZ0JCQU1BTW1jWWVRV2pvZmRrazlDNmhfcW1SMTFqYkxTNExjazV5NTloOUZHMkZsazJkQUdQMUnSAYwBQVVfeXFMUENBS2U3QWF2ankzUFZPc2o5NnN4YVdZcURROVdRdFhtR0FoczM5N09sdlpNcEZDTW10c1JneXNDam15MldDc0pPcm9IRFA4OGhjRzdKbUFtSUlwcnQxc0N5QTEwZDZxQTFjQmFCU2pNcC12ZVBUQzRpX29BOEdkU1oySTEyb3hTbERzUHk?oc=5",
-          "tag": "投资"
-        },
-        {
           "title_zh": "Anthropic CEO 呼吁加强对 AI 的监管",
           "title_en": "Anthropic CEO calls for stronger AI regulation",
-          "body_zh": "ABC News 独家报道，Anthropic CEO 公开主张对 AI 施加更严格的监管。头部模型公司主动要求被管，与行业整体的放松监管呼声形成对照。",
-          "body_en": "In an ABC News exclusive, Anthropic's CEO publicly called for stronger regulation of AI. A leading model developer asking to be regulated cuts against the industry's broader push for lighter rules.",
+          "body_zh": "ABC 新闻独家报道，Anthropic CEO 公开呼吁对人工智能实施更严格的监管。AI 公司掌门人主动要求监管，在行业里并不常见。",
+          "body_en": "In an exclusive interview with ABC News, Anthropic's CEO called for stronger regulation of AI. It is a notable stance for the head of a leading AI lab to ask for tougher rules.",
           "source": "Google AI 检索",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTnFDeXdUaGRRY3FzRWFMbVpRbFBrVXVhOHNDWDRMaFQ1T1kzclBENEtWa3R5UDBDQktzb3Z3N0FYUjJsejBwZUY5eURuejdvaFg4eXJrSndRLWdvTGtDcVdwOFdXeHZlVWo4eXJDc3ZGWlg0aTZwak1ySWwtS3hkSzNmdVR3MEhGXzdGRDRjV3dpMzVTOFhDX0o1Z3FBSDBqamfSAacBQVVfeXFMTzVVZEpXZk9NbHhzV241am1weGozclJlMUV6WFd1VFFQSnhoLXhibFlnVnNQaGRsUm5QNjFtT2F4ZXdQUk9BN0VCbHgweEUySVhkMjRHZDROSmRoem1FUGwzTXVVd2wxZWkycDdWZld1RW5JaFJJd0tQMkx2VlkwNG9wS3Z6blByVkFpLV9lbEhjMjNSTDdoQzROTDhPbnlGbTdlRHJIUE0?oc=5",
           "tag": "政策"
         },
         {
-          "title_zh": "Grok 放出 AI 生成《奥德赛》前七分钟",
-          "title_en": "Grok releases first seven minutes of AI-generated 'Odyssey'",
-          "body_zh": "Grok 发布了 AI 生成影片《奥德赛》的开头七分钟。TechCrunch 的评价是画面尚可，但别指望艺术性或人文趣味。",
-          "body_en": "Grok released the first seven minutes of its AI-generated 'Odyssey.' TechCrunch's read: the footage looks okay, as long as you are not after artistry or human interest.",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-          "tag": "内容"
-        },
+          "title_zh": "软银据报拟向马来西亚投资 500 亿美元",
+          "title_en": "SoftBank reportedly plans $50 billion tech investment in Malaysia",
+          "body_zh": "CNBC 报道，软银计划向马来西亚投资 500 亿美元，用于科技领域，马来西亚正把自己定位为“AI 国家”。若属实，这将是东南亚规模最大的科技投资之一。",
+          "body_en": "SoftBank reportedly plans a $50 billion tech investment in Malaysia, which is pitching itself as an \"AI nation.\" If confirmed, it would be one of Southeast Asia's largest tech commitments.",
+          "source": "Google AI 检索",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd0hIc09wcC1xcjlvazNhRnBtTUdRS1BzaHhmMlFjcXcwejdZOF81T1ktekRjSXoxaUFvbVM2a1Q3dXc1UkNPSnZiOUVRY3pGZ0JCQU1BTW1jWWVRV2pvZmRrazlDNmhfcW1SMTFqYkxTNExjazV5NTloOUZHMkZsazJkQUdQMUnSAYwBQVVfeXFMUENBS2U3QWF2ankzUFZPc2o5NnN4YVdZcURROVdRdFhtR0FoczM5N09sdlpNcEZDTW10c1JneXNDam15MldDc0pPcm9IRFA4OGhjRzdKbUFtSUlwcnQxc0N5QTEwZDZxQTFjQmFCU2pNcC12ZVBUQzRpX29BOEdkU1oySTEyb3hTbERzUHk?oc=5",
+          "tag": "投资"
+        }
+      ]
+    },
+    {
+      "title_zh": "硬件与产品",
+      "title_en": "Hardware & Products",
+      "items": [
         {
-          "title_zh": "iFixit 拆解 iPhone Duo：铰链与屏幕疑为裂屏元凶",
-          "title_en": "iFixit teardown of iPhone Duo points to hinge and screen",
-          "body_zh": "iFixit 拆开苹果首款折叠机 iPhone Duo，给出 5/10 的可维修分，并指出苹果可能如何掩盖折痕。社交平台上大量用户报告铰链卡住后屏幕爆裂，一名 YouTuber 的拆解也指向同一位置。",
-          "body_en": "iFixit tore down Apple's first foldable, the iPhone Duo, scoring it 5/10 for repairability and flagging how Apple may be hiding the crease. Users across social media report the hinge catching and the screen cracking within hours, and a YouTuber's teardown points to the same spot.",
+          "title_zh": "iFixit 拆解 iPhone Duo：折叠屏与铰链设计存疑",
+          "title_en": "iFixit teardown of iPhone Duo raises questions about folding screen and hinge",
+          "body_zh": "iFixit 拆解苹果首款折叠机 iPhone Duo，给出 5/10 的可维修分，并指出苹果可能用某种方式隐藏屏幕折痕。此前已有用户报告铰链卡住、屏幕开裂的“crackgate”问题。",
+          "body_en": "iFixit tore down Apple's first foldable, the iPhone Duo, giving it a 5/10 repairability score and flagging how Apple may be hiding the screen crease. The teardown follows user reports of hinges catching and screens cracking, dubbed \"crackgate.\"",
           "source": "The Verge",
           "url": "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge",
           "tag": "硬件"
+        },
+        {
+          "title_zh": "三星新广告把“苹果”切成片，宣传 Z Fold8 更薄更轻",
+          "title_en": "Samsung ad slices an apple to tout Galaxy Z Fold8 as thinner and lighter",
+          "body_zh": "三星在 Instagram 投放 Galaxy Z Fold8 广告，用一颗青苹果被折叠屏切碎的画面对比苹果。广告称 Z Fold8 比“苹果”薄 1.6 毫米、轻 53 克。",
+          "body_en": "Samsung's new Instagram ad for the Galaxy Z Fold8 shows a green apple being sliced by the folding phone. It claims the Fold8 is 1.6mm thinner and 53g lighter than \"the apple\" — a thinly veiled jab at Apple.",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/018/130.htm",
+          "tag": "硬件"
+        },
+        {
+          "title_zh": "Grok 发布 AI 生成《奥德赛》前七分钟",
+          "title_en": "Grok releases first seven minutes of AI-generated 'Odyssey'",
+          "body_zh": "Grok 公布了其 AI 生成版《奥德赛》的前七分钟片段。TechCrunch 评价画面尚可，但谈不上艺术性或人文气息。",
+          "body_en": "Grok has released the first seven minutes of its AI-generated \"Odyssey.\" TechCrunch's take: the footage looks okay, as long as you're not looking for artistry or human interest.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+          "tag": "产品"
         }
       ]
     },
@@ -79,43 +103,43 @@
       "title_en": "Beyond Tech",
       "items": [
         {
-          "title_zh": "卢拉赢下巴西大选第四任期，博索纳罗阵营拒认输",
-          "title_en": "Lula wins fourth term in Brazil as Bolsonaro camp refuses to concede",
-          "body_zh": "左翼的卢拉·达席尔瓦在第二轮投票中击败极右翼参议员弗拉维奥·博索纳罗，第四次当选巴西总统。多国领导人已致贺，博索纳罗阵营拒绝承认结果，当地选举法院下令恢复全部计票信息。",
-          "body_en": "Leftist Luiz Inácio Lula da Silva beat far-right Senator Flávio Bolsonaro in the runoff to win a fourth, non-consecutive term as Brazil's president. World leaders have congratulated him, the Bolsonaro camp refuses to concede, and the electoral court ordered full results restored.",
+          "title_zh": "卢拉赢得巴西总统大选第四任期，博索纳罗拒绝认输",
+          "title_en": "Lula wins fourth term as Brazil's president; Bolsonaro refuses to concede",
+          "body_zh": "巴西左翼领导人卢拉在第二轮投票中击败极右翼参议员弗拉维奥·博索纳罗，第四次当选总统。多国领导人致贺，博索纳罗方面则要求废除选举结果。",
+          "body_en": "Brazil's leftist leader Luiz Inácio Lula da Silva defeated far-right Senator Flávio Bolsonaro in the runoff to win a fourth term. World leaders congratulated him, while Bolsonaro's camp demanded the result be annulled.",
           "source": "The Guardian World",
           "url": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
           "tag": "地缘"
         },
         {
-          "title_zh": "武契奇承认败选，塞尔维亚学生运动上台",
-          "title_en": "Vucic concedes defeat as student-led movement wins Serbia",
-          "body_zh": "执政 12 年的武契奇承认其政党在议会选举中落败，学生主导的“学生名单-学生获胜”宣布胜选。贝尔格莱德出现庆祝场面，接下来外界关注的是这批学生背景的领导人如何执政。",
-          "body_en": "After 12 years in power, Aleksandar Vučić conceded his party lost the parliamentary election to the student-led 'Students Win' movement. Celebrations broke out in Belgrade, and attention now turns to how the student-backed leaders will govern.",
+          "title_zh": "武契奇承认败选，塞尔维亚学生运动赢得议会选举",
+          "title_en": "Vucic concedes as student-led movement wins Serbia's parliamentary election",
+          "body_zh": "执政 12 年的塞尔维亚总统武契奇承认其政党在议会选举中败给学生领导的“学生名单-学生获胜”运动。这场选举被视为对该国未来走向的公投。",
+          "body_en": "Serbia's veteran leader Aleksandar Vucic, in power for 12 years, conceded that his party lost the parliamentary election to the student-led \"Students Win\" movement. The vote was billed as a referendum on the country's future.",
           "source": "BBC World",
           "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
           "tag": "地缘"
         },
         {
-          "title_zh": "胡塞武装称袭击沙特输油站与利雅得机场",
-          "title_en": "Houthis claim attacks on Saudi oil stations and Riyadh airport",
-          "body_zh": "胡塞武装宣称袭击了沙特多处输油泵站和利雅得机场，沙特方面称拦截了来袭目标。以沙特为首的联军表示已摧毁也门叛军的导弹设施，交战烈度明显上升。",
-          "body_en": "The Houthis said they struck Saudi oil pumping stations and Riyadh airport, while Saudi authorities reported intercepting the incoming attacks. The Saudi-led coalition said it destroyed the rebels' missile facilities as fighting escalates.",
-          "source": "Google News World",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORlYwOVl3Z1hlOFdacWVmeXZVNnVhejFlWDVOR0toczJ2MWNjT1FMRWZjVU0xd1hGaGtzNU9VcGdYSnR1Z2NVQjFfRVpKallEcEVuTzNweldmeEdYOE05UXFOejl1ekR1ZjlxUlhHT1NLa3J0cmZYWUxhSEs2eXNGb2xNNUJycVNWci1ZVzZUOXBSNGc0bzRJNWVTTnVlWHhXRlBrLWRTOV9HbmlJTmVfZk95N0FIQnBLQTlTa3N3eFBaVDJMWGptVU1VN3A?oc=5",
-          "tag": "安全"
+          "title_zh": "苏丹快速支援部队无人机袭击五座电站，东部大范围停电",
+          "title_en": "Sudan's RSF drone strikes hit five power stations, causing mass outages in the east",
+          "body_zh": "苏丹政府官员称，准军事组织快速支援部队对五座电站发动协同无人机袭击，导致东部三个州大面积停电。袭击发生在政府军控制的地区。",
+          "body_en": "Sudan's paramilitary Rapid Support Forces launched coordinated drone strikes on five power stations, causing mass outages across three eastern states, a government official said. The stations are in army-controlled territory.",
+          "source": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/oct/26/sudan-paramilitary-drone-strikes-rapid-support-forces-power-cuts-eastern-states",
+          "tag": "冲突"
         }
       ]
     }
   ],
   "quick_zh": [
-    "越南首座前端晶圆厂进度落后，路透称 2027 年底试产目标恐难实现，Viettel 正与 ASML 谈 DUV 设备。",
-    "苏丹快速支援部队用无人机袭击东部五座电站，造成大范围停电。",
-    "英国财政大臣 John Healey 将于 10 月 28 日公布预算，拟为低收入养老金领取者减税。"
+    "紫光国微前三季度归母净利润 10.45 亿元，同比下降 17.23%。",
+    "金正恩访问中国丹东，中方称愿同朝方落实两国元首共识。",
+    "二十届五中全会在北京开始举行。"
   ],
   "quick_en": [
-    "Vietnam's first front-end wafer fab is behind schedule; Reuters says a 2027 trial production target looks unlikely, and Viettel is negotiating with ASML for a DUV tool.",
-    "Sudan's Rapid Support Forces hit five power stations in the east with drones, causing widespread outages.",
-    "UK Chancellor John Healey presents his Budget on 28 October, with plans to shield low-income pensioners from income tax."
+    "Unigroup Guoxin's net profit fell 17.23% year on year to 1.045 billion yuan in the first three quarters.",
+    "Kim Jong Un visited Dandong in China; Beijing says it will work with Pyongyang to implement leaders' consensus.",
+    "The 20th Central Committee's fifth plenum opened in Beijing."
   ]
 }
