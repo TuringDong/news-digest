@@ -109,7 +109,10 @@ async function fetchHandler(request,env) {
   if(u.pathname==='/admin/probe'&&request.method==='POST') {
     const body=await request.json();
     if(!/^([01]\d|2[0-3]):[0-5]\d$/.test(body.delivery_time)) return json({error:'invalid_delivery_time'},400);
-    const probe={id:crypto.randomUUID(),delivery_time:body.delivery_time,after:Date.now(),expires:Date.now()+15*60000,dispatched:false}; await put(env,'probe',probe); return json(probe);
+    const now=Date.now();
+    const after=body.not_before ? Date.parse(body.not_before) : now;
+    if(!Number.isFinite(after)||after<now-60000||after>now+15*60000) return json({error:'invalid_not_before'},400);
+    const probe={id:crypto.randomUUID(),delivery_time:body.delivery_time,after,expires:now+15*60000,dispatched:false}; await put(env,'probe',probe); return json(probe);
   }
   return json({error:'not_found'},404);
 }
