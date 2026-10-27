@@ -52,6 +52,29 @@ def run_script(name, extra=None):
     return proc.returncode
 
 
+def sent_today(path, now):
+    """Only a timezone-aware receipt from today can suppress delivery."""
+    if not path.exists():
+        return False
+    try:
+        sent_at = datetime.fromisoformat(path.read_text(encoding="utf-8").strip())
+        valid = (sent_at.tzinfo is not None
+                 and sent_at.astimezone(TZ).date() == now.date()
+                 and sent_at <= now)
+    except (ValueError, OSError):
+        valid = False
+    if not valid:
+        print(f"WARNING: 无效的发送标记 {path.name}，不能作为已发送凭据。", file=sys.stderr)
+    return valid
+
+
+def summary(message):
+    print(message, file=sys.stderr, flush=True)
+    if os.environ.get("GITHUB_STEP_SUMMARY"):
+        with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as f:
+            f.write(message + "\n\n")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
@@ -68,12 +91,11 @@ def main():
     raw_path = BASE / "raw.json"
     digest_path = BASE / "digest.json"
 
-    # 幂等：一天只发一封。工作流配了 08:00 和 09:30 两次触发，
-    # 第二次看到这个标记就直接退出，不会重复发信。
+    # 多次调度只发送一次；占位文件（例如 test）不能被当成发送成功。
     sent_marker = outbox / f"{date_str}.sent"
-    if sent_marker.exists() and not args.force and not args.dry_run:
-        print(f"{date_str} 已经发过了（{sent_marker.name}），跳过。要重发加 --force。",
-              file=sys.stderr)
+    if not args.force and not args.dry_run and sent_today(sent_marker, now):
+        mark("跳过（当天已有有效发送凭据）", ok=True, skipped=True)
+        summary(f"{date_str} 已有有效发送凭据，本次跳过，未重复发送。")
         return 0
 
     if args.digest:
@@ -84,7 +106,7 @@ def main():
         if not digest_path.exists():
             print(f"ERROR: 找不到 {digest_path}", file=sys.stderr)
             return 4
-        d = json.load(open(digest_path, encoding="utf-8"))
+        d = json.loads(digest_path.read_text(encoding="utf-8"))
     else:
         if not args.no_fetch:
             step("1/3 抓取新闻源")
@@ -110,7 +132,7 @@ def main():
             mark("2/3 模型写稿（失败）", failed_stage="write")
             print("ERROR: 写稿失败（检查 DEEPSEEK_API_KEY / 余额 / 网络）", file=sys.stderr)
             return 4
-        d = json.load(open(digest_path, encoding="utf-8"))
+        d = json.loads(digest_path.read_text(encoding="utf-8"))
 
     d.setdefault("date", date_str)
     import render
@@ -134,6 +156,7 @@ def main():
     mark("3/3 发送邮件")
     if args.dry_run:
         mark("完成（dry-run，未发送）", ok=True)
+        summary("本次为 dry-run：已生成日报，未发送邮件。")
         print(f"[dry-run] 未发送。预览: {html_copy}", file=sys.stderr)
         print(f"[dry-run] 标题: {subject}", file=sys.stderr)
         return 0
@@ -145,12 +168,17 @@ def main():
         mark("3/3 发送邮件（失败）", failed_stage="send", error=str(e)[:300])
         print(f"ERROR: {e}", file=sys.stderr)
         return 5
-    mark("完成", ok=True, sent_to=to, subject=subject)
-    # 只有发送成功才落这个标记，09:30 的补跑看到它就不会再发一封
+    # SMTP 接受邮件后才原子写入凭据，不能静默忽略保存失败。
     try:
-        sent_marker.write_text(datetime.now(TZ).isoformat(), encoding="utf-8")
-    except Exception:
-        pass
+        temporary = sent_marker.with_suffix(".sent.tmp")
+        temporary.write_text(datetime.now(TZ).isoformat(), encoding="utf-8")
+        temporary.replace(sent_marker)
+    except OSError as e:
+        mark("邮件已提交 SMTP，但发送凭据保存失败", failed_stage="archive")
+        summary(f"ERROR: 邮件已提交 SMTP，但发送凭据保存失败：{type(e).__name__}。请勿盲目重发。")
+        return 6
+    mark("完成", ok=True, sent_to=to, subject=subject)
+    summary(f"{date_str} 日报已提交 SMTP 服务器，发送凭据已保存；最终入箱以邮箱为准。")
     print(f"已发送 -> {', '.join(to)}", file=sys.stderr)
     return 0
 
