@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "news-digest-scheduler",
+  "account_id": "e2c9373e000416582adb4665d3cc3304",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-27",
+  "workers_dev": true,
+  "observability": { "enabled": true },
+  "triggers": { "crons": ["45,50,55 23 * * *", "0,5 0 * * *", "* * * * *"] },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "news-digest-scheduler",
+    "database_id": "aba8ada1-6b74-4b62-8142-697a6cf55c1d"
+  }],
+  "vars": {
+    "REPOSITORY": "TuringDong/news-digest",
+    "REPOSITORY_ID": "1434298007",
+    "WORKFLOW": "digest.yml"
+  }
+}

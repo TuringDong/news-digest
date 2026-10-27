@@ -1,5 +1,5 @@
 name: Daily AI & Tech Digest
-run-name: Daily digest · ${{ github.event_name }}
+run-name: Daily digest · ${{ inputs.dispatch_label || github.event_name }}
 
 on:
   schedule:
@@ -13,6 +13,18 @@ on:
         description: '只生成不发信（用于测试）'
         type: boolean
         default: false
+      delivery_time:
+        description: '生成完成后等待北京时间 HH:MM 发信；留空立即发送'
+        type: string
+        default: ''
+      scheduler_test:
+        description: '仅发送一封标明用途的云端调度验收邮件'
+        type: boolean
+        default: false
+      dispatch_label:
+        description: '云端调度关联标识，可留空'
+        type: string
+        default: ''
   repository_dispatch:
     types: [daily-digest]
 
@@ -22,7 +34,7 @@ permissions:
 jobs:
   digest:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     concurrency:
       group: daily-digest
       cancel-in-progress: false
@@ -46,11 +58,21 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+          DELIVERY_TIME: ${{ inputs.delivery_time }}
+          SCHEDULER_TEST: ${{ inputs.scheduler_test }}
         run: |
+          if [ "$SCHEDULER_TEST" = "true" ]; then
+            python scheduler_test.py --send-at "$DELIVERY_TIME"
+            exit 0
+          fi
+          args=()
+          if [ -n "$DELIVERY_TIME" ]; then
+            args+=(--send-at "$DELIVERY_TIME")
+          fi
           if [ "$DRY_RUN" = "true" ]; then
-            python run.py --dry-run
+            python run.py --dry-run "${args[@]}"
           else
-            python run.py
+            python run.py "${args[@]}"
           fi
 
       - name: 显示抓取概况
@@ -58,6 +80,7 @@ jobs:
         run: python show_raw.py || true
 
       - name: 归档日报和发送凭据
+        if: inputs.scheduler_test != true
         run: |
           git config user.name 'digest-bot'
           git config user.email 'digest-bot@users.noreply.github.com'
@@ -79,7 +102,7 @@ jobs:
           exit 1
 
       - name: 失败告警
-        if: failure()
+        if: failure() && inputs.scheduler_test != true
         continue-on-error: true
         env:
           SMTP_HOST: smtp.qq.com

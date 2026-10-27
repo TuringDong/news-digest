@@ -81,6 +81,7 @@ def main():
     ap.add_argument("--digest", default="")
     ap.add_argument("--no-fetch", action="store_true")
     ap.add_argument("--force", action="store_true", help="今天已发过也强制重发")
+    ap.add_argument("--send-at", default="", help="提前生成后等待北京时间 HH:MM 发送")
     args = ap.parse_args()
 
     os.chdir(BASE)
@@ -161,6 +162,12 @@ def main():
         print(f"[dry-run] 标题: {subject}", file=sys.stderr)
         return 0
 
+    from delivery_time import wait_until
+    try:
+        wait_until(args.send_at)
+    except ValueError as e:
+        print(f"ERROR: {e}", file=sys.stderr)
+        return 2
     import mailer
     try:
         to = mailer.send(subject, html_body, text_body)
