@@ -44,6 +44,11 @@ def diagnose(status, raw, has_response):
     stage = (status or {}).get("stage", "")
     failed = (status or {}).get("failed_stage", "")
 
+    if failed == "archive" or (status or {}).get("ok"):
+        return ("日报处理完成，但后续归档或工作流步骤失败",
+                ["检查运行日志中的归档步骤和 outbox 下的发送凭据",
+                 "邮件可能已提交 SMTP，请先检查邮箱，避免盲目重发"])
+
     if not status:
         return ("脚本可能在启动阶段就崩了，没有留下进度记录",
                 ["展开本次运行的日志，看第一条报错",
@@ -105,9 +110,9 @@ def build(status, raw, has_response):
     evidence.append(f"最后到达的步骤：{stage}")
 
     run_url = os.environ.get("RUN_URL", "").strip()
-    subject = f"⚠️ 今日 AI 日报没发出去 · {date_str}"
+    subject = f"⚠️ AI 日报工作流异常 · {date_str}"
 
-    text = (f"今天的日报没有发出去。\n\n"
+    text = (f"今天的日报工作流发生异常，请根据下方证据判断发送状态。\n\n"
             f"原因：{headline}\n\n"
             f"排查线索：\n" + "\n".join(f"  · {e}" for e in evidence) +
             f"\n\n建议：\n" + "\n".join(f"  {i+1}. {t}" for i, t in enumerate(tips)) +
@@ -124,8 +129,8 @@ def build(status, raw, has_response):
 <div style="max-width:600px;margin:0 auto;padding:24px 16px;font-family:-apple-system,'Segoe UI','Microsoft YaHei',sans-serif;color:#1f2933;font-size:15px;line-height:1.65;">
   <div style="background:#8c2f2f;border-radius:12px 12px 0 0;padding:20px 24px;color:#fff;">
     <div style="font-size:12px;letter-spacing:2px;opacity:.75;">ALERT · 自动告警</div>
-    <div style="font-size:20px;font-weight:700;margin-top:6px;">今天的日报没发出去</div>
-    <div style="font-size:13px;opacity:.85;margin-top:4px;">{date_str} 08:00 的运行失败</div>
+    <div style="font-size:20px;font-weight:700;margin-top:6px;">日报工作流发生异常</div>
+    <div style="font-size:13px;opacity:.85;margin-top:4px;">{date_str} 的运行异常</div>
   </div>
   <div style="background:#fff;border-radius:0 0 12px 12px;padding:20px 24px 24px;">
     <div style="font-size:13px;font-weight:700;color:#8c2f2f;padding-bottom:8px;border-bottom:2px solid #f0e0e0;">直接原因</div>
