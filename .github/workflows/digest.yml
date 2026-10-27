@@ -7,8 +7,6 @@ on:
     # GitHub 可能延迟调度，有效发送凭据用于避免重复发送。
     - cron: '7,27,47 0 * * *'
     - cron: '17,47 1 * * *'
-    # 临时调度探针：只输出时间，不抓新闻、不调用模型、不发邮件。
-    - cron: '2-59/5 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -22,20 +20,7 @@ permissions:
   contents: write
 
 jobs:
-  scheduler-probe:
-    if: github.event_name == 'schedule' && github.event.schedule == '2-59/5 * * * *'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    timeout-minutes: 2
-    steps:
-      - name: 记录真实定时触发
-        run: |
-          echo "Scheduled event received at $(date -u --iso-8601=seconds)"
-          echo "定时调度已触发。本次仅验证调度，不发送邮件。" >> "$GITHUB_STEP_SUMMARY"
-
   digest:
-    if: github.event_name != 'schedule' || github.event.schedule != '2-59/5 * * * *'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     concurrency:
