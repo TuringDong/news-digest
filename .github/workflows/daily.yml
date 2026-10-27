@@ -1,23 +1,30 @@
 name: Daily AI & Tech Digest
 
 # 定时说明：GitHub Actions 的 cron 一律按 UTC 解析。
-# 0 0 * * *  =  北京时间每天 08:00
+# 08:00 北京时间 = 00:00 UTC，但整点 UTC 是最拥堵的一分钟，
+# 单条整点 cron 被丢弃是常见现象（本项目就踩过一次，整次没触发）。
 on:
   schedule:
-    # 北京时间多个时间点，只要有一次被调度到就成。故意的非整点 ——
-    # 00:00 UTC 是 GitHub 上最挤的一分钟，单条整点 cron 被丢弃很常见。
+    # 北京时间多个时间点，只要有一次被调度到就成，故意的非整点。
     # run.py 有幂等判断（outbox/<日期>.sent），发过的日子后面几次直接跳过，
     # 所以你只会收到一封。
+    - cron: "47 23 * * *"   # 07:47
     - cron: "7 0 * * *"     # 08:07
     - cron: "27 0 * * *"    # 08:27
     - cron: "47 0 * * *"    # 08:47
     - cron: "17 1 * * *"    # 09:17
+    - cron: "47 1 * * *"    # 09:47
   workflow_dispatch:
     inputs:
       dry_run:
         description: "只生成不发信（用于测试）"
         type: boolean
         default: false
+  # 备用触发器：如果 GitHub 的 cron 一直不调度，可以用外部定时服务
+  # （如 cron-job.org）调一次 GitHub API 来触发，完全绕开 cron。
+  # POST /repos/<owner>/<repo>/dispatches  body: {"event_type":"daily-digest"}
+  repository_dispatch:
+    types: [daily-digest]
 
 permissions:
   contents: write          # 需要写权限来提交归档（同时保养仓库活跃度）
@@ -47,10 +54,9 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
-          # 定时触发时 inputs 上下文不存在。用 env 传、在 shell 里判断，
-          # 不要写 ${{ inputs.dry_run && '--dry-run' || '' }} —— 那种表达式在
-          # schedule 事件下有让工作流校验失败、整个运行都起不来的风险。
-          DRY_RUN: ${{ inputs.dry_run }}
+          # 用 github.event.inputs（任何触发方式下都存在）而不是 inputs 上下文，
+          # 避免 schedule 触发时出现未定义上下文的歧义。
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
         run: |
           if [ "$DRY_RUN" = "true" ]; then
             echo "== dry-run 模式：只生成不发信 =="
