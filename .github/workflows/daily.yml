@@ -4,11 +4,14 @@ name: Daily AI & Tech Digest
 # 0 0 * * *  =  北京时间每天 08:00
 on:
   schedule:
-    # 主运行：北京时间 08:00
-    - cron: "0 0 * * *"
-    # 补跑：北京时间 09:30。GitHub 负载高时会丢定时任务，这一条是兜底。
-    # run.py 带幂等判断，今天已经发过就跳过，不会重复发信。
-    - cron: "30 1 * * *"
+    # 北京时间多个时间点，只要有一次被调度到就成。故意的非整点 ——
+    # 00:00 UTC 是 GitHub 上最挤的一分钟，单条整点 cron 被丢弃很常见。
+    # run.py 有幂等判断（outbox/<日期>.sent），发过的日子后面几次直接跳过，
+    # 所以你只会收到一封。
+    - cron: "7 0 * * *"     # 08:07
+    - cron: "27 0 * * *"    # 08:27
+    - cron: "47 0 * * *"    # 08:47
+    - cron: "17 1 * * *"    # 09:17
   workflow_dispatch:
     inputs:
       dry_run:
@@ -90,4 +93,15 @@ jobs:
             exit 0
           fi
           git commit -m "digest: $(TZ=Asia/Shanghai date +%F)"
-          git push origin HEAD:main
+          # 推送失败就重试几次：失败的话 .sent 标记没上去，
+          # 后面那次定时触发会误以为没发过，可能重复发信
+          for i in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "归档已推送"
+              exit 0
+            fi
+            echo "推送失败，第 $i 次，10 秒后重试"
+            sleep 10
+          done
+          echo "::warning::归档推送连续失败，.sent 标记没上去，下一次定时触发可能重复发信"
+          exit 1
