@@ -4,7 +4,11 @@ name: Daily AI & Tech Digest
 # 0 0 * * *  =  北京时间每天 08:00
 on:
   schedule:
+    # 主运行：北京时间 08:00
     - cron: "0 0 * * *"
+    # 补跑：北京时间 09:30。GitHub 负载高时会丢定时任务，这一条是兜底。
+    # run.py 带幂等判断，今天已经发过就跳过，不会重复发信。
+    - cron: "30 1 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -40,8 +44,17 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
+          # 定时触发时 inputs 上下文不存在。用 env 传、在 shell 里判断，
+          # 不要写 ${{ inputs.dry_run && '--dry-run' || '' }} —— 那种表达式在
+          # schedule 事件下有让工作流校验失败、整个运行都起不来的风险。
+          DRY_RUN: ${{ inputs.dry_run }}
         run: |
-          python run.py ${{ inputs.dry_run && '--dry-run' || '' }}
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "== dry-run 模式：只生成不发信 =="
+            python run.py --dry-run
+          else
+            python run.py
+          fi
 
       - name: 显示抓取概况（便于排查某个源挂了）
         if: always()

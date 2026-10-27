@@ -57,6 +57,7 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--digest", default="")
     ap.add_argument("--no-fetch", action="store_true")
+    ap.add_argument("--force", action="store_true", help="今天已发过也强制重发")
     args = ap.parse_args()
 
     os.chdir(BASE)
@@ -66,6 +67,14 @@ def main():
     outbox.mkdir(exist_ok=True)
     raw_path = BASE / "raw.json"
     digest_path = BASE / "digest.json"
+
+    # 幂等：一天只发一封。工作流配了 08:00 和 09:30 两次触发，
+    # 第二次看到这个标记就直接退出，不会重复发信。
+    sent_marker = outbox / f"{date_str}.sent"
+    if sent_marker.exists() and not args.force and not args.dry_run:
+        print(f"{date_str} 已经发过了（{sent_marker.name}），跳过。要重发加 --force。",
+              file=sys.stderr)
+        return 0
 
     if args.digest:
         step(f"使用现成稿件 {args.digest}")
@@ -137,6 +146,11 @@ def main():
         print(f"ERROR: {e}", file=sys.stderr)
         return 5
     mark("完成", ok=True, sent_to=to, subject=subject)
+    # 只有发送成功才落这个标记，09:30 的补跑看到它就不会再发一封
+    try:
+        sent_marker.write_text(datetime.now(TZ).isoformat(), encoding="utf-8")
+    except Exception:
+        pass
     print(f"已发送 -> {', '.join(to)}", file=sys.stderr)
     return 0
 
