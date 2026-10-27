@@ -8,7 +8,7 @@ on:
     - cron: '7,27,47 0 * * *'
     - cron: '17,47 1 * * *'
     # 临时调度探针：只输出时间，不抓新闻、不调用模型、不发邮件。
-    - cron: '*/5 * * * *'
+    - cron: '2-59/5 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -23,7 +23,7 @@ permissions:
 
 jobs:
   scheduler-probe:
-    if: github.event_name == 'schedule' && github.event.schedule == '*/5 * * * *'
+    if: github.event_name == 'schedule' && github.event.schedule == '2-59/5 * * * *'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -35,7 +35,7 @@ jobs:
           echo "定时调度已触发。本次仅验证调度，不发送邮件。" >> "$GITHUB_STEP_SUMMARY"
 
   digest:
-    if: github.event_name != 'schedule' || github.event.schedule != '*/5 * * * *'
+    if: github.event_name != 'schedule' || github.event.schedule != '2-59/5 * * * *'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     concurrency:
