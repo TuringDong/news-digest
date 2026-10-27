@@ -54,9 +54,15 @@ SOURCES = [
     {"name": "BBC World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "cat": "other", "max": 6},
     {"name": "The Guardian World", "url": "https://www.theguardian.com/world/rss", "cat": "other", "max": 5},
     {"name": "BBC Business", "url": "https://feeds.bbci.co.uk/news/business/rss.xml", "cat": "other", "max": 4},
+    # 体育必须单列。之前没有体育源，凯恩夺金球奖这种头条级新闻压根进不了候选池，
+    # 模型连看都没看到，自然写不出来。
+    {"name": "BBC Sport", "url": "https://feeds.bbci.co.uk/sport/rss.xml", "cat": "other", "max": 5},
+    {"name": "The Guardian Sport", "url": "https://www.theguardian.com/sport/rss", "cat": "other", "max": 4},
 
     # --- 其他领域（中文）---
     {"name": "Google 新闻中文", "url": "https://news.google.com/rss?hl=zh-CN&gl=CN&ceid=CN:zh-Hans", "cat": "other", "max": 8},
+    {"name": "Google 体育中文", "url": "https://news.google.com/rss/search?q=%E4%BD%93%E8%82%B2%20OR%20%E9%87%91%E7%90%83%E5%A5%96%20OR%20%E7%90%83%E8%B5%9B%20when:2d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans", "cat": "other", "max": 5},
+    {"name": "Google 娱乐中文", "url": "https://news.google.com/rss/search?q=%E5%A8%B1%E4%B9%90%20OR%20%E7%94%B5%E5%BD%B1%20OR%20%E6%BC%94%E5%94%B1%E4%BC%9A%20when:2d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans", "cat": "other", "max": 3},
     {"name": "Google News World", "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en", "cat": "other", "max": 6},
     {"name": "Google AI 检索", "url": "https://news.google.com/rss/search?q=AI%20OR%20%22artificial%20intelligence%22%20when:2d&hl=en-US&gl=US&ceid=US:en", "cat": "tech", "max": 6},
 ]

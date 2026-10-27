@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | 电脑关机时 | 不发 | **照发** |
 | 谁来写稿 | DSH 里的模型（我） | DeepSeek API |
-| 新闻从哪来 | 联网搜索工具 | 13 个 RSS 源（无需 key） |
+| 新闻从哪来 | 联网搜索工具 | 18 个 RSS 源（无需 key） |
 | 依赖 | Python + DSH 运行 | 无第三方依赖 |
 | 成本 | 0 | DeepSeek API 调用费（每天几分钱）+ Actions 免费额度 |
 
@@ -148,7 +148,7 @@ python notify_failure.py --test      # 真发一封，标题带［测试］前�
 | 文件 | 作用 |
 | --- | --- |
 | `run.py` | 主流程，串起下面四步，并记录进度喂给告警 |
-| `fetch_news.py` | 抓 13 个 RSS 源，按时间窗口过滤、去重、容错 |
+| `fetch_news.py` | 抓 18 个 RSS 源，按时间窗口过滤、去重、容错 |
 | `write_digest.py` | 调 DeepSeek 写双语稿，并校验链接不许自造 |
 | `render.py` | 渲染成 HTML + 纯文本 |
 | `mailer.py` | 发信（465 SSL / 587 STARTTLS 都支持） |
