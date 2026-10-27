@@ -28,4 +28,4 @@ Cloudflare 负责定时唤醒；GitHub Actions 继续执行仓库原有的抓取
 
 测试：`node --test worker.test.mjs`。仓库 Python 测试：`python -m unittest discover -s tests -v`。
 
-当前部署保留一分钟探针用于验收；未安排验收任务时只记录调度，不发送邮件。验收完成后应删除。
+2026-10-27 已完成真实云端定时验收：Cloudflare 于北京时间 14:10 触发 GitHub Actions，任务等待至 14:13 发送验收邮件，收件人确认收到。对应运行编号为 `40459531643`。临时一分钟 cron 已从正式配置移除，只保留每日正式计划。首次正式早间运行仍需以次日实际记录和收件为准。
