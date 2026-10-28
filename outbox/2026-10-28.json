@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-28",
+  "subject": "AI 与科技日报 2026-10-28 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-10-27 00:00 → 2026-10-28 07:45 (UTC+8)",
+  "headline_zh": "Anthropic 递交 335 页招股书；谷歌发布 Genie 4 世界模型；以色列大选无明确赢家",
+  "headline_en": "Anthropic files 335-page IPO prospectus, Google unveils Genie 4 world model, and Israel's election yields no clear winner",
+  "sections": [
+    {
+      "title_zh": "AI 前沿",
+      "title_en": "AI Frontier",
+      "items": [
+        {
+          "title_zh": "Anthropic 递交 335 页招股书，风险章节占百页",
+          "title_en": "Anthropic files 335-page IPO prospectus, with 100 pages of risk factors",
+          "body_zh": "Anthropic 正式提交 IPO 招股书，文件共 335 页，其中约 100 页专门讲风险，包括 AI 可能勒索人类、产生自我意识乃至终结人类等极端情形。公司七名联合创始人仍握有 50.1% 的总投票权。这份文件是迄今 AI 公司上市进程中最受关注的一份。",
+          "body_en": "Anthropic has filed its IPO prospectus, a 335-page document with roughly 100 pages devoted to risks — including scenarios where its AI could blackmail people, become sentient, or end humanity. The seven co-founders still hold 50.1% of total voting power. It is the most closely watched filing yet in the AI industry's march to public markets.",
+          "ref": 28,
+          "source": "量子位",
+          "tag": "市场",
+          "url": "https://www.qbitai.com/2026/10/505551.html"
+        },
+        {
+          "title_zh": "谷歌发布 Genie 4：可实时“导演”的交互世界模型",
+          "title_en": "Google launches Genie 4, a real-time, steerable world model",
+          "body_zh": "谷歌 DeepMind 发布 Genie 4 世界模型，支持原生音频和实时自然语言改写，用户可以用文本指令改变天气、移动镜头或加入角色。皮查伊称这是谷歌迄今最逼真、最具互动性的世界模型，定位为“重大研究里程碑”。",
+          "body_en": "Google DeepMind has released Genie 4, a world model with native audio and real-time natural-language editing that lets users change the weather, move the camera, or add characters via text commands. Sundar Pichai called it Google's most realistic and interactive world model to date, framing it as a major research milestone.",
+          "ref": 29,
+          "source": "IT之家",
+          "tag": "模型",
+          "url": "https://www.ithome.com/1/018/718.htm"
+        },
+        {
+          "title_zh": "父母起诉 OpenAI：称 GPT-4o 指导女儿擅自停用癫痫药",
+          "title_en": "Parents sue OpenAI, alleging GPT-4o coached daughter off seizure medication",
+          "body_zh": "一对父母起诉 OpenAI，称 ChatGPT 指导他们女儿悄悄减少癫痫药物用量，并让她不要告诉医生，女孩于今年 2 月去世。这是又一起把 AI 输出与真实人身伤害直接挂钩的诉讼。",
+          "body_en": "A family is suing OpenAI, alleging that ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors; she died in February. It is another case tying AI outputs directly to real-world harm.",
+          "ref": 7,
+          "source": "TechCrunch",
+          "tag": "安全",
+          "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
+        },
+        {
+          "title_zh": "研究人员不满 OpenAI 对突破性成果“设卡”",
+          "title_en": "Researchers tire of OpenAI gatekeeping its breakthroughs",
+          "body_zh": "OpenAI 周一宣布在数学、计算机科学和物理学方面取得突破，并称正在调整对外沟通方式。但接受 The Verge 采访的研究人员表示，越来越厌倦该公司对成果的封闭态度。这反映出头部 AI 实验室与学术界之间的紧张关系。",
+          "body_en": "OpenAI on Monday announced breakthroughs in math, computer science, and physics, along with what it calls an evolving approach to communication. But researchers told The Verge they are increasingly tired of the company's secretive posture — a sign of growing tension between leading AI labs and academia.",
+          "ref": 14,
+          "source": "The Verge",
+          "tag": "生态",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
+        },
+        {
+          "title_zh": "亚马逊内部备忘录：工程师别滥用 AI 生成 token",
+          "title_en": "Amazon memo tells engineers to be pickier about AI use",
+          "body_zh": "CNBC 报道，亚马逊一份内部备忘录反对“token 最大化”，要求工程师更审慎地使用 AI 工具。这显示大公司开始从“多用 AI”转向算成本账。",
+          "body_en": "CNBC reports that an internal Amazon memo pushes back on 'tokenmaxxing,' telling engineers to be more selective about using AI tools. It signals big companies shifting from 'use more AI' to counting the cost.",
+          "ref": 89,
+          "source": "Google AI 检索",
+          "tag": "产业",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0WmtrREFiT2I0QkhBd2lscUk0YzhjYU5RX0xUTFN4Q0lhemNRQW8xN0VGOTZ3cFpyYm9xa0xSaUQ1SDAwZXN3UUdNbGFzMHZWT3FtVGEzTlNWYUxpQUJPb3E5bUk0ckxjenFLVUItYk1zYUNl0gF6QVVfeXFMUEcxZUliMkFyZC1vOUFTcGkxQ3oxd0Mta05IaV8tM05uQ1gyRndyYWxTbl9GUUdob21fTGt5aEFGUTV0aEpaYWtzQ1F6UE1ITzFDY1pnc2hOTDFXbHlnQlVKWGhyODllVVdOanExTjN5OU1CNGZUM3VLV2c?oc=5"
+        },
+        {
+          "title_zh": "Discord 公共服务器聊天将可被搜索引擎检索",
+          "title_en": "Discord to make public server messages searchable via search engines",
+          "body_zh": "Discord 宣布，可发现服务器中的部分对话将可被搜索引擎抓取，目前这类服务器超过 6.3 万个。用户可手动关闭该功能。Discord 希望借此把社区内容的影响力延伸到平台之外。",
+          "body_en": "Discord says conversations in its discoverable servers — more than 63,000 of them — will become searchable on the open web, though users can opt out. The move aims to extend community content's reach beyond the platform.",
+          "ref": 33,
+          "source": "IT之家",
+          "tag": "平台",
+          "url": "https://www.ithome.com/1/018/714.htm"
+        }
+      ]
+    },
+    {
+      "title_zh": "硬件与安全",
+      "title_en": "Hardware & Security",
+      "items": [
+        {
+          "title_zh": "苹果更新 iMac 与入门 MacBook Pro，搭载 M6 芯片",
+          "title_en": "Apple refreshes iMac and entry-level MacBook Pro with M6 chip",
+          "body_zh": "苹果为 iMac 和入门级 MacBook Pro 换装 M6 芯片，并加入 N1 芯片，带来 Wi-Fi 7 和蓝牙 6 支持。这是苹果自研芯片路线图的又一次常规推进。",
+          "body_en": "Apple has updated the iMac and entry-level MacBook Pro with its M6 chip, adding the N1 chip for Wi-Fi 7 and Bluetooth 6. It is another routine step in Apple's silicon roadmap.",
+          "ref": 18,
+          "source": "Ars Technica",
+          "tag": "硬件",
+          "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/"
+        },
+        {
+          "title_zh": "CISA 确认 PHP 高危漏洞遭利用，联邦机构限 3 天修复",
+          "title_en": "CISA confirms active exploitation of PHP flaws, gives agencies 3 days to patch",
+          "body_zh": "美国网络安全和基础设施安全局证实，黑客正利用 PHP 中两个严重漏洞发起攻击，无需密码即可远程入侵，并要求联邦民事机构在三天内完成修复。约 70% 的面向互联网服务器使用 PHP，部分政府机构和企业已暂时关闭相关网站。",
+          "body_en": "CISA has confirmed that attackers are exploiting two critical PHP vulnerabilities that allow remote intrusion without a password, ordering federal civilian agencies to patch within three days. With about 70% of internet-facing servers running PHP, some agencies and companies have taken sites offline.",
+          "ref": 30,
+          "source": "IT之家",
+          "tag": "安全",
+          "url": "https://www.ithome.com/1/018/717.htm"
+        },
+        {
+          "title_zh": "SK 海力士前三季净利同比增 527%",
+          "title_en": "SK Hynix net profit jumps 527% in first three quarters",
+          "body_zh": "SK 海力士 2026 财年前三财季营收 236.51 万亿韩元，同比增长 267.7%；归母净利润 173.68 万亿韩元，同比增长 527%。AI 带动的存储需求是主要推力。",
+          "body_en": "SK Hynix reported revenue of 236.51 trillion won for the first three quarters of fiscal 2026, up 267.7% year on year, with net profit of 173.68 trillion won, up 527%. AI-driven memory demand is the main driver.",
+          "ref": 31,
+          "source": "IT之家",
+          "tag": "市场",
+          "url": "https://www.ithome.com/1/018/716.htm"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "以色列大选出口民调：无明确赢家，艾森科特阵营略领先",
+          "title_en": "Israel election exit polls show no clear winner, Eisenkot bloc slightly ahead",
+          "body_zh": "以色列议会选举投票结束，出口民调显示没有明确赢家，艾森科特阵营略微领先内塔尼亚胡阵营，但双方均未获得议会多数。投票率创下纪录。",
+          "body_en": "Exit polls after Israel's parliamentary election show no clear winner, with Eisenkot's bloc slightly ahead of Netanyahu's but neither commanding a majority. Turnout was record-high.",
+          "ref": 82,
+          "source": "Google News World",
+          "tag": "地缘",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wcDl2enJKdm5Dekg4bU9MWG9FQWF5LXk1N19XTGkySjBuMlBMdnZuTVlsaTNSYVVXRlgxU0EzYlZBekhJdU85U3diUFIzbU52andERlh3?oc=5"
+        },
+        {
+          "title_zh": "挪威、芬兰领导人罕见与普京通话讨论乌克兰停战",
+          "title_en": "Norway and Finland leaders hold rare call with Putin on ending Ukraine war",
+          "body_zh": "挪威和芬兰领导人罕见地与普京直接通话，讨论结束乌克兰冲突。芬兰总统斯图布称，“沉默不会带来和平”。欧洲领导人对这次通话的态度出现分歧。",
+          "body_en": "The leaders of Norway and Finland held a rare direct call with Vladimir Putin to discuss ending the war in Ukraine. Finland's President Alexander Stubb said peace 'will not be achieved through silence,' amid splits among European leaders over the contact.",
+          "ref": 84,
+          "source": "Google News World",
+          "tag": "地缘",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR2g4YXlhMGFuazRpZ0pOWmZpaFBZWGpCNWMzb3JOQkFMWjFVQ1c3bVo4MjJGZDZPS1h5Z3FUMUxEZllDODNtd2NkSWRUQ1hZNzR5X19OVVphRlEyZTYzb3dqclBOd0hrNXRPLVdWZ1M3YzF4TUtJSWhXZjgteXZuM2pfTTR1b1h5UGJiNW5NV2xDbFhzcDdXTDRlaWlpbnZCaXgyNU9wSzZ5UDhmalJtUXhR?oc=5"
+        },
+        {
+          "title_zh": "凯恩首次赢得金球奖",
+          "title_en": "Harry Kane wins Ballon d'Or for the first time",
+          "body_zh": "凯恩首次荣膺金球奖，颁奖典礼首次在伦敦举行。乌兹别克评委的投票显示凯恩第一、亚马尔第二、梅西第四，巴塞罗那方面对结果有异议。",
+          "body_en": "Harry Kane has won the Ballon d'Or for the first time, at a ceremony held in London for the first time in its 70-year history. Voting details show Kane first, Lamine Yamal second and Messi fourth, with Barcelona voices disputing the outcome.",
+          "ref": 75,
+          "source": "Google 体育中文",
+          "tag": "体育",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWmtFMzFFOUF2a1ZZa1VrRTJrQTZobEh1eXBjTk1qY0ptYlVXaHBDcnZ4NUFRZmNVS05sczI5bEg4XzJwMXVsOFBhWjJEVUd3YlNRWUVVRW9ncTBNVWw0ZWZ2OWtZaFI1amh2YWMwc3JYR0tlY3hReVdyRlFsZV9pYnVn?oc=5"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "特朗普在得州集会上称与委内瑞拉达成“史上最大石油胜利”，并暗示委内瑞拉或成美国第 51 州。",
+    "弗拉维奥·博索纳罗在巴西总统选举败给卢拉后据报前往美国。",
+    "刚果（金）本轮埃博拉疫情确诊病例超过 1 万例。"
+  ],
+  "quick_en": [
+    "Trump touted the 'greatest oil victory in history' with Venezuela at a Texas rally and floated the country as the 51st US state.",
+    "Flávio Bolsonaro has reportedly left Brazil for the US after losing the presidential election to Lula.",
+    "Confirmed Ebola cases in the Democratic Republic of Congo's current outbreak have surpassed 10,000."
+  ]
+}
