@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-29",
+  "subject": "AI 与科技日报 2026-10-29 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-10-28 00:00 → 2026-10-29 07:45 (UTC+8)",
+  "headline_zh": "微软Azure季度营收332亿美元首披露；西班牙高铁相撞68死；Alphabet Q3营收1276亿",
+  "headline_en": "Microsoft discloses Azure's $33.2B quarter; Spain train crash kills 68; Alphabet posts $127.6B Q3 revenue",
+  "sections": [
+    {
+      "title_zh": "AI 与云计算",
+      "title_en": "AI & Cloud",
+      "items": [
+        {
+          "title_zh": "微软首次披露 Azure 单季营收 332 亿美元",
+          "title_en": "Microsoft discloses Azure quarterly revenue of $33.2B for the first time",
+          "body_zh": "微软在截至 9 月 30 日的季度财报中首次以美元披露 Azure 营收：332 亿美元。这让人第一次能直接对比它与 AWS 的差距。同期微软总营收 923 亿美元，同比增长 19%，连续 10 个季度创纪录。",
+          "body_en": "Microsoft disclosed Azure revenue in dollars for the first time: $33.2 billion for the quarter ending September 30, offering a direct read on how close it is to AWS. Total quarterly revenue hit $92.3 billion, up 19% year over year and a record for the 10th straight quarter.",
+          "ref": 9,
+          "source": "TechCrunch",
+          "tag": "市场",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+        },
+        {
+          "title_zh": "微软称单季从 OpenAI 相关安排中获得 100 亿美元收入",
+          "title_en": "Microsoft says it booked $10B in revenue from OpenAI arrangements",
+          "body_zh": "微软表示，截至 9 月 30 日的季度里，来自与 OpenAI 商业安排（含收入分成）的收入达 100 亿美元。这个数字凸显双方财务上的深度绑定。",
+          "body_en": "Microsoft said it recorded $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. The figure underscores how financially intertwined the two companies remain.",
+          "ref": 11,
+          "source": "TechCrunch",
+          "tag": "市场",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+        },
+        {
+          "title_zh": "Alphabet Q3 营收 1276 亿美元，AI 搜索广告推向全球",
+          "title_en": "Alphabet posts $127.6B Q3 revenue, expands AI Search ads globally",
+          "body_zh": "Alphabet 第三季度营收同比增长 25% 至 1276 亿美元。CEO 皮查伊称 AI 投入带动整体搜索查询量增长，包括商业查询。公司同时宣布把 AI 搜索广告扩展到全球，背景是核心广告增速放缓。",
+          "body_en": "Alphabet's Q3 revenue rose 25% year over year to $127.6 billion. CEO Sundar Pichai said AI investments are driving search query growth, including commercial queries, as the company expands AI Search ads globally amid slowing core ad growth.",
+          "ref": 10,
+          "source": "TechCrunch",
+          "tag": "市场",
+          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
+        },
+        {
+          "title_zh": "谷歌发布 Gemini 4 Carbon",
+          "title_en": "Google releases Gemini 4 Carbon",
+          "body_zh": "谷歌在官方博客发布新一代模型 Gemini 4 Carbon，具体参数与评测数据尚未在摘要中披露。这是谷歌在模型迭代上的最新一步。",
+          "body_en": "Google introduced Gemini 4 Carbon on its official blog. Benchmarks and technical details were not disclosed in the summary; it marks the company's latest model iteration.",
+          "ref": 3,
+          "source": "Hacker News",
+          "tag": "模型",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "title_zh": "Upwind 拒绝 Datadog 收购后融资 4 亿美元",
+          "title_en": "Upwind raises $400M after walking away from Datadog offer",
+          "body_zh": "云安全初创公司 Upwind 完成 4 亿美元 C 轮融资，估值 38 亿美元。此前它拒绝了 Datadog 同等价位的收购要约。",
+          "body_en": "Cloud security startup Upwind raised a $400 million Series C at a $3.8 billion valuation, after turning down an acquisition offer from Datadog at the same price.",
+          "ref": 7,
+          "source": "TechCrunch",
+          "tag": "融资",
+          "url": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/"
+        },
+        {
+          "title_zh": "蚂蚁百灵开源 Ling-3.1-flash-1019",
+          "title_en": "Ant's Ling opensources Ling-3.1-flash-1019",
+          "body_zh": "蚂蚁集团旗下百灵大模型于 10 月 28 日正式开源 Ling-3.1-flash-1019。官方称其面向真实任务场景的 Personal Agent 方向。",
+          "body_en": "Ant Group's Ling model team open-sourced Ling-3.1-flash-1019 on October 28, positioning it for real-world personal agent tasks.",
+          "ref": 26,
+          "source": "量子位",
+          "tag": "模型",
+          "url": "https://www.qbitai.com/2026/10/505928.html"
+        }
+      ]
+    },
+    {
+      "title_zh": "硬件与安全",
+      "title_en": "Hardware & Security",
+      "items": [
+        {
+          "title_zh": "苹果触屏 MacBook Pro 顶配约 14549 美元",
+          "title_en": "Apple's touchscreen MacBook Pro tops out around $14,549",
+          "body_zh": "苹果推出带 PROLED XDR 显示屏和触控的 MacBook Pro，把笔记本价格推到新高位。TechCrunch 称全部选配拉满约需 14549 美元。",
+          "body_en": "Apple's new touchscreen MacBook Pro with a PROLED XDR display pushes laptop pricing to a new extreme, with a fully loaded configuration running about $14,549, per TechCrunch.",
+          "ref": 8,
+          "source": "TechCrunch",
+          "tag": "硬件",
+          "url": "https://techcrunch.com/2026/10/28/apples-touchscreen-macbook-pro-pushes-laptop-pricing-to-a-new-extreme/"
+        },
+        {
+          "title_zh": "黑客窃取逾 4.1 万名美国土安全部员工记录",
+          "title_en": "Hacker steals records of more than 41,000 DHS employees",
+          "body_zh": "一名黑客窃取了美国国土安全部大量个人信息，涉及逾 4.1 万名员工的姓名、职位、电话、邮箱和办公地点，包括 ICE 与海关边境保护局人员。",
+          "body_en": "A hacker stole personal data on more than 41,000 Department of Homeland Security employees, including names, job titles, phone numbers, emails and office locations, covering ICE and Customs and Border Protection staff.",
+          "ref": 14,
+          "source": "The Verge",
+          "tag": "安全",
+          "url": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak"
+        },
+        {
+          "title_zh": "美满电子拟收购光通信龙头 Lumentum",
+          "title_en": "Marvell in talks to acquire optical player Lumentum",
+          "body_zh": "彭博社报道，美满电子（Marvell）正就收购数据中心光通信设备商 Lumentum 进行磋商，交易最快下周宣布，双方尚未达成最终协议。Lumentum 当前市值约 830 亿美元，Marvell 约 2210 亿美元。",
+          "body_en": "Bloomberg reports Marvell is in talks to buy data-center optical equipment maker Lumentum, with a deal possibly announced as soon as next week; no final agreement yet. Lumentum is valued at about $83 billion and Marvell at roughly $221 billion.",
+          "ref": 27,
+          "source": "IT之家",
+          "tag": "并购",
+          "url": "https://www.ithome.com/1/019/279.htm"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "西班牙高铁相撞致至少 68 人死亡",
+          "title_en": "Spain high-speed train crash kills at least 68",
+          "body_zh": "西班牙托莱多省发生高铁相撞事故，一列行驶中的列车撞上停在前方的列车，造成至少 68 人死亡。交通大臣称事故由“无法解释”的失误导致，首相桑切斯宣布全国哀悼三天。",
+          "body_en": "A high-speed train crash in Toledo province, Spain, killed at least 68 people when a moving train hit another stopped further up the track. The transport minister called it an 'inexplicable' error, and PM Pedro Sánchez declared three days of national mourning.",
+          "ref": 40,
+          "source": "BBC World",
+          "tag": "事故",
+          "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "以色列大选计票 85%：内塔尼亚胡阵营 53 席，未过半",
+          "title_en": "Israel election: Netanyahu bloc at 53 seats with 85% counted",
+          "body_zh": "以色列大选已统计 85% 选票，内塔尼亚胡的利库德集团及盟友预计拿下 120 席议会中的 53 席，未达多数。分析普遍认为组阁僵局难解，可能走向新一轮选举。",
+          "body_en": "With 85% of ballots counted, Netanyahu's Likud and its allies are set to win 53 of the Knesset's 120 seats, short of a majority. Analysts see a likely impasse that could lead to new elections.",
+          "ref": 43,
+          "source": "BBC World",
+          "tag": "地缘",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "英国新财相首份预算：能源账单补贴 100 英镑并加征银行税",
+          "title_en": "UK chancellor's first Budget: £100 energy bill support and a bank tax",
+          "body_zh": "英国财政大臣约翰·希利公布首份预算，针对生活成本推出 100 英镑能源账单补贴，并开征银行税。反对党批评力度不够，预算责任办公室则警告能源价格上涨将拖累物价、生活水平和增长。",
+          "body_en": "UK Chancellor John Healey unveiled his first Budget, offering £100 toward energy bills and a new bank tax to address living costs. Opposition parties called it too timid, while the OBR warned higher energy prices will weigh on inflation, living standards and growth.",
+          "ref": 51,
+          "source": "BBC Business",
+          "tag": "宏观",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "Instagram 负责人 Mosseri 称围绕 AI 的负面情绪“还会更糟”。",
+    "美国两名少女起诉 Meta 和 Snap，称社交媒体导致其抑郁、焦虑与进食障碍，案件进入庭审。",
+    "欧洲计划建设首条通往格陵兰的海底电缆，绕开美国连接加拿大、日本和韩国。"
+  ],
+  "quick_en": [
+    "Instagram chief Adam Mosseri says negativity around AI is 'going to get worse'.",
+    "Two US teenagers are taking Meta and Snap to trial, alleging social media caused depression, anxiety and eating disorders.",
+    "Europe plans its first undersea cable to Greenland, bypassing the US to link Canada, Japan and South Korea."
+  ]
+}
