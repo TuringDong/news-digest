@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-01",
+  "subject": "AI 与科技日报 2026-11-01 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-10-31 00:00 → 2026-11-01 07:45 (UTC+8)",
+  "headline_zh": "币安黑客案赔付九成；AI 需求推英特尔转产；欧洲多国抗议蔓延",
+  "headline_en": "Binance covers 90% of $6.3bn hack losses; Intel shifts fabs to AI demand; protests sweep Europe",
+  "sections": [
+    {
+      "title_zh": "AI 与科技",
+      "title_en": "AI & Tech",
+      "items": [
+        {
+          "title_zh": "币安称已补足 90% 被盗资产，FBI 指朝鲜所为",
+          "title_en": "Binance says 90% of stolen assets replenished; FBI blames North Korea",
+          "body_zh": "币安 CEO 表示，在黑客从客户处盗走 63 亿美元后，公司已直接补足其中 90%，剩余 10% 也将由公司承担。FBI 认定这起史上最大规模加密盗窃案由朝鲜负责。",
+          "body_en": "Binance's CEO said the exchange has directly replaced 90% of the $6.3 billion stolen from customers, with the company set to cover the remaining 10%. The FBI has attributed the record crypto heist to North Korea.",
+          "ref": 15,
+          "source": "The Verge",
+          "tag": "安全",
+          "url": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto"
+        },
+        {
+          "title_zh": "AI 需求暴涨，英特尔把部分 PC 产能改做数据中心芯片",
+          "title_en": "Intel retools PC capacity for data-center chips as AI demand surges",
+          "body_zh": "英特尔正把部分客户端 CPU 产能转向数据中心，扩产爱尔兰 Fab 24 的 Xeon 芯片，并提前在亚利桑那 Fab 62 安装设备。CEO 陈立武称行业仍处“史上最严重供应短缺之一”，主要由超级智能需求推动。",
+          "body_en": "Intel is reallocating some client CPU capacity to data-center chips, expanding Xeon output at Fab 24 in Ireland and pulling forward equipment installation at Fab 62 in Arizona. CEO Lip-Bu Tan called it one of the industry's worst supply shortages, driven by demand for superintelligence.",
+          "ref": 26,
+          "source": "IT之家",
+          "tag": "硬件",
+          "url": "https://www.ithome.com/1/020/642.htm"
+        },
+        {
+          "title_zh": "苹果新 CEO 表态：不为 AI 而 AI",
+          "title_en": "Apple's new CEO: no shipping AI for AI's sake",
+          "body_zh": "苹果新任 CEO 为公司在 AI 领域的现状辩护，称不会为了赶潮流而推出 AI 功能。苹果中国官网同期上线 Apple 智能介绍页，首批核心功能“今年稍晚”推出。",
+          "body_en": "Apple's new chief executive defended the company's AI position, saying it won't ship AI features just for the sake of it. Apple's China site has meanwhile posted an Apple Intelligence page, promising the first core features later this year.",
+          "ref": 7,
+          "source": "TechCrunch",
+          "tag": "AI",
+          "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
+        },
+        {
+          "title_zh": "OpenAI 据报下调新一轮融资目标",
+          "title_en": "OpenAI reportedly lowers funding target for new round",
+          "body_zh": "据报道，OpenAI 最新一轮融资未能达到预期，公司已下调目标金额。具体数字尚未披露，市场对 AI 巨额投入的回报耐心正在接受考验。",
+          "body_en": "OpenAI's latest funding round appears to be falling short of expectations, with the company reportedly lowering its target. No figures have been disclosed, but patience with AI's massive spending is being tested.",
+          "ref": 10,
+          "source": "TechCrunch",
+          "tag": "市场",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
+        },
+        {
+          "title_zh": "法官放行 NAACP 诉 xAI 数据中心污染案",
+          "title_en": "Judge lets NAACP lawsuit over xAI data-center pollution proceed",
+          "body_zh": "一名联邦法官允许 NAACP 针对 xAI 数据中心的诉讼继续推进，该诉讼指控这家 SpaceX 旗下公司违反《清洁空气法》。这是 AI 基础设施扩张面临的首批环境诉讼之一。",
+          "body_en": "A federal judge allowed the NAACP's lawsuit against xAI's data center to move forward; the suit accuses the SpaceX-owned AI company of violating the Clean Air Act. It is among the first environmental challenges to AI infrastructure buildout.",
+          "ref": 9,
+          "source": "TechCrunch",
+          "tag": "监管",
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+        },
+        {
+          "title_zh": "Linux TCP 爆出 9.8 分严重漏洞",
+          "title_en": "Critical 9.8-severity Linux TCP use-after-free flaw disclosed",
+          "body_zh": "研究人员公开 CVE-2026-98432，这是 Linux IPv4 TCP 栈中的释放后使用漏洞，CVSS 评分 9.8。漏洞可被远程利用，运维方需尽快打补丁。",
+          "body_en": "Researchers disclosed CVE-2026-98432, a use-after-free in Linux's IPv4 TCP stack rated 9.8 on CVSS. The flaw is remotely exploitable, so patching should be urgent.",
+          "ref": 3,
+          "source": "Hacker News",
+          "tag": "安全",
+          "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "法国第三周抗议蔓延欧洲，32 万人上街",
+          "title_en": "Third weekend of French protests spreads across Europe",
+          "body_zh": "法国各地超过 32 万人示威，抗议生活成本上涨和公共服务恶化，部分抗议者与警察发生冲突。由青年带动的示威已蔓延至欧洲多国。",
+          "body_en": "More than 320,000 people demonstrated across France against the rising cost of living and deteriorating public services, with some clashes with police. The youth-led rallies have spread to several other European countries.",
+          "ref": 41,
+          "source": "BBC World",
+          "tag": "社会",
+          "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "刚果（金）埃博拉疫情死亡超 5000 人",
+          "title_en": "Ebola death toll tops 5,000 in DR Congo's deadliest outbreak",
+          "body_zh": "刚果（金）政府数据显示，该国最严重的一轮埃博拉疫情已致 5000 多人死亡，感染人数超过 1 万。这是近年来规模最大的埃博拉暴发。",
+          "body_en": "Government data show more than 5,000 people have died and over 10,000 infected in DR Congo's worst Ebola outbreak, the largest in recent years.",
+          "ref": 43,
+          "source": "BBC World",
+          "tag": "公共卫生",
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "加拿大与欧盟宣布成立“未来联盟”",
+          "title_en": "Canada and EU launch 'Alliance for the Future'",
+          "body_zh": "加拿大与欧盟在蒙特利尔峰会上宣布成立开放型联盟，称其为“公民得以繁荣的保护伞”，用以对冲不可预测的全球局势。其他“志同道合”国家可申请加入。",
+          "body_en": "Canada and the EU unveiled an open alliance at a Montreal summit, billed as a protective canopy for citizens and a hedge against an unpredictable world. Other like-minded countries are invited to join.",
+          "ref": 45,
+          "source": "The Guardian World",
+          "tag": "地缘",
+          "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "美国科技股大幅下挫，AI 相关支出逼近 1 万亿美元，纳斯达克开盘创两个多月新低。",
+    "中国与瑞士签署自贸协定升级议定书，双方将对近 300 个税目进一步降税。",
+    "汉密尔顿在 F1 墨西哥大奖赛为法拉利拿下首个杆位。"
+  ],
+  "quick_en": [
+    "US tech stocks fell sharply as AI-related spending nears $1 trillion, with the Nasdaq opening at a more than two-month low.",
+    "China and Switzerland signed an upgraded free-trade agreement, cutting tariffs on nearly 300 tariff lines.",
+    "Lewis Hamilton took his first Ferrari pole at the F1 Mexican Grand Prix."
+  ]
+}
