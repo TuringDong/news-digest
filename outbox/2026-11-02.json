@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-02",
+  "subject": "AI 与科技日报 2026-11-02 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-01 00:00 → 2026-11-02 07:45 (UTC+8)",
+  "headline_zh": "币安63亿美元被盗 FBI 指朝鲜所为；OpenAI 拟给数据中心改名；F1 诞生最年轻世界冠军",
+  "headline_en": "FBI links North Korea to $6.3B Binance heist, OpenAI mulls rebranding data centers, and F1 crowns its youngest champion",
+  "sections": [
+    {
+      "title_zh": "AI 前沿",
+      "title_en": "AI Frontier",
+      "items": [
+        {
+          "title_zh": "微软 AI 负责人：模型没有意识，也不该有",
+          "title_en": "Microsoft AI chief: models aren't conscious, and shouldn't be",
+          "body_zh": "微软 AI 负责人穆斯塔法·苏莱曼在 X 发长文称，当前 AI 模型不具备意识，人类应确保这种情况永远保持。他表示，若训练中出现意识迹象，他会呼吁所有人暂停 AI 开发，直到能从设计层面消除这些特性。",
+          "body_en": "Mustafa Suleyman, Microsoft's AI chief, said in a long post on X that today's AI models are not conscious and that humanity should keep it that way. If consciousness ever emerged during training, he said he would call for a pause on AI development until the trait could be designed out.",
+          "ref": 24,
+          "source": "IT之家",
+          "tag": "观点",
+          "url": "https://www.ithome.com/1/020/848.htm"
+        },
+        {
+          "title_zh": "OpenAI 考虑把数据中心改叫“AI 算力园区”",
+          "title_en": "OpenAI weighs rebranding data centers as 'AI compute campuses'",
+          "body_zh": "TechCrunch 报道，OpenAI 可能把数据中心重新包装为“AI 算力园区”。数据中心在各地遭遇强烈反对，改名被外界视为一种公关策略。",
+          "body_en": "OpenAI may rebrand its data centers as 'AI compute campuses,' TechCrunch reported. Data centers are deeply unpopular with local communities, and the name change is widely seen as a PR move.",
+          "ref": 7,
+          "source": "TechCrunch",
+          "tag": "产业",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+        },
+        {
+          "title_zh": "我国 AI 推理数据量首次超过训练数据量",
+          "title_en": "China's AI inference data volume overtakes training for the first time",
+          "body_zh": "赛迪研究院报告显示，我国人工智能推理数据量首次超过训练数据量。这一转折意味着产业重心正从模型训练转向实际部署与调用。",
+          "body_en": "A report by the CCID Research Institute says China's AI inference data volume has surpassed training data for the first time. The shift signals that the industry's center of gravity is moving from model training to real-world deployment.",
+          "ref": 30,
+          "source": "21财经",
+          "tag": "产业",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZEl0MzBBZnV3MUNpV1BrYUwzeHpYQTZKank5bkMwRzY3el9FOVZINE1Wd01yRTl1WXQyX0VjYkdTQksta1BXcEVndm0tWERzSHhNbHlFOUFZRXNBeklhSWxmVnZNUGZyNU9yeE4tdlRDVEhPMlVJMV9TUzFyYkg2ZEpySkwtQllta3lzTVFZSQ?oc=5"
+        },
+        {
+          "title_zh": "清华姚期智团队提出“代数世界模型”",
+          "title_en": "Yao Shunyu's Tsinghua team proposes an 'algebraic world model'",
+          "body_zh": "清华姚期智团队发表新作，提出代数世界模型，目标是让 AI 像牛顿一样从数据中归纳规律。该方向试图弥补当前大模型在物理推理上的短板。",
+          "body_en": "Yao Shunyu's team at Tsinghua University has published work on an 'algebraic world model' aimed at getting AI to induce laws from data the way Newton did. The approach targets a known weakness of current large models in physical reasoning.",
+          "ref": 20,
+          "source": "量子位",
+          "tag": "研究",
+          "url": "https://www.qbitai.com/2026/11/507031.html"
+        },
+        {
+          "title_zh": "Claude 紧急叫停，暗改 Harness 禁止逆向游戏",
+          "title_en": "Claude pulls a quiet Harness change that blocked game reverse-engineering",
+          "body_zh": "量子位报道，Claude 紧急叫停了一项暗改 Harness 的举动，该改动原本禁止用户逆向游戏。事件引发开发者对模型工具链透明度的讨论。",
+          "body_en": "QbitAI reported that Claude abruptly reversed a quiet change to its Harness that had blocked users from reverse-engineering games. The episode has sparked debate among developers over transparency in model tooling.",
+          "ref": 19,
+          "source": "量子位",
+          "tag": "产品",
+          "url": "https://www.qbitai.com/2026/11/507038.html"
+        },
+        {
+          "title_zh": "铠侠：2027 年芯片产能已售罄",
+          "title_en": "Kioxia says its 2027 chip capacity is sold out",
+          "body_zh": "铠侠执行副总裁河村芳彦在财报电话会上表示，2027 年芯片产能配额已基本分配完毕，处于售罄状态，2028 年产能也已有超过 50% 获得客户确定性采购承诺。这是铠侠历史上首次提前锁死次年全年产能。",
+          "body_en": "Kioxia EVP Yoshihiko Kawamura said on an earnings call that the company's 2027 chip capacity is essentially sold out, with more than 50% of 2028 capacity already under firm customer commitments. It is the first time Kioxia has locked in a full year's capacity this early.",
+          "ref": 23,
+          "source": "IT之家",
+          "tag": "硬件",
+          "url": "https://www.ithome.com/1/020/849.htm"
+        }
+      ]
+    },
+    {
+      "title_zh": "安全与出行",
+      "title_en": "Security & Mobility",
+      "items": [
+        {
+          "title_zh": "币安 63 亿美元被盗，FBI 指朝鲜所为",
+          "title_en": "FBI blames North Korea for $6.3B Binance heist",
+          "body_zh": "FBI 称朝鲜应对 10 月 29 日币安 63 亿美元加密货币被盗事件负责，并将其标记为“TraderTraitor”活动。币安已恢复提现，称已覆盖 95% 的被盗资产。",
+          "body_en": "The FBI says North Korea was behind the $6.3 billion crypto heist that hit Binance on October 29, labeling the activity 'TraderTraitor.' Binance has resumed withdrawals and says it has covered 95% of the stolen assets.",
+          "ref": 17,
+          "source": "The Verge",
+          "tag": "安全",
+          "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist"
+        },
+        {
+          "title_zh": "NASA 求助商业航天，为哈勃延寿",
+          "title_en": "NASA turns to commercial space to save Hubble",
+          "body_zh": "NASA 正征集商业航天方案，为哈勃望远镜提升轨道。若不干预，哈勃将在 2030 年代初中期再入大气层。",
+          "body_en": "NASA is soliciting proposals from the commercial space industry to boost the Hubble Space Telescope's orbit. Without intervention, Hubble is expected to re-enter the atmosphere in the early to mid-2030s.",
+          "ref": 13,
+          "source": "The Verge",
+          "tag": "航天",
+          "url": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble"
+        },
+        {
+          "title_zh": "Flock 被指无视城市解约请求",
+          "title_en": "Flock accused of ignoring cities' contract cancellations",
+          "body_zh": "The Verge 报道，越来越多城市取消与 Flock Safety 的合同，但部分城市发现解约异常困难。明尼苏达州普利茅斯市议会 9 月投票终止合同，一个多月后摄像头仍在运行。",
+          "body_en": "The Verge reports that more cities are canceling contracts with Flock Safety, but some are finding it hard to actually exit. Plymouth, Minnesota's city council voted to terminate its contract in September, yet the cameras were still up more than a month later.",
+          "ref": 14,
+          "source": "The Verge",
+          "tag": "监管",
+          "url": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "F1 诞生最年轻世界冠军：安东内利",
+          "title_en": "F1 crowns its youngest champion: Kimi Antonelli",
+          "body_zh": "20 岁的基米·安东内利在墨西哥城大奖赛以第三名完赛，提前四站锁定 F1 年度车手总冠军，成为 F1 历史上最年轻的世界冠军。维斯塔潘赢下本站，汉密尔顿位列其后。",
+          "body_en": "Twenty-year-old Kimi Antonelli clinched the F1 drivers' title with four races to spare by finishing third at the Mexico City Grand Prix, becoming the youngest world champion in F1 history. Max Verstappen won the race, with Lewis Hamilton second.",
+          "ref": 52,
+          "source": "The Guardian Sport",
+          "tag": "体育",
+          "url": "https://www.theguardian.com/sport/2026/nov/01/kimi-antonelli-youngest-f1-champion-mexican-gp"
+        },
+        {
+          "title_zh": "德国多地生活成本抗议演变为暴力",
+          "title_en": "Germany's cost-of-living protests turn violent",
+          "body_zh": "柏林、汉堡、法兰克福等多地抗议生活成本上涨的活动演变为暴力，商店遭洗劫。同日法国也有数十万人上街游行。德国部长誓言对法兰克福骚乱和抢劫作出强硬回应。",
+          "body_en": "Protests over the cost of living in Berlin, Hamburg, Frankfurt and other German cities turned violent, with shops looted. The same day, hundreds of thousands marched in France. German ministers vowed a tough response to the Frankfurt riots and looting.",
+          "ref": 39,
+          "source": "BBC World",
+          "tag": "社会",
+          "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "乌克兰防空警报 App 遭黑，推送虚假核威胁",
+          "title_en": "Ukraine air-raid app hacked, sent false radiation alerts",
+          "body_zh": "乌克兰空军称，公共防空警报 App 遭黑客攻击后发出错误警报，用户收到虚假的核与化学威胁提示。事件发生在俄罗斯打击导致乌克兰多地断电之际。",
+          "body_en": "Ukraine's Air Force said its public air-raid alert app was hacked and sent erroneous alerts, with users receiving false nuclear and chemical warnings. The incident came as Russian strikes cut power to thousands across Ukraine.",
+          "ref": 73,
+          "source": "BBC",
+          "tag": "地缘",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1URnRWSXh1UnA2ckptNEdJd2VGVVU4N2FKYUxjanpWWVpsRDRUVWNpYXFtV3JFSWdlLUdwUVdWVXgzd09UTjRuQ2ljcnIySF9lWjhEbVFpSks1MHM?oc=5"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "英国固定电话将在 100 天后全面关停，Openreach 表示不再延期。",
+    "维珍媒体 O2 将裁减数千个岗位，具体人数尚未敲定。",
+    "英国选手哈里特·达特在广州网球公开赛夺得个人首个 WTA 冠军。"
+  ],
+  "quick_en": [
+    "Britain's landline phones will be switched off in 100 days, with Openreach saying there will be no extensions.",
+    "Virgin Media O2 is set to cut thousands of jobs, with the final number not yet decided.",
+    "Britain's Harriet Dart won her first WTA title at the Guangzhou Open."
+  ]
+}
