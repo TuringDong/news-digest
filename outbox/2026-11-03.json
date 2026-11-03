@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-03",
+  "subject": "AI 与科技日报 2026-11-03 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-02 00:00 → 2026-11-03 07:45 (UTC+8)",
+  "headline_zh": "苹果iPhone Duo供货难料，Anthropic估值缩水，甲骨文发债200亿建AI",
+  "headline_en": "Apple can't predict iPhone Duo supply, Anthropic's IPO valuation slips, Oracle raises $20B for AI",
+  "sections": [
+    {
+      "title_zh": "AI 前沿",
+      "title_en": "AI Frontier",
+      "items": [
+        {
+          "title_zh": "Anthropic警告接近RSI，自我进化AI引担忧",
+          "title_en": "Anthropic warns it is close to RSI, or self-building AI",
+          "body_zh": "Anthropic公开警告，公司已非常接近“递归自我改进”（RSI）能力，即AI能高效训练自身、引发能力加速跃升。对AI末日论者而言，RSI意味着不可逆的灾难临界点。",
+          "body_en": "Anthropic has publicly warned that it is very close to recursive self-improvement (RSI), the point at which AI becomes good enough at training itself to trigger a dramatic acceleration in capabilities. For AI doomers, RSI represents an irreversible point of no return.",
+          "ref": 10,
+          "source": "TechCrunch",
+          "tag": "AI安全",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+        },
+        {
+          "title_zh": "科技股暴跌拖累Anthropic IPO估值降至1.5万亿",
+          "title_en": "Tech selloff drags Anthropic IPO valuation down to $1.5T",
+          "body_zh": "据《华尔街日报》报道，上周科技股暴跌后，计划参与Anthropic IPO的机构投资者向公司及顾问表示，本月晚些时候IPO估值应在1.5万亿至1.6万亿美元之间，远低于此前讨论的接近2万亿美元。纳斯达克指数已从高点回落约10%。",
+          "body_en": "After last week's tech selloff, institutional investors planning to join Anthropic's IPO have told the company and its advisers that the offering later this month should be valued at $1.5 trillion to $1.6 trillion, well below the nearly $2 trillion previously discussed, The Wall Street Journal reported. The Nasdaq has fallen about 10% from its high.",
+          "ref": 32,
+          "source": "IT之家",
+          "tag": "市场",
+          "url": "https://www.ithome.com/1/021/299.htm"
+        },
+        {
+          "title_zh": "甲骨文发股发债募资200亿美元，为AI扩张输血",
+          "title_en": "Oracle files to raise $20B in stock and bonds to fund AI buildout",
+          "body_zh": "甲骨文已提交文件，计划发行200亿美元新股和债券，为AI基础设施建设融资。这是又一家科技巨头为算力扩张大举加杠杆。",
+          "body_en": "Oracle has filed to sell $20 billion in new stock and bonds to finance its AI buildout, the latest sign of a tech giant levering up for compute expansion.",
+          "ref": 2,
+          "source": "Hacker News",
+          "tag": "市场",
+          "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
+        },
+        {
+          "title_zh": "OpenAI游说2028大选候选人：AI是必答题",
+          "title_en": "OpenAI tells 2028 candidates AI will be a must-answer issue",
+          "body_zh": "OpenAI首席全球事务官莱汉私下向约六名有意参加2028年美国总统大选的人士发送备忘录，称AI将成为左右下届竞选的重要议题，候选人需拿出完整的AI治理理念。他还警告民主党人，反对AI基础设施建设可能让其在政策争论中处于不利。",
+          "body_en": "OpenAI's chief global affairs officer, Chris Lehane, privately sent a memo to about six people considering a 2028 US presidential run, saying AI will be a defining campaign issue and candidates need a full AI governance agenda. He warned Democrats that opposing AI infrastructure could put them at a disadvantage.",
+          "ref": 36,
+          "source": "IT之家",
+          "tag": "政策",
+          "url": "https://www.ithome.com/1/021/295.htm"
+        },
+        {
+          "title_zh": "Trajectory融资4500万美元，让非技术专家也能训练AI",
+          "title_en": "Trajectory raises $45M to let nontechnical experts train AI models",
+          "body_zh": "成立一年的初创公司Trajectory完成4500万美元融资，估值达3亿美元。其目标是让不具备技术背景的领域专家也能参与AI模型训练。",
+          "body_en": "One-year-old startup Trajectory has raised $45 million at a $300 million valuation. Its goal is to let domain experts without technical backgrounds train AI models.",
+          "ref": 8,
+          "source": "TechCrunch",
+          "tag": "融资",
+          "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
+        },
+        {
+          "title_zh": "微软AI CEO警告行业勿追求建造有意识机器",
+          "title_en": "Microsoft AI CEO warns industry against building conscious machines",
+          "body_zh": "微软AI部门CEO公开警告行业，不应试图建造有意识的机器。这一表态与部分同行追逐通用人工智能的路线形成对照。",
+          "body_en": "Microsoft's AI CEO has publicly warned the industry against trying to build conscious machines, a stance that contrasts with some rivals' pursuit of artificial general intelligence.",
+          "ref": 87,
+          "source": "Google AI 检索",
+          "tag": "AI安全",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWTk3Q3dma3N6UGxMcFQtX0YwalZoUXlyYkM0Qmlvb3BJU284YTMyeU01V2lDTGtZdHVvMndxRTVZT0Jocl9KM2gxbUdoU21STWxVRWlSaUVzTXNBbjMxT25mQk9MWm1UMXZUTUVmbGo3cVRHSXhacUlIaEVQdHF0SjlZUDBoaVFYSm1OQ0s4YzZuRmh0b0FDNFA5S21pMmtoU3lhcVRickx5b1FvSUp5ajFxZWtsclprV0ZUUVJMRjM4dkJJ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_zh": "硬件与安全",
+      "title_en": "Hardware & Security",
+      "items": [
+        {
+          "title_zh": "苹果承认iPhone Duo供货紧张，何时缓解难预测",
+          "title_en": "Apple admits iPhone Duo supply crunch, can't predict when it eases",
+          "body_zh": "苹果COO萨比赫·汗在财报电话会上承认，折叠屏iPhone Duo供不应求，产能提升进展顺利，但供需何时恢复平衡仍难以预测。未预订的消费者发现发货要等到明年，Verizon甚至向受影响客户赠送礼品卡致歉。",
+          "body_en": "Apple COO Sabih Khan acknowledged on the earnings call that the foldable iPhone Duo is supply-constrained, saying ramping is progressing but it is hard to predict when supply and demand will balance. Buyers without preorders face shipping delays into next year, and Verizon is offering gift cards to affected customers.",
+          "ref": 33,
+          "source": "IT之家",
+          "tag": "硬件",
+          "url": "https://www.ithome.com/1/021/298.htm"
+        },
+        {
+          "title_zh": "苹果iPhone营收575.8亿美元创纪录，无标准版仍增长17%",
+          "title_en": "Apple posts record $57.58B iPhone revenue, up 17% without a standard model",
+          "body_zh": "苹果第四财季iPhone营收达575.8亿美元，同比增长17%，创下纪录，尽管本轮更新未发布标准版iPhone。与此同时，苹果库存因存储芯片成本飙升而大增154%，达到145亿美元。",
+          "body_en": "Apple reported record iPhone revenue of $57.58 billion for its fourth quarter, up 17% year over year, even without a standard iPhone in its latest refresh. Meanwhile, Apple's inventory surged 154% to $14.5 billion as memory chip costs climbed.",
+          "ref": 14,
+          "source": "The Verge",
+          "tag": "市场",
+          "url": "https://www.theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings"
+        },
+        {
+          "title_zh": "谷歌合作厂商在130万台机顶盒留后门，被切断合作",
+          "title_en": "Google partner built backdoor in 1.3M set-top boxes, ties cut",
+          "body_zh": "谷歌称其Android制造合作伙伴深圳微视通科技在130万台设备中秘密植入后门，将其变成僵尸网络。谷歌已拆除后门并终止与该厂商合作，禁止其生产或销售相关设备。",
+          "body_en": "Google says Android manufacturing partner Videostrong Technology, based in Shenzhen, secretly built a backdoor into 1.3 million devices and turned them into a botnet. Google has dismantled the backdoor and cut ties with the manufacturer, banning it from building or selling the devices.",
+          "ref": 16,
+          "source": "The Verge",
+          "tag": "安全",
+          "url": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down"
+        },
+        {
+          "title_zh": "Ubuntu关键Linux 0day远程漏洞近三周未修复",
+          "title_en": "Ubuntu still hasn't patched a critical Linux 0day RCE in almost 3 weeks",
+          "body_zh": "Ubuntu LTS内核被曝存在一个关键远程代码执行漏洞（CVE-2026-98432），但官方近三周仍未发布补丁。这给大量服务器和云环境留下暴露窗口。",
+          "body_en": "Ubuntu LTS kernels remain unpatched for a critical remote code execution flaw, CVE-2026-98432, almost three weeks after it was disclosed. The delay leaves a large number of servers and cloud environments exposed.",
+          "ref": 3,
+          "source": "Hacker News",
+          "tag": "安全",
+          "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432"
+        },
+        {
+          "title_zh": "德国称议员iPhone可能遭间谍软件攻击",
+          "title_en": "Germany says lawmakers' iPhones may have been hacked with spyware",
+          "body_zh": "德国议员和一名电影制作人收到苹果警告，称其手机可能已被黑客入侵。德国方面表示，这些iPhone可能遭到间谍软件攻击。",
+          "body_en": "German lawmakers and a filmmaker received Apple notifications warning that their phones may have been hacked. Germany says the iPhones may have been compromised with spyware.",
+          "ref": 11,
+          "source": "TechCrunch",
+          "tag": "安全",
+          "url": "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware/"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "俄军轰炸乌克兰援助中心致26死，泽连斯基称“极其恐怖”",
+          "title_en": "Russian bombing kills 26 at Ukraine aid centre, Zelensky calls it 'horrific'",
+          "body_zh": "乌克兰方面称，俄军至少9枚3000公斤级航空炸弹击中南部一处村庄的援助中心，造成26人死亡。泽连斯基称袭击“极其恐怖”。此前为期六天的停火结束后，赫尔松地区战斗已恢复。",
+          "body_en": "Ukraine says at least nine 3,000kg aerial bombs hit an aid centre in a southern village, killing 26 people. President Zelensky called the attack 'utterly horrific.' Fighting has returned to the Kherson region after the longest ceasefire of the war, a six-day truce.",
+          "ref": 45,
+          "source": "BBC World",
+          "tag": "地缘",
+          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "币安遭史上最大加密黑客攻击，用户提走36亿美元",
+          "title_en": "Binance users withdraw $3.6B after largest-ever crypto hack",
+          "body_zh": "币安在遭遇史上最大规模加密货币黑客攻击后冻结交易，用户已从平台提走36亿美元。该事件被指与朝鲜黑客组织有关。",
+          "body_en": "Binance users have withdrawn $3.6 billion after the exchange froze transactions following the largest-ever crypto hack, which has been linked to a North Korean group.",
+          "ref": 55,
+          "source": "BBC Business",
+          "tag": "安全",
+          "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "欧洲七国商店冰柜遭网络攻击，温度一度升至50摄氏度",
+          "title_en": "Freezers in seven European countries hit by cyber-attack, temperatures hit 50C",
+          "body_zh": "七个欧洲国家的多家商店冰柜遭到网络攻击，据报道柜内温度一度升至50摄氏度。事件引发对商用制冷设备联网安全的担忧。",
+          "body_en": "Freezers in shops across seven European countries were hit by a cyber-attack, with temperatures reportedly rising as high as 50C. The incident raises concerns about the security of connected commercial refrigeration equipment.",
+          "ref": 47,
+          "source": "BBC World",
+          "tag": "安全",
+          "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "苹果计划2027年推出1000美元家庭机器人，支持FaceTime和开关灯。",
+    "宝马将于2027年在德国推出城市道路辅助驾驶，对标特斯拉FSD。",
+    "Meta将于2027年3月停止Quest 2和Quest Pro的OS更新。"
+  ],
+  "quick_en": [
+    "Apple plans a $1,000 home robot in 2027 for FaceTime and switching on lights.",
+    "BMW will launch urban driver assist in Germany in 2027, taking on Tesla's FSD.",
+    "Meta will end OS updates for Quest 2 and Quest Pro by March 2027."
+  ]
+}
