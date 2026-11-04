@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-04",
+  "subject": "AI 与科技日报 2026-11-04 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-03 00:00 → 2026-11-04 07:45 (UTC+8)",
+  "headline_zh": "美科技巨头隐性AI债务半年增90%至3.2万亿美元；谷歌对拒用AI学校断供搜索；币安披露63亿美元被盗细节",
+  "headline_en": "Hidden AI debt at US tech giants jumps 90% to $3.2T in six months; Google cuts search access for schools that reject AI; Binance details $6.3B hack",
+  "sections": [
+    {
+      "title_zh": "AI 前沿",
+      "title_en": "AI Frontier",
+      "items": [
+        {
+          "title_zh": "美科技巨头隐性AI债务半年膨胀90%至3.2万亿美元",
+          "title_en": "Hidden AI debt at US tech giants swells 90% to $3.2 trillion in six months",
+          "body_zh": "据日经报道，美国大型科技公司为AI基础设施背负的隐性债务在六个月内增长90%，达到3.2万亿美元。这类表外或非传统融资安排正在成为AI算力竞赛中越来越大的风险敞口。",
+          "body_en": "Nikkei reports that hidden debt tied to AI infrastructure at major US tech companies has grown 90% in six months to $3.2 trillion. These off-balance-sheet and alternative financing arrangements are becoming a growing exposure in the AI compute race.",
+          "ref": 3,
+          "source": "Hacker News",
+          "tag": "市场",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
+        },
+        {
+          "title_zh": "Anthropic研发FlashProve，验证AI模型身份",
+          "title_en": "Anthropic is building FlashProve to verify AI model identity",
+          "body_zh": "Anthropic正在开发名为FlashProve的系统，让任何人都能核验一段AI回复确实来自它所声称的模型。若落地，这将成为模型溯源和防冒充的基础设施。",
+          "body_en": "Anthropic is developing a system called FlashProve that would let anyone check whether an AI response really came from the model it claims to be from. If it works, it could become core infrastructure for model provenance and anti-impersonation.",
+          "ref": 7,
+          "source": "TechCrunch",
+          "tag": "安全",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+        },
+        {
+          "title_zh": "谷歌：学校不用AI工具，就连搜索一起停",
+          "title_en": "Google will cut off Search for schools that reject its AI tools",
+          "body_zh": "谷歌表示，拒绝采用其AI工具的学校将同时失去搜索服务访问权限。多家媒体将此解读为用搜索捆绑AI进校园，引发对教育场景选择权的争议。",
+          "body_en": "Google says schools that decline its AI tools will also lose access to Search. Multiple outlets framed it as bundling AI into classrooms through search, raising questions about schools' freedom to opt out.",
+          "ref": 21,
+          "source": "Ars Technica",
+          "tag": "政策",
+          "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/"
+        },
+        {
+          "title_zh": "币安复盘63亿美元被盗：假面试加内部AI工具",
+          "title_en": "Binance postmortem: fake job interviews and an internal AI tool behind $6.3B heist",
+          "body_zh": "币安公布迄今最大加密盗窃案细节：攻击者通过合法招聘平台接触工程师，安排假面试，并利用内部AI工具，历时数月完成攻击。安全研究者此前多年就警告过朝鲜相关手法。",
+          "body_en": "Binance detailed the largest crypto theft to date: attackers reached an engineer through a legitimate job platform, staged bogus interviews and exploited an internal AI tool over several months. Researchers had warned for years about North Korea-linked tactics.",
+          "ref": 17,
+          "source": "The Verge",
+          "tag": "安全",
+          "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained"
+        },
+        {
+          "title_zh": "数据中心抢电，退役喷气发动机被拿来发电",
+          "title_en": "Data centers turn to retired jet engines as grid waits stretch years",
+          "body_zh": "并网和新涡轮机排队要等数年，数据中心建设方开始启用退役喷气发动机发电。这种方案效率更低、排放更差，属于应急之选。",
+          "body_en": "With grid connections and new turbines years away, data center builders are turning to once-discarded jet engines for power. The stopgap is less efficient and dirtier than the alternatives.",
+          "ref": 8,
+          "source": "TechCrunch",
+          "tag": "硬件",
+          "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+        },
+        {
+          "title_zh": "Canva裁员22%，涉及1271人",
+          "title_en": "Canva lays off 22% of staff, affecting 1,271 people",
+          "body_zh": "Canva联合创始人兼CEO Melanie Perkins宣布，公司将裁撤1271个岗位，占员工总数22%，部分岗位将调整或要求迁往集中办公地。这是设计工具赛道少见的大规模收缩。",
+          "body_en": "Canva co-founder and CEO Melanie Perkins announced cuts affecting 1,271 people, or 22% of staff, with some roles changed or asked to relocate to central hubs. It is a rare large-scale contraction in the design-tool sector.",
+          "ref": 14,
+          "source": "The Verge",
+          "tag": "市场",
+          "url": "https://www.theverge.com/tech/1025971/canva-changes-layoffs"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "西班牙列车相撞致至少69死，交通部长辞职",
+          "title_en": "Spain transport minister resigns after train crash kills at least 69",
+          "body_zh": "马德里以南发生的列车相撞事故已造成至少69人死亡、数十人受伤。西班牙交通部长在事故数日后辞职。",
+          "body_en": "A train collision south of Madrid has killed at least 69 people and injured dozens. Spain's transport minister resigned days after the crash.",
+          "ref": 45,
+          "source": "BBC World",
+          "tag": "事故",
+          "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "欧洲七架航班遭疑似炸弹威胁",
+          "title_en": "Seven flights across Europe hit by suspected bomb threats",
+          "body_zh": "波兰、西班牙、保加利亚和意大利的航班分别收到威胁后接受爆炸物检查。多国机场运行受到干扰。",
+          "body_en": "Flights in Poland, Spain, Bulgaria and Italy were checked for explosives after separate threats. Airport operations were disrupted across several countries.",
+          "ref": 46,
+          "source": "BBC World",
+          "tag": "安全",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "巴西发布全球首份化石燃料退出路线图",
+          "title_en": "Brazil publishes first global roadmap for phasing out fossil fuels",
+          "body_zh": "COP30主办国巴西发布路线图，称各国无需等待新技术或经济条件变化即可开始摆脱煤炭、石油和天然气。其意图是把气候议程从谈判推向执行。",
+          "body_en": "Brazil, host of COP30, published a roadmap arguing countries can start breaking dependence on coal, oil and gas now without waiting for new technology or economic shifts. The aim is to move the climate agenda from negotiation to implementation.",
+          "ref": 52,
+          "source": "The Guardian World",
+          "tag": "气候",
+          "url": "https://www.theguardian.com/environment/2026/nov/03/brazil-first-global-roadmap-phasing-out-fossil-fuels"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "欧盟法院顾问警告谷歌AI聊天机器人可能违反版权规则，谷歌遇挫。",
+    "苹果Safari 27.3引入自适应深色模式。",
+    "美国中期选举投票日，竞选开支据报达120亿美元创纪录。"
+  ],
+  "quick_en": [
+    "An EU court adviser warned Google's AI chatbot may breach copyright rules, a setback for the company.",
+    "Apple's Safari 27.3 introduces Adaptive Dark Mode.",
+    "US midterm elections are underway, with campaign spending reported at a record $12 billion."
+  ]
+}
