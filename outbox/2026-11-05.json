@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-05",
+  "subject": "AI 与科技日报 2026-11-05 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-04 00:00 → 2026-11-05 07:45 (UTC+8)",
+  "headline_zh": "美国中期选举民主党大胜，AI与数据中心遭选民反弹；AMD数据中心营收翻倍，预计首超英特尔",
+  "headline_en": "Democrats sweep US midterms as voters push back on AI and data centers; AMD data center revenue doubles, expects to outsell Intel for the first time",
+  "sections": [
+    {
+      "title_zh": "AI 与科技",
+      "title_en": "AI & Tech",
+      "items": [
+        {
+          "title_zh": "美国中期选举：选民对AI和数据中心说不",
+          "title_en": "US midterms: voters reject AI and data centers",
+          "body_zh": "民主党在中期选举中拿下参众两院，多地公投通过限制AI和数据中心的措施。科技行业辩称这是“反特朗普”而非“反科技”，但《纽约时报》认为选民已明确拒绝AI，行业将进入严格审视期。",
+          "body_en": "Democrats won both chambers of Congress and voters in multiple states approved measures restricting AI and data centers. Tech lobbyists argue the backlash is anti-Trump rather than anti-tech, but the New York Times says voters clearly rejected AI and an era of scrutiny is beginning.",
+          "ref": 89,
+          "source": "Google AI 检索",
+          "tag": "政策",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZ0FPcWhsTlBRblVjalZwNFVSenZnMDhzS3E1eVZyNlh2Wk5zZ3Nja1hUYVlpVjdBMjk1U2hDdmx4cmJXQ3ZqOXhnYVM4N0R6bl9Sc0hGcVlRWU5zYnhTNXZ5alBERVNETnRXTmJlRXJHTmdDX1VjYjROTlVyQ0l5VzNoVWN1M19PNGlmYQ?oc=5"
+        },
+        {
+          "title_zh": "AMD预计第四季度营收首超英特尔",
+          "title_en": "AMD expects to outsell Intel for the first time in Q4",
+          "body_zh": "AMD第四季度营收指引为170亿美元，高于英特尔同期预测，将是历史上首次单季营收超过老对手。其数据中心业务本季同比翻倍，但游戏业务营收大跌40%。",
+          "body_en": "AMD guided to $17 billion in Q4 revenue, above Intel's projection for the same period, which would mark the first time it has outsold its rival in a quarter. Data center revenue doubled year over year, while gaming revenue fell 40%.",
+          "ref": 6,
+          "source": "Hacker News",
+          "tag": "市场",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections"
+        },
+        {
+          "title_zh": "Meta收购AI编程初创公司Conductor",
+          "title_en": "Meta acquires AI coding startup Conductor",
+          "body_zh": "Conductor允许软件工程师部署多支AI智能体团队，并行处理项目不同部分。这是Meta在AI编程赛道的最新布局，具体交易金额未披露。",
+          "body_en": "Conductor lets software engineers deploy teams of AI agents to work on different parts of a project simultaneously. The deal is Meta's latest move in AI coding; the purchase price was not disclosed.",
+          "ref": 12,
+          "source": "TechCrunch",
+          "tag": "并购",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+        },
+        {
+          "title_zh": "高通押注数据中心，手机芯片销售下滑约20%",
+          "title_en": "Qualcomm bets on data centers as smartphone sales sink",
+          "body_zh": "高通在2026财年第四季度财报电话会上表示，智能手机芯片销售同比下滑约20%，公司将通过亚马逊、Meta等合作伙伴进军AI数据中心业务。",
+          "body_en": "On its Q4 2026 earnings call, Qualcomm said smartphone chip sales are down about 20% year over year and outlined plans to enter the AI data center business through partnerships with Amazon and Meta.",
+          "ref": 13,
+          "source": "The Verge",
+          "tag": "硬件",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers"
+        },
+        {
+          "title_zh": "苹果削减内部AI使用预算以控制成本",
+          "title_en": "Apple cuts internal AI budgets to control costs",
+          "body_zh": "据彭博报道，苹果正在削减员工使用AI的预算，以控制支出。此举与行业普遍加大AI投入的趋势相反，具体削减幅度尚不清楚。",
+          "body_en": "Bloomberg reports that Apple is cutting budgets for employee AI usage as part of a cost-control push. The move runs counter to the industry's broader AI spending surge; the size of the cuts was not immediately clear.",
+          "ref": 90,
+          "source": "Google AI 检索",
+          "tag": "公司",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObTJ5aVk4RUE4ZGFvVHBYTU9fc1FMamxLMXZ6QmZpZ1EtSnpLNXVlMjFNU2lyOWVSZGNMc1NPQmRkRlRzY3g0M2tjME1UOTAycFV6NXhBMF9rNFJaNEEydXBlYmd4U0tmeWhyaHR0UDIwRVplTVI5Z3g4bnRGMVdoUFVYMkJGcHZmZm5FcnR2b1VkdmxTYVVmUi1pdUF4QTJOQkhIVkVUOHpxYnltcmlhd1VSaElENFNuUUg1NnBGbGd1OWY0cnJmbFdTYlk?oc=5"
+        },
+        {
+          "title_zh": "Uber：几乎没人用AI智能体叫车",
+          "title_en": "Almost no one uses AI agents to book Uber rides",
+          "body_zh": "Uber表示，上季度最繁忙的一周里，只有4个人通过AI智能体完成叫车。这说明尽管AI智能体概念火热，实际消费端采用率仍然极低。",
+          "body_en": "Uber said that during its busiest week last quarter, only four people booked a ride using an AI agent. The figure highlights how low consumer adoption remains despite the hype around AI agents.",
+          "ref": 9,
+          "source": "TechCrunch",
+          "tag": "应用",
+          "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/"
+        },
+        {
+          "title_zh": "ChatGPT新增GIF生成与编辑功能",
+          "title_en": "ChatGPT adds GIF generation and editing",
+          "body_zh": "OpenAI随Images 2.6模型推出新功能，ChatGPT可根据提示词或上传照片生成GIF，支持调整动画速度、逐帧编辑和分享。OpenAI称新模型出图速度也更快。",
+          "body_en": "OpenAI rolled out the feature alongside its Images 2.6 model, letting ChatGPT create GIFs from prompts or uploaded photos, adjust animation speed, edit individual frames and share them. OpenAI says the new model also generates images faster.",
+          "ref": 32,
+          "source": "IT之家",
+          "tag": "产品",
+          "url": "https://www.ithome.com/1/022/486.htm"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "俄罗斯袭击乌克兰村庄援助点，死亡人数升至40人",
+          "title_en": "Russian strike on Ukrainian aid site kills at least 40",
+          "body_zh": "乌克兰称，俄军对一村庄援助点发动“双击”式轰炸，已确认至少40人死亡，约30人可能仍被埋在废墟下。泽连斯基称这是战争中最致命的袭击之一。",
+          "body_en": "Ukraine says Russia carried out a double-tap strike on an aid site in a village, killing at least 40 people, with about 30 possibly still under the rubble. Zelensky called it one of the war's deadliest attacks.",
+          "ref": 47,
+          "source": "BBC World",
+          "tag": "地缘",
+          "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "法国血库冷藏设备遭黑客攻击",
+          "title_en": "French blood bank cold storage hit by hackers",
+          "body_zh": "法国血液机构EFS表示，储存血液的冷库受到黑客攻击影响。据报道，欧洲多家超市同期也遭到网络攻击，幕后黑手尚不清楚。",
+          "body_en": "France's blood establishment EFS said cold rooms storing blood were affected by a cyberattack. Reports say European supermarkets were hit around the same time; those behind the attacks remain unknown.",
+          "ref": 48,
+          "source": "BBC World",
+          "tag": "安全",
+          "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "马斯克中期选举投入近5亿美元，共和党仍败选",
+          "title_en": "Musk's nearly $500m midterm spending fails to deliver Republican wins",
+          "body_zh": "马斯克在2026年美国中期选举中花费近5亿美元，创个人选举支出纪录，但共和党在关键选战中落败。BBC称这笔钱未能转化为选票。",
+          "body_en": "Elon Musk spent nearly $500 million in the 2026 US midterms, an individual election spending record, but Republicans lost key races. The BBC says the money did not translate into votes.",
+          "ref": 56,
+          "source": "BBC Business",
+          "tag": "政治",
+          "url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "LIV高尔夫在投资方撤资后宣布将关闭。",
+    "英镑升至脱欧公投以来最高水平。",
+    "第九届中国国际进口博览会在上海开幕。"
+  ],
+  "quick_en": [
+    "LIV Golf is set to wind down after its backers withdrew support.",
+    "The pound rose to its highest level since the Brexit referendum.",
+    "The ninth China International Import Expo opened in Shanghai."
+  ]
+}
