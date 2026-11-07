@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-07",
+  "subject": "AI 与科技日报 2026-11-07 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-06 00:00 → 2026-11-07 07:50 (UTC+8)",
+  "headline_zh": "OpenAI 估值 1.25 万亿美元，AI 股暴跌后反弹，中期选举改写监管预期",
+  "headline_en": "OpenAI hits $1.25T valuation, AI stocks rebound after historic rout, and midterms reshape regulation bets",
+  "sections": [
+    {
+      "title_zh": "AI 前沿",
+      "title_en": "AI Frontier",
+      "items": [
+        {
+          "title_zh": "OpenAI 首期融资 110 亿美元，估值 1.25 万亿美元",
+          "title_en": "OpenAI raises $11B first tranche at $1.25T valuation",
+          "body_zh": "据彭博社报道，OpenAI 新一轮融资已完成约 110 亿美元首期款项，估值 1.25 万亿美元，剩余部分预计几周内完成，总额最高或达 200 亿美元。此前公司曾计划以 1.4 万亿美元估值融资至少 300 亿美元，因 AI 股票遭抛售而缩水。",
+          "body_en": "OpenAI has banked roughly $11 billion of a new round at a $1.25 trillion valuation, with the rest expected to close in coming weeks and the total possibly reaching $20 billion, Bloomberg reported. The company had originally sought at least $30 billion at a $1.4 trillion valuation before the AI stock selloff forced it to scale back.",
+          "ref": 34,
+          "source": "IT之家",
+          "tag": "市场",
+          "url": "https://www.ithome.com/1/023/612.htm"
+        },
+        {
+          "title_zh": "Anthropic IPO 估值预期低至 1.1 万亿美元",
+          "title_en": "Anthropic IPO buyers see valuation as low as $1.1T",
+          "body_zh": "彭博社报道，在 AI 板块大幅回调后，Anthropic 的 IPO 估值预期承压，潜在买家给出的估值低至 1.1 万亿美元。这家 Claude 开发商正与 OpenAI 争夺上市窗口。",
+          "body_en": "Bloomberg reports that valuation expectations for Anthropic's IPO have come under pressure after the AI rout, with prospective buyers pricing it as low as $1.1 trillion. The Claude maker is racing OpenAI to the public markets.",
+          "ref": 4,
+          "source": "Hacker News",
+          "tag": "市场",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+        },
+        {
+          "title_zh": "中期选举后，民主党准备密集推出 AI 法案",
+          "title_en": "Democrats plan flood of AI bills after midterm wins",
+          "body_zh": "路透社报道，民主党在中期选举获胜后正筹备大批 AI 立法。本周 41 项数据中心相关公投中，除一项外均通过更严格的开发限制，AI 行业面临约两年的政策逆风。",
+          "body_en": "Reuters reports Democrats are preparing a wave of AI legislation after their midterm victories. Of 41 data-center ballot measures this week, all but one backed tighter development restrictions, setting up a rough two years for the industry.",
+          "ref": 88,
+          "source": "Google AI 检索",
+          "tag": "政策",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5"
+        },
+        {
+          "title_zh": "Anthropic：Claude 智能体可靠“做梦”变聪明",
+          "title_en": "Anthropic says Claude agents get smarter by 'dreaming'",
+          "body_zh": "Anthropic 发布研究《The components of agent memory》，把智能体记忆拆成会话日志、记忆笔记、知识表征和上下文注入四层。研究提出“做梦”机制：模型在两次交互的空闲时间回顾日志、纠错并更新知识库，从而提升长周期任务表现。",
+          "body_en": "Anthropic published research breaking agent memory into four layers: session logs, memory notes, knowledge representations and context injection. It proposes a 'dreaming' mechanism in which the model reviews logs, fixes errors and updates its knowledge base between interactions, improving long-horizon task performance.",
+          "ref": 33,
+          "source": "IT之家",
+          "tag": "研究",
+          "url": "https://www.ithome.com/1/023/613.htm"
+        },
+        {
+          "title_zh": "Chainalysis 承认全部客户凭证与令牌被窃",
+          "title_en": "Chainalysis says hackers stole credentials for all customers",
+          "body_zh": "区块链分析公司 Chainalysis 表示，一次“多线网络攻击”中，攻击者窃取了其全部客户的凭证和令牌，攻击手段包括 AI 智能体和路径上数据截取。",
+          "body_en": "Blockchain analytics firm Chainalysis said a 'multifront cyberattack' stole credentials and tokens belonging to all of its customers, with AI agents and on-path data interception among the techniques used.",
+          "ref": 18,
+          "source": "Ars Technica",
+          "tag": "安全",
+          "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/"
+        },
+        {
+          "title_zh": "数百个 Artex AI 黑客工具暴露在公网",
+          "title_en": "Hundreds of Artex AI hacking tools exposed online",
+          "body_zh": "安全研究人员发现数百台托管渗透测试工具 Artex 的服务器直接暴露在互联网上，任何人都能访问这套黑客工具。",
+          "body_en": "Security researchers found hundreds of servers hosting the Artex penetration-testing tool exposed directly to the internet, letting anyone access the hacking toolkit.",
+          "ref": 9,
+          "source": "TechCrunch",
+          "tag": "安全",
+          "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+        },
+        {
+          "title_zh": "苹果：超 10 万款应用已适配 iPhone Duo",
+          "title_en": "Apple: over 100,000 apps optimized for iPhone Duo",
+          "body_zh": "苹果全球开发者关系副总裁苏珊・普雷斯科特向 CNET 表示，App Store 上已有超过 10 万款适配 iPhone Duo 折叠屏的应用，每天还有成千上万款新应用上架。过去一个月，全球 19 座城市有数千名开发者参加了线下技术工坊。",
+          "body_en": "Apple's VP of worldwide developer relations, Susan Prescott, told CNET that more than 100,000 apps are now optimized for the iPhone Duo foldable, with thousands more arriving daily. Thousands of developers joined hands-on workshops in 19 cities over the past month.",
+          "ref": 30,
+          "source": "IT之家",
+          "tag": "硬件",
+          "url": "https://www.ithome.com/1/023/616.htm"
+        }
+      ]
+    },
+    {
+      "title_zh": "市场与地缘",
+      "title_en": "Markets & Geopolitics",
+      "items": [
+        {
+          "title_zh": "AI 股蒸发 2.5 万亿美元后反弹",
+          "title_en": "AI stocks rebound after $2.5 trillion rout",
+          "body_zh": "《华尔街日报》称华尔街经历了一场 2.5 万亿美元的“AI 现实检验”，科技股历史性暴跌；随后 AI 股在周五反弹。投资者此前担忧民主党胜选会拖慢 AI 发展，但对该行业的疑虑其实已积累多时。",
+          "body_en": "The Wall Street Journal described a $2.5 trillion 'AI reality check' as tech stocks suffered a historic rout, before AI shares climbed back on Friday. Investors had fretted that a Democratic win would slow AI development, but doubts about the sector had been building for some time.",
+          "ref": 90,
+          "source": "Google AI 检索",
+          "tag": "市场",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVjhNSkxWaHNDNkkxUE51NVdvLXhyVzJ5ZGRmUHNrSUlNcG05TXRBZ2JVV3RPWk45RUxySTlZME9BRklSTFBTTzJUX294eHF5MXRkeGRMejl4SmY2MFJCckxRcmZnWXVoYnV5ang4VDZmenBqbU1Ld0NKSWIyMGdDOUxZaVhUWFVfRzg1eHlwbnk3OENMVFVybkVxc3k0b1ExMlY0WVdoSGFSdGFPclpsdWFTUHdfaVN6cnJaRUo4WFVEUQ?oc=5"
+        },
+        {
+          "title_zh": "纽约时报：中国情报机构招募高管刺探黄仁勋",
+          "title_en": "NYT: China recruited exec to spy on Jensen Huang",
+          "body_zh": "据《纽约时报》报道，中国国家安全部招募 Megaspeed 高管 Alice Huang，刺探英伟达 CEO 黄仁勋的信息，并试图影响公司推动最先进芯片出口。报道细节尚待独立确认。",
+          "body_en": "The New York Times reported that China's Ministry of State Security recruited Megaspeed executive Alice Huang to gather information on Nvidia CEO Jensen Huang and potentially sway the company on exporting its most advanced chips. The details have yet to be independently confirmed.",
+          "ref": 14,
+          "source": "The Verge",
+          "tag": "地缘",
+          "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
+        },
+        {
+          "title_zh": "五角大楼向电池初创 6K 提供 2.5 亿美元贷款",
+          "title_en": "Pentagon offers battery startup 6K a $250M loan",
+          "body_zh": "五角大楼有条件批准向电池材料初创公司 6K 提供 2.5 亿美元贷款，帮助其扩大微波等离子体电池材料制造工艺并建设美国工厂。",
+          "body_en": "The Pentagon has conditionally approved a $250 million loan to battery-materials startup 6K to scale its microwave-plasma manufacturing process and build a US factory.",
+          "ref": 12,
+          "source": "TechCrunch",
+          "tag": "产业",
+          "url": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "肯尼亚邪教头目因杀害 191 人被判 200 年",
+          "title_en": "Kenyan cult leader sentenced to 200 years for 191 murders",
+          "body_zh": "肯尼亚邪教头目 Paul Mackenzie 因下令信徒在森林中饿死孩子以“见耶稣”，被判处 200 年监禁，涉及 190 名儿童和 1 名成年人的死亡。这是近年来最严重的邪教灾难之一。",
+          "body_en": "Paul Mackenzie, leader of a Kenyan doomsday sect who ordered followers to starve their children to death in a forest so they could 'meet Jesus', was sentenced to 200 years for the murders of 190 children and one adult — one of the worst cult disasters in recent memory.",
+          "ref": 49,
+          "source": "The Guardian World",
+          "tag": "社会",
+          "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie"
+        },
+        {
+          "title_zh": "南非地方选举：非国大遭遇重挫",
+          "title_en": "ANC faces bruising defeat in South African local elections",
+          "body_zh": "在已统计超过 80% 选票的情况下，执政党非国大全国得票率跌破三分之一，比 2021 年地方选举低近 14 个百分点。这个曼德拉的政党正面临又一次重大挫败。",
+          "body_en": "With more than 80% of ballots counted, the ANC has fallen below a third of the national vote, almost 14 percentage points below its 2021 result. Nelson Mandela's party is heading for another heavy defeat.",
+          "ref": 50,
+          "source": "The Guardian World",
+          "tag": "政治",
+          "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections"
+        },
+        {
+          "title_zh": "巴拉圭总统弹劾案开审，总统缺席",
+          "title_en": "Paraguay's president skips impeachment trial",
+          "body_zh": "巴拉圭参议院就 Ueno 银行倒闭引发的金融危机启动弹劾审判，总统 Peña 未出席。多家媒体报道称其已被弹劾，具体程序结果尚待确认。",
+          "body_en": "Paraguay's Senate opened an impeachment trial over the financial crisis triggered by the collapse of Ueno bank, and President Peña did not appear. Multiple outlets report he has been impeached, though the procedural outcome still needs confirmation.",
+          "ref": 83,
+          "source": "Google News World",
+          "tag": "地缘",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaDFVTWxqNmxoN1JVVzVfSVdkQ1hSOXFmbkxBUnk3Y3FFaFZMZ3RFU1R1eUFiZTlUWG5Vdk9NU2NrRF9LSHVlaklHTUlpS2ZWMXRuNnRBb0JacVkxTEhpdmVTRlRKSDlQUWpZU3ZwVjVES2VCZU9WbGVWdXZRNVlRaGZadUYtTXRBVzZrbWhLQUFDb1oxTlF0MEpBRFlubEhVNmJvcnNLRW1zdEhqdmEwc3FTbGpJMXVHSGNYRmRfUkpiWFhGa3NHUnVxeG0?oc=5"
+        },
+        {
+          "title_zh": "智利导演塞巴斯蒂安・莱里奥去世，享年 52 岁",
+          "title_en": "Chilean director Sebastián Lelio dies at 52",
+          "body_zh": "执导奥斯卡最佳外语片《普通女人》的智利导演 Sebastián Lelio 在圣地亚哥家中去世，享年 52 岁。他的英语作品包括《格洛丽亚 Bell》和《奇迹》。",
+          "body_en": "Sebastián Lelio, the Chilean director behind the Oscar-winning trans drama A Fantastic Woman, died at his home in Santiago aged 52. His English-language films included Gloria Bell and The Wonder.",
+          "ref": 51,
+          "source": "The Guardian World",
+          "tag": "文化",
+          "url": "https://www.theguardian.com/film/2026/nov/06/sebastian-lelio-chilean-director-dies"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "FAA 计划到 2028 年底在 435 个站点淘汰软盘系统，称其为“历史性”升级",
+    "价值 1140 万美元的英伟达硬件在奥克兰运往得州途中失踪，两个月后仍无人被捕",
+    "教皇利奥十四世在肺癌手术数周后启程南美巡访，行程海拔超过 1.1 万英尺"
+  ],
+  "quick_en": [
+    "The FAA plans to retire floppy disks at 435 sites by the end of 2028, calling it a 'historic' upgrade",
+    "$11.4M of Nvidia hardware vanished en route from Oakland to Texas, with no arrests two months on",
+    "Pope Leo XIV began a South American tour reaching above 11,000 feet, weeks after lung cancer surgery"
+  ]
+}
