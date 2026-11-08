@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-08",
+  "subject": "AI 与科技日报 2026-11-08 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-07 00:00 → 2026-11-08 07:45 (UTC+8)",
+  "headline_zh": "中期选举后AI股震荡，以色列组阁破局，克拉科夫枪击致九死",
+  "headline_en": "AI stocks swing post-midterms, Israel's Netanyahu rival tapped to form government, Krakow shooting leaves nine dead",
+  "sections": [
+    {
+      "title_zh": "AI 与科技",
+      "title_en": "AI & Tech",
+      "items": [
+        {
+          "title_zh": "中期选举后AI股先跌后涨，数据中心成政治靶子",
+          "title_en": "AI stocks whipsaw after midterms as data centers become political target",
+          "body_zh": "美国中期选举后，投资者因担忧民主党胜选将拖慢AI发展而抛售科技股，随后AI股又出现反弹。BBC分析称，对AI监管加强的恐惧是这轮抛售的导火索，但市场对AI泡沫的担忧已积累多时。Anthropic的IPO路演也撞上了这波针对数据中心的反弹情绪。",
+          "body_en": "Investors sold off tech shares on fears that Democratic midterm wins would slow AI development, then AI stocks rebounded. The BBC said fear of tighter AI regulation triggered the selloff, but unease about the industry had been building for some time. Anthropic's IPO roadshow also ran into a backlash against data centers.",
+          "ref": 41,
+          "source": "BBC Business",
+          "tag": "市场",
+          "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "美情报备忘录：中国国安招募女高管监视黄仁勋",
+          "title_en": "US memo: Chinese intelligence recruited executive to spy on Nvidia CEO",
+          "body_zh": "据TechCrunch看到的一份美国情报备忘录，中国国家安全部据称招募了一名女性科技高管，目的是监视英伟达CEO黄仁勋。该备忘录今年早些时候在美方内部流传，涉及的公司为Megaspeed。此事尚待美方官方确认。",
+          "body_en": "A US intelligence memo reportedly claims that China's Ministry of State Security recruited a female tech executive to spy on Nvidia CEO Jensen Huang. The memo circulated earlier this year and involves the company Megaspeed, according to TechCrunch. The claim has not been officially confirmed.",
+          "ref": 2,
+          "source": "TechCrunch",
+          "tag": "安全",
+          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+        },
+        {
+          "title_zh": "英伟达H200对华出口：获批中企办公室竟是空壳",
+          "title_en": "Nvidia's approved China chip buyer operates from an empty office",
+          "body_zh": "《纽约时报》调查发现，获准采购英伟达H200 AI芯片的中国公司New Matrix，其办公室竟是空荡荡的灰色空壳。外界质疑美国商务部和英伟达在审核对华出口客户时未尽到尽职调查义务。",
+          "body_en": "The New York Times found that New Matrix, a Chinese firm cleared to buy Nvidia's H200 AI chips, operates from an empty gray shell of an office. Critics question whether the Commerce Department and Nvidia are doing enough due diligence on Chinese customers.",
+          "ref": 11,
+          "source": "The Verge",
+          "tag": "地缘",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+        },
+        {
+          "title_zh": "币安CFO离职，距63亿美元黑客案仅一周多",
+          "title_en": "Binance CFO exits barely a week after $6.3 billion hack",
+          "body_zh": "币安首席财务官宣布离职，称将“追求新的冒险”。此时距离黑客从币安用户处盗走价值63亿美元的加密货币仅过去一周多。这是加密行业史上规模最大的盗窃案之一。",
+          "body_en": "Binance's CFO is leaving the exchange to 'pursue a new venture,' the company said. The announcement came barely more than a week after hackers stole $6.3 billion worth of cryptocurrency from Binance users, one of the largest heists in crypto history.",
+          "ref": 4,
+          "source": "TechCrunch",
+          "tag": "安全",
+          "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/"
+        },
+        {
+          "title_zh": "红杉关闭Scouts项目，风投“侦察员”模式走到尽头",
+          "title_en": "Sequoia shuts down Scouts program, ending an era in venture capital",
+          "body_zh": "红杉资本确认关闭其Scouts项目，该项目曾开创风投行业用外部“侦察员”发掘早期项目的模式，并被大量同行效仿。业内逐渐形成共识：这一模式在当前形态下已触及天花板。",
+          "body_en": "Sequoia is shutting down its Scouts program, which pioneered the use of external scouts to surface early-stage deals and was widely copied across venture capital. A consensus is forming that the model has hit its limits in its current form.",
+          "ref": 6,
+          "source": "TechCrunch",
+          "tag": "资本",
+          "url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/"
+        },
+        {
+          "title_zh": "神舟二十四号本月发射，首位外籍航天员驻留一周",
+          "title_en": "Shenzhou-24 to launch this month with first foreign astronaut aboard",
+          "body_zh": "据央视报道，神舟二十四号乘组将于本月飞往中国空间站，与神舟二十三号乘组完成轮换。按中巴2025年2月签署的协议，一名巴基斯坦航天员将在轨驻留约一周，成为首位进入中国空间站的外籍航天员。",
+          "body_en": "Shenzhou-24 will fly to China's space station this month to rotate with the Shenzhou-23 crew, CCTV reported. Under a February 2025 China-Pakistan agreement, a Pakistani astronaut will stay aboard for about a week, becoming the first foreign national on the station.",
+          "ref": 20,
+          "source": "IT之家",
+          "tag": "航天",
+          "url": "https://www.ithome.com/1/023/844.htm"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "以色列总统授权内塔尼亚胡对手埃森科特组阁",
+          "title_en": "Israel's president taps Netanyahu rival Eisenkot to form government",
+          "body_zh": "以色列总统授权前总参谋长、反对派领导人埃森科特组建新政府。上周选举中，内塔尼亚胡阵营与埃森科特阵营均未获得议会多数，组阁路径仍复杂。特拉维夫市中心已爆发示威，要求内塔尼亚胡政府下台。",
+          "body_en": "Israel's president tasked opposition leader and former military chief Gadi Eisenkot with forming a government. Neither Prime Minister Benjamin Netanyahu's bloc nor Eisenkot's won a majority in last week's election, and the path to a coalition remains complicated. Protests have erupted in central Tel Aviv demanding Netanyahu's ouster.",
+          "ref": 34,
+          "source": "BBC World",
+          "tag": "地缘",
+          "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "波兰克拉科夫广场枪击致6死，枪手家中又发现3具遗体",
+          "title_en": "Krakow square shooting kills six; three more bodies found at gunman's home",
+          "body_zh": "波兰克拉科夫主广场发生随机枪击，造成6人死亡，枪手随后在其家中被发现有3具遗体。波兰总理称枪手疑为极右翼分子。这是波兰近年来最严重的枪击事件之一。",
+          "body_en": "A random shooting in Krakow's main square killed six people, and three more bodies were later found at the gunman's home, Poland's prime minister said. The attacker was described as far-right. It is one of Poland's deadliest shootings in years.",
+          "ref": 33,
+          "source": "BBC World",
+          "tag": "社会",
+          "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "新西兰大选初步结果无多数党，或需数周组阁谈判。",
+    "智利导演塞巴斯蒂安·莱里奥去世，享年52岁，代表作《普通女人》。",
+    "美国悬赏2000万美元征集伊朗核计划情报。"
+  ],
+  "quick_en": [
+    "New Zealand's preliminary election results show no majority, with weeks of coalition talks likely.",
+    "Chilean director Sebastián Lelio, known for 'A Fantastic Woman,' has died at 52.",
+    "The US is offering a $20 million reward for information on Iran's nuclear program."
+  ]
+}
