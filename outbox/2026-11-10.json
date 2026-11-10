@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-10",
+  "subject": "AI 与科技日报 2026-11-10 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-09 00:00 → 2026-11-10 07:45 (UTC+8)",
+  "headline_zh": "英伟达CEO黄仁勋涉中国间谍调查股价重挫；Anthropic发布Claude 5.2并推进IPO",
+  "headline_en": "Nvidia CEO's alleged spy affair sends shares tumbling; Anthropic launches Claude 5.2 and moves toward IPO",
+  "sections": [
+    {
+      "title_zh": "AI 前沿",
+      "title_en": "AI Frontier",
+      "items": [
+        {
+          "title_zh": "Anthropic发布Claude Fable与Mythos 5.2，API降价20%",
+          "title_en": "Anthropic launches Claude Fable and Mythos 5.2, cuts API price 20%",
+          "body_zh": "Anthropic 11月9日推出 Claude Fable 5.2 和 Claude Mythos 5.2，两款模型基于同一底层模型，前者面向普通用户，后者仅向通过审核的网络安全和生命科学机构开放。Fable 5.2 每百万词元输入8美元、输出40美元，比5.1版本便宜20%。官方称新模型在编程、推理和视觉上均有提升，并演示了8天从零写出一个操作系统。",
+          "body_en": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 on Nov 9, built on the same base model. Fable is for general users; Mythos is restricted to vetted cybersecurity and life-sciences organizations. Fable 5.2 costs $8 per million input tokens and $40 per million output tokens, 20% cheaper than 5.1. Anthropic claims gains in coding, reasoning and vision, and demoed writing an OS from scratch in eight days.",
+          "ref": 36,
+          "source": "IT之家",
+          "tag": "模型",
+          "url": "https://www.ithome.com/1/024/573.htm"
+        },
+        {
+          "title_zh": "Claude Fable 5.2在Artificial Analysis得分65，创最高纪录",
+          "title_en": "Claude Fable 5.2 scores 65 on Artificial Analysis, a new high",
+          "body_zh": "第三方评测平台 Artificial Analysis 显示，Claude Fable 5.2 综合得分65，为目前该榜单最高分。这一分数进一步拉开了与竞争对手的差距，也印证了 Anthropic 对新一代模型能力的说法。",
+          "body_en": "Third-party benchmark Artificial Analysis shows Claude Fable 5.2 scoring 65 overall, the highest on the leaderboard so far. The score widens the gap with rivals and backs Anthropic's claims about the new model's capabilities.",
+          "ref": 2,
+          "source": "Hacker News",
+          "tag": "评测",
+          "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+        },
+        {
+          "title_zh": "Anthropic拟11月19日或20日登陆纳斯达克，估值预期降温",
+          "title_en": "Anthropic targets Nov 19-20 Nasdaq debut as valuation expectations cool",
+          "body_zh": "《华尔街日报》报道，Anthropic 计划在下周四（11月19日）或周五（20日）以代码 ANT 在纳斯达克开始交易，本周初将披露估值区间和发行价。市场原本预期估值约1.5万亿美元，但上周AI股票大幅回调后，部分机构投资者施压要求更低估值。",
+          "body_en": "The Wall Street Journal reports Anthropic aims to start trading on Nasdaq under ticker ANT on Thursday Nov 19 or Friday Nov 20, with valuation range and pricing due early this week. Expectations had centered on a $1.5 trillion valuation, but after last week's AI stock selloff some major investors are pushing for a lower number.",
+          "ref": 33,
+          "source": "IT之家",
+          "tag": "市场",
+          "url": "https://www.ithome.com/1/024/576.htm"
+        },
+        {
+          "title_zh": "腾讯混元Hy4开源，千问办公2.0推多人Agent协作",
+          "title_en": "Tencent open-sources Hunyuan Hy4; Qwen Office 2.0 adds multi-agent collaboration",
+          "body_zh": "腾讯混元发布 Hy4 模型并开源，量子位实测称其搭配 WorkBuddy 在多模态 Agent 任务上交付能力突出，跻身最强开源模型行列。同日阿里千问办公2.0发布，推出首个支持多人与 Agent 协作的 Team Agent。",
+          "body_en": "Tencent released and open-sourced its Hunyuan Hy4 model; QbitAI's hands-on test found it strong at multimodal agent tasks when paired with WorkBuddy, putting it among the top open models. Alibaba also launched Qwen Office 2.0, featuring a Team Agent that supports collaboration between multiple people and agents.",
+          "ref": 28,
+          "source": "量子位",
+          "tag": "开源",
+          "url": "https://www.qbitai.com/2026/11/507843.html"
+        },
+        {
+          "title_zh": "苹果Logic Pro上线50美元AI用量包，超额需另购",
+          "title_en": "Apple sells $50 AI usage packs for Logic Pro",
+          "body_zh": "苹果更新 Logic Pro，新增“购买更多用量”选项，一次性收费49.99美元，用于扩展部分 Apple Intelligence 功能的使用额度。此前苹果已在9月发布支持文章说明相关用量限制，这意味着部分AI功能将按量计费。",
+          "body_en": "Apple updated Logic Pro with a 'Buy More Usage' option priced at $49.99 one-time, extending access to some Apple Intelligence features. Apple had published a support article in September outlining usage limits, signaling that some AI features will be metered.",
+          "ref": 15,
+          "source": "The Verge",
+          "tag": "产品",
+          "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
+        },
+        {
+          "title_zh": "谷歌发布TPU 8i Max与8tx，继续加码自研AI芯片",
+          "title_en": "Google unveils TPU 8i Max and 8tx, doubling down on custom AI silicon",
+          "body_zh": "谷歌在官方博客介绍新一代 TPU 8i Max 和 8tx，继续扩展其自研AI加速器产品线。在英伟达因高管风波震荡之际，谷歌强调自家芯片在云基础设施和全球网络中的角色。",
+          "body_en": "Google detailed its new TPU 8i Max and 8tx chips on its official blog, extending its custom AI accelerator line. With Nvidia reeling from its executive scandal, Google is highlighting its own silicon's role in cloud infrastructure and global networking.",
+          "ref": 1,
+          "source": "Hacker News",
+          "tag": "硬件",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+        }
+      ]
+    },
+    {
+      "title_zh": "英伟达风波",
+      "title_en": "Nvidia Fallout",
+      "items": [
+        {
+          "title_zh": "英伟达董事会调查黄仁勋与疑似中国间谍的婚外情，股价跌超4%",
+          "title_en": "Nvidia board probes Huang's affair with alleged Chinese spy; shares fall over 4%",
+          "body_zh": "英伟达董事会已就 CEO 黄仁勋与一名被指为中国间谍的女性之间的婚外情展开调查，消息公布后股价下跌超过4%，市值蒸发数千亿美元。特朗普称已与黄仁勋通话询问此事，并表示 FBI 正在调查。",
+          "body_en": "Nvidia's board has opened an investigation into CEO Jensen Huang's extramarital affair with a woman alleged to be a Chinese spy. Shares fell more than 4%, wiping hundreds of billions off the company's value. President Trump said he spoke with Huang about the matter and that the FBI is investigating.",
+          "ref": 46,
+          "source": "BBC World",
+          "tag": "地缘",
+          "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "做空机构半年前已质疑黄仁勋与中国高管关系",
+          "title_en": "Short seller flagged Huang's ties to Chinese executive six months earlier",
+          "body_zh": "TechCrunch 报道，早在英伟达间谍风波爆发六个月前，做空机构 Culper Research 就已质疑黄仁勋与一名中国高管关系异常密切。这表明市场对该公司治理风险的警觉并非始于本周。",
+          "body_en": "TechCrunch reports that six months before the spy scandal erupted, short seller Culper Research was already questioning Jensen Huang's unusually close relationship with a Chinese executive. That suggests governance concerns were flagged well before this week.",
+          "ref": 9,
+          "source": "TechCrunch",
+          "tag": "市场",
+          "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/"
+        },
+        {
+          "title_zh": "黄仁勋临时退出ElevenLabs峰会，此前已取消Anthropic活动",
+          "title_en": "Huang pulls out of ElevenLabs Summit after canceling Anthropic event",
+          "body_zh": "受英伟达争议影响，黄仁勋退出了 ElevenLabs 峰会，此前他已取消一场 Anthropic 活动。CEO 连续缺席公开场合，显示风波正在影响其对外行程。",
+          "body_en": "Amid the Nvidia controversy, Jensen Huang withdrew from the ElevenLabs Summit, after earlier pulling out of an Anthropic event. The back-to-back cancellations show the scandal is disrupting his public schedule.",
+          "ref": 12,
+          "source": "TechCrunch",
+          "tag": "公司",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/"
+        },
+        {
+          "title_zh": "美商务部对Megaspeed的调查在英伟达干预后中止",
+          "title_en": "Commerce Dept. probe into Megaspeed halted after Nvidia intervention",
+          "body_zh": "《纽约时报》报道，美国商务部针对 Megaspeed 的一项调查在英伟达介入后中止。这为英伟达在华盛顿的游说影响力增添了新的争议点。",
+          "body_en": "The New York Times reports a U.S. Commerce Department inquiry into Megaspeed was halted after Nvidia intervened. The episode adds a new controversy over Nvidia's lobbying influence in Washington.",
+          "ref": 86,
+          "source": "Google AI 检索",
+          "tag": "监管",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRUh5TFdGSHdZMldSRkxUUjRNYjFRV3ZVdURtUkEwSG9mSHVhdlhES2ZObmtJVzFLRUhNbm4xdkl6YmZHV2d1VUNHNE9Md2ZKVlowUU5yOU8wa1AyMGNtdWNlX2NIUXpsOUJVa3pJNjRKa2MxWGdrTW9jYVNqLVM5cmpCblZSVzkwTVR5YzJ2TER0c3VpZ3AyZw?oc=5"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "英国喜剧演员Russell Brand因强奸罪被判10年半监禁",
+          "title_en": "Russell Brand sentenced to 10.5 years for rape and sexual assault",
+          "body_zh": "英国喜剧演员兼主持人 Russell Brand 因强奸和性侵罪名成立，被判处10年半监禁。路透社、《纽约时报》等多家媒体确认了这一判决，案件在英国引发广泛关注。",
+          "body_en": "British comedian and broadcaster Russell Brand was sentenced to 10 and a half years in prison after being convicted of rape and sexual assault. Reuters, The New York Times and other outlets confirmed the sentence, which drew wide attention in the UK.",
+          "ref": 80,
+          "source": "Google News World",
+          "tag": "社会",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbmk4dlVnT1E1bFJGb01tRkZvLVFXSkt0bTRsY2t4RzMzRDVGb2RzLUJTblJPQ1EwZFhlSUZXOTR3VlF2UTU0V29tVjd5dWwtOFZpUGNxSE1uRW5JNF94a0RmRV9SRWgyZ3dCaDNJZmR2M05ZRHMzam9EVkF0OUJ3bnloSGdkNVZZU3QyODdKei14dU9nalBDSmwxOFpCNUJHUDFTbnFLTVp2UTJfaGlPQ1htNGxvbjRB?oc=5"
+        },
+        {
+          "title_zh": "土耳其钢铁厂爆炸致至少17人死亡",
+          "title_en": "Steel factory blast in Turkey kills at least 17",
+          "body_zh": "土耳其阿利亚加 Habas Demir Celik 钢铁厂发生爆炸，造成至少17人死亡。目击者称爆炸震动了地面，有人一度以为发生了地震。",
+          "body_en": "An explosion at the Habas Demir Celik steel plant in Aliaga, Turkey, killed at least 17 people. Witnesses said the blast shook the ground, with some initially thinking an earthquake had struck.",
+          "ref": 48,
+          "source": "BBC World",
+          "tag": "事故",
+          "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "法国指伊朗黑客攻击超市冷柜，大量食品变质",
+          "title_en": "France accuses Iran of hacking supermarket fridges, spoiling food",
+          "body_zh": "法国指控伊朗黑客攻击数百家超市的冷柜和冰柜，导致上月大量冷藏和冷冻食品变质。这是针对民用基础设施的网络攻击中较为罕见的一例。",
+          "body_en": "France accused Iran of hacking fridges and freezers in hundreds of supermarkets, spoiling tons of chilled and frozen food last month. It is a rare case of a cyberattack targeting civilian infrastructure.",
+          "ref": 47,
+          "source": "BBC World",
+          "tag": "安全",
+          "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "教皇利奥在阿根廷批评米莱紧缩政策",
+          "title_en": "Pope Leo rebukes Milei's austerity in Argentina",
+          "body_zh": "教皇利奥十四世在访问阿根廷期间发表讲话，批评总统米莱的严厉紧缩措施，强调经济增长必须惠及所有人。这是他12天拉美之行的第二站，讲话在布宜诺斯艾利斯赢得热烈掌声。",
+          "body_en": "Pope Leo XIV used a speech in Argentina to criticize President Javier Milei's harsh austerity measures, insisting growth must benefit everyone. The address, on the second stop of a 12-day Latin America tour, drew rapturous applause in Buenos Aires.",
+          "ref": 53,
+          "source": "The Guardian World",
+          "tag": "政治",
+          "url": "https://www.theguardian.com/world/2026/nov/09/pope-leo-argentina-visit-speech-javier-milei-austerity"
+        }
+      ]
+    },
+    {
+      "title_zh": "体育与娱乐",
+      "title_en": "Sports & Culture",
+      "items": [
+        {
+          "title_zh": "曼联主帅卡里克面临下课，开局为40年来最差",
+          "title_en": "Man Utd's Carrick facing sack after worst start in 40 years",
+          "body_zh": "曼联在本赛季国内赛事开局为40年来最差，主帅迈克尔·卡里克预计将被解雇。足球总监威尔科克斯正主导评估，波切蒂诺和豪被视为潜在接替人选。",
+          "body_en": "Manchester United are expected to sack head coach Michael Carrick after the club's worst start to a domestic season in 40 years. Director of football Jason Wilcox is leading the review, with Mauricio Pochettino and Eddie Howe seen as possible replacements.",
+          "ref": 56,
+          "source": "BBC Sport",
+          "tag": "足球",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "DC影业重组：古恩与萨夫兰离任，拉查姆接棒",
+          "title_en": "DC shake-up: Gunn and Safran out, Jeremy Latcham in",
+          "body_zh": "华纳合并后 DC 影业高层调整，詹姆斯·古恩和彼得·萨夫兰离任，由制片人、前凯文·费奇门徒杰里米·拉查姆接替。这标志着 DC 电影宇宙的掌舵权再次易手。",
+          "body_en": "In a post-merger shake-up at DC Studios, James Gunn and Peter Safran are out, replaced by producer and former Kevin Feige protege Jeremy Latcham. It marks another change at the helm of the DC film universe.",
+          "ref": 18,
+          "source": "Ars Technica",
+          "tag": "影视",
+          "url": "https://arstechnica.com/culture/2026/11/dcu-shake-up-james-gunn-and-peter-safran-out-post-merger/"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "苹果将在土耳其设立7处培训设施，包括5所开发者学院和安卡拉先进制造中心，为中小企业免费提供咨询培训。",
+    "Linux设备曝出可被SSH入侵的高危漏洞，代号“*sshole”，目前正被活跃利用。",
+    "第39届中国电影金鸡奖提名者表彰仪式在厦门举行。"
+  ],
+  "quick_en": [
+    "Apple will open seven training facilities in Turkey, including five developer academies and an Ankara advanced manufacturing center, offering free consulting and training to small businesses.",
+    "A high-severity Linux vulnerability dubbed '*sshole' that lets attackers SSH into devices is under active exploitation.",
+    "The 39th Golden Rooster Awards nominees' commendation ceremony was held in Xiamen, China."
+  ]
+}
