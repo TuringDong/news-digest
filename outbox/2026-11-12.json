@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-12",
+  "subject": "AI 与科技日报 2026-11-12 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-11 00:00 → 2026-11-12 07:45 (UTC+8)",
+  "headline_zh": "英伟达董事会拟罢免黄仁勋；美联航封杀AI订票；西班牙14年来首次大罢工",
+  "headline_en": "Nvidia board moves to oust Jensen Huang, United blocks AI booking agents, Spain holds first general strike in 14 years",
+  "sections": [
+    {
+      "title_zh": "AI 前沿",
+      "title_en": "AI Frontier",
+      "items": [
+        {
+          "title_zh": "英伟达董事会拟罢免黄仁勋，FBI介入调查",
+          "title_en": "Nvidia board prepares to oust CEO Jensen Huang as FBI investigates",
+          "body_zh": "据《华尔街日报》报道，英伟达董事会正准备罢免创始人兼CEO黄仁勋，最早可能在周三晚间做出决定。此前《纽约时报》曝出黄仁勋与一名英伟达高管存在第二段婚外情，而几天前他才承认与一名被指为中国间谍的女性有染。FBI已介入调查，英伟达股价应声下跌。",
+          "body_en": "Nvidia's board is reportedly preparing to remove founder and CEO Jensen Huang, possibly as soon as Wednesday evening, according to The Wall Street Journal. The move follows a New York Times report of a second alleged affair, this time with an Nvidia executive, just days after Huang admitted to an affair with a woman alleged to be a Chinese spy. The FBI is investigating, and Nvidia shares fell on the news.",
+          "ref": 7,
+          "source": "TechCrunch",
+          "tag": "公司",
+          "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/"
+        },
+        {
+          "title_zh": "美联航禁止AI代理代客订票",
+          "title_en": "United Airlines bans AI agents from booking flights",
+          "body_zh": "美联航以隐私和监管担忧为由，禁止个人AI助手在其平台上代客订票。公司表示目前尝试用AI代理订票的旅客还不多，但此举为行业立下先例。",
+          "body_en": "United Airlines is blocking personal AI assistants from booking tickets on its platform, citing privacy and regulatory concerns. The airline says it hasn't seen many travelers try it yet, but the move sets a precedent for the industry.",
+          "ref": 15,
+          "source": "The Verge",
+          "tag": "政策",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+        },
+        {
+          "title_zh": "台积电拟向Anthropic和OpenAI各投10亿美元",
+          "title_en": "TSMC to invest $1B each in Anthropic and OpenAI",
+          "body_zh": "台积电计划向Anthropic和OpenAI各投资10亿美元，成为AI热潮中循环融资的最新案例。此举正值AI交易出现波动之际，引发市场对AI泡沫的担忧。",
+          "body_en": "TSMC plans to invest $1 billion each in Anthropic and OpenAI, the latest example of circular financing in the AI boom. The move comes as the AI trade wobbles, raising concerns about a bubble.",
+          "ref": 22,
+          "source": "Ars Technica",
+          "tag": "市场",
+          "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/"
+        },
+        {
+          "title_zh": "谷歌DeepMind发布AlphaGenome 2",
+          "title_en": "Google DeepMind launches AlphaGenome 2",
+          "body_zh": "谷歌DeepMind推出新一代基因组AI模型AlphaGenome 2，能从组织层面预测深入到单细胞分析，识别基因表达变异的能力近乎翻倍。该模型可帮助研究人员从细胞层面识别与疾病相关的遗传变异。",
+          "body_en": "Google DeepMind has released AlphaGenome 2, a next-generation genomic AI model that moves from tissue-level predictions to single-cell analysis, nearly doubling its ability to identify gene-expression variants. The model could help researchers pinpoint disease-linked genetic variants at the cellular level.",
+          "ref": 31,
+          "source": "IT之家",
+          "tag": "科研",
+          "url": "https://www.ithome.com/1/025/840.htm"
+        },
+        {
+          "title_zh": "CoreWeave转向客户预付款和短期合同",
+          "title_en": "CoreWeave turns to prepayments and shorter contracts",
+          "body_zh": "CoreWeave在第三季度财报中披露，正越来越多要求客户预付费用、以特定合同为抵押借款，并寻求短期交易，这可能导致价格上涨。这反映出AI算力公司为扩张融资正承担更高风险。",
+          "body_en": "CoreWeave's third-quarter earnings show the company increasingly asking customers to pay upfront, borrowing against specific contracts, and pursuing short-term deals that could lead to higher prices. The shift highlights the higher risks AI compute firms are taking to fund growth.",
+          "ref": 12,
+          "source": "TechCrunch",
+          "tag": "市场",
+          "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+        },
+        {
+          "title_zh": "欧盟提出《数字公平法案》整治成瘾性设计",
+          "title_en": "EU proposes Digital Fairness Act to curb addictive design",
+          "body_zh": "欧盟委员会周三公布《数字公平法案》草案，针对游戏、社交媒体和电商平台的开箱、网红营销和成瘾性功能。该法案旨在让在线体验更公平，防止企业利用设计手段诱导消费者多花钱。",
+          "body_en": "The European Commission on Wednesday published its proposed Digital Fairness Act, targeting loot boxes, influencer marketing, and addictive features on gaming, social media, and e-commerce platforms. The law aims to make online experiences fairer and stop companies from exploiting design to get consumers to spend more.",
+          "ref": 16,
+          "source": "The Verge",
+          "tag": "监管",
+          "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "西班牙爆发14年来首次全国大罢工",
+          "title_en": "Spain holds first general strike in 14 years",
+          "body_zh": "西班牙主要工会因住房危机和高生活成本发起14年来首次全国大罢工，数十万人参与，巴塞罗那等地爆发冲突。罢工发生在选举前夕，住房问题已成为西班牙政治的核心议题。",
+          "body_en": "Spain's main unions called the country's first general strike in 14 years over the housing crisis and high cost of living, drawing hundreds of thousands of people and clashes in Barcelona. The strike comes ahead of elections, with housing now a central political issue.",
+          "ref": 42,
+          "source": "BBC World",
+          "tag": "社会",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "俄美乌阿布扎比会谈达成换俘协议",
+          "title_en": "Russia-Ukraine talks in Abu Dhabi yield prisoner swap",
+          "body_zh": "俄美乌三方在阿布扎比会谈中就大规模囚犯交换达成一致，但未在战后安全框架上取得突破。美国特使将于周四分别会见普京和泽连斯基。",
+          "body_en": "Russia, Ukraine, and the US agreed to a large prisoner exchange at talks in Abu Dhabi but made no breakthrough on a post-war security framework. US envoys are due to meet Putin and Zelensky separately on Thursday.",
+          "ref": 82,
+          "source": "Google News World",
+          "tag": "地缘",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOUEzcFhSTGg1blJIY0lvX2VDZERPd3JvelRrSVdpTnktcFpTNUttbmI3TnVEV2JSYWR3RHJJd0tkSTdxX2dneHFTSXVzTno4RVB6cUhFSUN6YUo5SXU0SW5fZUM2VHF0YWY4UWQxdmNlUXJ0Ni05SFdjNWs3RUFSTFpRTEtTcl9hVUVENkFqSFNQNUpscVQwbDQyOHBmQmNQQWhhM1dkVXNFeFIzYmFaRWc2c3ZaMkQ5?oc=5"
+        },
+        {
+          "title_zh": "民主党人斯科特·科洛姆赢得密西西比参议员席位",
+          "title_en": "Democrat Scott Colom wins Mississippi Senate race",
+          "body_zh": "民主党人斯科特·科洛姆在密西西比州参议员选举中意外获胜，成为140多年来该州首位黑人参议员。这一结果被视为民主党的意外胜利。",
+          "body_en": "Democrat Scott Colom pulled off an upset in Mississippi's Senate race, becoming the first Black person elected to the US Senate from the state in more than 140 years. The result is a surprise win for his party.",
+          "ref": 43,
+          "source": "BBC World",
+          "tag": "政治",
+          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "Meta基础设施负责人Santosh Janardhan将离职，他2009年加入公司。",
+    "NASA卫星观测显示2026年厄尔尼诺发展迅速，可能超过1997年最强记录。",
+    "意大利、苏格兰和北爱尔兰数千所学校收到炸弹威胁，当局称疑似恶作剧，无公共风险。"
+  ],
+  "quick_en": [
+    "Meta's longtime head of infrastructure Santosh Janardhan, who joined in 2009, is stepping down.",
+    "NASA satellite data shows the 2026 El Niño developing rapidly and potentially exceeding the record 1997 event.",
+    "Thousands of schools in Italy, Scotland, and Northern Ireland received bomb threats in what authorities suspect is a hoax, with no risk to the public."
+  ]
+}
