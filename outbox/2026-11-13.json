@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-13",
+  "subject": "AI 与科技日报 2026-11-13 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-12 00:00 → 2026-11-13 07:45 (UTC+8)",
+  "headline_zh": "英伟达CEO黄仁勋因丑闻辞职，谷歌发布Gemini 4 Hydrogen",
+  "headline_en": "Nvidia CEO Jensen Huang resigns amid scandal; Google ships Gemini 4 Hydrogen",
+  "sections": [
+    {
+      "title_zh": "AI 前沿",
+      "title_en": "AI Frontier",
+      "items": [
+        {
+          "title_zh": "黄仁勋辞职，英伟达陷入动荡",
+          "title_en": "Jensen Huang resigns, plunging Nvidia into turmoil",
+          "body_zh": "英伟达CEO黄仁勋因婚外情丑闻辞职，路透社称其中一名涉事女性被指为中国间谍，另据路透社报道他还存在第三段婚外情。美国国会议员已就相关关系要求质询，民主党人另对英伟达对华销售发起调查。",
+          "body_en": "Nvidia CEO Jensen Huang has resigned after an affair scandal, with Reuters reporting one of the women involved is alleged to be a Chinese spy and that a third affair has surfaced. US lawmakers want to question him, and Democrats have opened a separate investigation into Nvidia's China sales.",
+          "ref": 44,
+          "source": "BBC World",
+          "tag": "人事",
+          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "谷歌发布Gemini 4 Hydrogen，接入搜索",
+          "title_en": "Google rolls out Gemini 4 Hydrogen in Search",
+          "body_zh": "谷歌发布Gemini 4 Hydrogen，取代此前的3.8 Flash，已开始在搜索的AI Mode中上线。谷歌称新模型更擅长拆解多部分问题、处理拼写错误和高度具体的请求。",
+          "body_en": "Google launched Gemini 4 Hydrogen, replacing 3.8 Flash, and it's already live in Search's AI Mode. Google says the model is better at breaking down multi-part questions, handling typos and highly specific requests.",
+          "ref": 22,
+          "source": "Ars Technica",
+          "tag": "模型",
+          "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
+        },
+        {
+          "title_zh": "英伟达称技术上可追踪芯片流向",
+          "title_en": "Nvidia privately says chip tracking is feasible",
+          "body_zh": "英伟达代表向伊利诺伊州众议员Bill Foster表示，《芯片安全法案》要求的防走私追踪措施在技术上可行。与此同时，一个行业团体公开称这些措施“可能不可行”。",
+          "body_en": "Nvidia representatives told Illinois Representative Bill Foster that the anti-smuggling tracking measures called for in the Chip Security Act would be technically feasible, even as an industry group publicly called them \"potentially infeasible.\"",
+          "ref": 23,
+          "source": "MIT Tech Review",
+          "tag": "监管",
+          "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
+        },
+        {
+          "title_zh": "OpenAI、Anthropic遭专利诉讼",
+          "title_en": "OpenAI and Anthropic hit with patent suits",
+          "body_zh": "美国公司Flinn AI于11月12日向特拉华州联邦法院提起两起诉讼，指控OpenAI和Anthropic侵犯其五项神经网络相关专利。另有一批非营利组织起诉OpenAI、Anthropic、Meta、谷歌等，要求阻止其开发前沿AI模型。",
+          "body_en": "Flinn AI filed two suits in Delaware federal court on November 12, accusing OpenAI and Anthropic of infringing five neural-network patents. A separate group of nonprofits also sued OpenAI, Anthropic, Meta, Google and others to halt frontier AI development.",
+          "ref": 31,
+          "source": "IT之家",
+          "tag": "法律",
+          "url": "https://www.ithome.com/1/026/464.htm"
+        },
+        {
+          "title_zh": "Anthropic启动IPO路演，估值缩水",
+          "title_en": "Anthropic starts IPO roadshow at lower valuation",
+          "body_zh": "Anthropic启动IPO路演，据报道估值已缩水6000亿美元。具体定价和发行细节尚待确认。",
+          "body_en": "Anthropic has begun its IPO roadshow, with reports saying its valuation has shrunk by $600 billion. Pricing and offering details are still to be confirmed.",
+          "ref": 28,
+          "source": "量子位",
+          "tag": "市场",
+          "url": "https://www.qbitai.com/2026/11/509381.html"
+        },
+        {
+          "title_zh": "MiniMax开源4K生图模型",
+          "title_en": "MiniMax open-sources 4K image model",
+          "body_zh": "MiniMax开源一款原生4K的多模态生图模型，据称单张生成成本约两毛钱。该公司称其在开源模型中达到SOTA水平。",
+          "body_en": "MiniMax has open-sourced a native 4K multimodal image-generation model, claiming a cost of roughly 0.2 yuan per image and state-of-the-art results among open models.",
+          "ref": 26,
+          "source": "量子位",
+          "tag": "开源",
+          "url": "https://www.qbitai.com/2026/11/509440.html"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "美特使会晤普京后赴都柏林见泽连斯基",
+          "title_en": "US envoys meet Zelensky after Putin talks",
+          "body_zh": "美国特使Steve Witkoff表示，普京已同意欧洲谈判方加入下一轮乌克兰问题会谈。Witkoff在莫斯科会谈后前往都柏林会见泽连斯基。",
+          "body_en": "US envoy Steve Witkoff said Putin has agreed to let European negotiators join the next round of Ukraine talks. Witkoff met Zelensky in Dublin after talks in Moscow.",
+          "ref": 45,
+          "source": "BBC World",
+          "tag": "地缘",
+          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "以色列空袭加沙纳赛尔医院致6死",
+          "title_en": "Israeli strike on Gaza hospital kills six",
+          "body_zh": "据卫生官员称，以色列对加沙纳赛尔医院的空袭造成至少6人死亡，其中包括一名外科医生，另有多人受伤。",
+          "body_en": "An Israeli strike on Gaza's Nasser Hospital killed at least six people, including a surgeon, and injured dozens, according to health officials.",
+          "ref": 85,
+          "source": "Google News World",
+          "tag": "冲突",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQUdEakxtMWZpbTJoLTBTOGRoNElEcDFodXFDNzcyUEtVS2dJMU92anJoQWFpdjEwT042d3lRVExOcHpFdDdrZ3lNTWZ2dlp1dzdoVjN3YU5TdUJkb1NWTWZBNHhqOTlBVWNYTkRoS2tpUWRrMTVMVFlLMDN1NHB6blRvV3dkbERhZWJHSFM1enVSaGlsaHUzRVk2cTBSREp3aENrYVBCbTlteEpMMzd2U05n?oc=5"
+        },
+        {
+          "title_zh": "微软365全球大范围故障",
+          "title_en": "Microsoft 365 suffers global outage",
+          "body_zh": "11月12日，Microsoft 365多项核心服务发生全球性故障，Outlook、Teams、OneDrive、SharePoint和Copilot均受影响。Downdetector上Outlook的报障数量一度接近13万条，微软称正在逐步重启恢复。",
+          "body_en": "A global outage hit core Microsoft 365 services on November 12, affecting Outlook, Teams, OneDrive, SharePoint and Copilot. Outlook complaints on Downdetector neared 130,000 at one point, and Microsoft said it was gradually restoring service.",
+          "ref": 35,
+          "source": "IT之家",
+          "tag": "事故",
+          "url": "https://www.ithome.com/1/026/460.htm"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "Rust发布1.100版本。",
+    "美国癌症协会逆转立场，建议50至69岁男性每两年做一次PSA前列腺癌筛查。",
+    "FAA将AI辅助空管建议扩展到全美空域，但空管员工会未参与。"
+  ],
+  "quick_en": [
+    "Rust released version 1.100.",
+    "The American Cancer Society reversed course, recommending PSA screening every two years for men aged 50-69.",
+    "The FAA expanded its AI air-traffic advisory tool to all US airspace, without involving the controllers' union."
+  ]
+}
