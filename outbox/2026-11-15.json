@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-15",
+  "subject": "AI 与科技日报 2026-11-15 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-14 00:00 → 2026-11-15 07:45 (UTC+8)",
+  "headline_zh": "黄仁勋离职引发连锁反应，星舰首次被机械臂捕获，全美航班因设备故障停飞",
+  "headline_en": "Jensen Huang's exit sparks industry turmoil, SpaceX catches Starship with chopsticks, and a nationwide FAA ground stop",
+  "sections": [
+    {
+      "title_zh": "AI 与芯片",
+      "title_en": "AI & Chips",
+      "items": [
+        {
+          "title_zh": "请愿恢复黄仁勋职务签名破12万，马斯克参与",
+          "title_en": "Petition to reinstate Jensen Huang tops 120,000 signatures, with Musk signing on",
+          "body_zh": "英伟达董事会11月12日宣布黄仁勋辞去CEO等职务，即刻生效，CFO科莱特·克雷斯出任临时CEO。随后“Stand with Jensen”请愿活动迅速发酵，截至发稿已收集超过12万个签名，较前一天增长约6.3万，马斯克等科技高管也参与签名。",
+          "body_en": "Nvidia's board announced on Nov. 12 that Jensen Huang had resigned as CEO and board member, effective immediately, with CFO Colette Kress stepping in as interim CEO. A \"Stand with Jensen\" petition has since gathered over 120,000 signatures, up about 63,000 in a day, with Elon Musk and other tech executives among the signatories.",
+          "ref": 20,
+          "source": "IT之家",
+          "tag": "人事",
+          "url": "https://www.ithome.com/1/027/252.htm"
+        },
+        {
+          "title_zh": "亚洲多国政府回应黄仁勋离职，关注芯片供应",
+          "title_en": "Asian governments react to Huang's exit, seek clarity on chip supply",
+          "body_zh": "黄仁勋突然离职后，部分亚洲政府着手确认芯片供应承诺，另一些则在评估对本地项目的影响或跟进相关调查。英伟达在全球AI算力供应链中的核心地位，让这一人事变动迅速外溢为地缘议题。",
+          "body_en": "After Huang's abrupt departure, some Asian governments moved to confirm chip supply commitments, while others assessed the impact on local projects or pursued ongoing investigations. Nvidia's central role in the global AI compute supply chain has quickly turned a corporate succession into a geopolitical matter.",
+          "ref": 6,
+          "source": "TechCrunch",
+          "tag": "地缘",
+          "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/"
+        },
+        {
+          "title_zh": "超聚变创业板IPO过会，从受理到过会仅174天",
+          "title_en": "Xfusion clears ChiNext IPO review in just 174 days",
+          "body_zh": "深交所上市审核委员会11月12日审议通过超聚变数字技术股份有限公司的首发申请，从申报受理到过会仅用时174天。超聚变源于华为2021年剥离的X86服务器业务，上市委重点问询了毛利率变动趋势和业绩增长可持续性。",
+          "body_en": "The Shenzhen Stock Exchange's listing review committee approved Xfusion Digital Technology's IPO on Nov. 12, just 174 days after accepting the application. Spun out of Huawei's x86 server business in 2021, the company faced questions on gross margin trends and the sustainability of its growth.",
+          "ref": 17,
+          "source": "IT之家",
+          "tag": "市场",
+          "url": "https://www.ithome.com/1/027/255.htm"
+        },
+        {
+          "title_zh": "意大利对Meta罚款8.05亿欧元，指其未告知照片访问",
+          "title_en": "Italy fines Meta €805m for accessing users' photos without notice",
+          "body_zh": "意大利监管机构对Meta开出8.05亿欧元罚单，指控其未告知约2000万用户公司访问了他们的照片。这是欧洲对大型科技平台数据实践的最新一次重罚。",
+          "body_en": "Italy's regulator fined Meta €805 million, accusing the company of failing to inform about 20 million users that it had access to their photos. It is the latest in a series of heavy European penalties over Big Tech's data practices.",
+          "ref": 32,
+          "source": "BBC World",
+          "tag": "监管",
+          "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_zh": "航天与硬件",
+      "title_en": "Space & Hardware",
+      "items": [
+        {
+          "title_zh": "星舰第15次试飞首次用发射塔机械臂捕获飞船",
+          "title_en": "Starship Flight 15 marks first tower catch of the upper stage",
+          "body_zh": "当地时间11月14日，SpaceX在星舰第15次试飞中首次用发射塔机械臂接住从轨道返回的第二级飞船，此前该“筷子”动作只用于助推器。马斯克称计划用星舰在近地轨道构建由百万艘航天器组成的AI数据中心星座，高频复用是关键。",
+          "body_en": "On Nov. 14, SpaceX for the first time caught Starship's upper stage with the launch tower's mechanical arms after its return from orbit; the \"chopstick\" maneuver had previously been used only on the booster. Musk says the company plans to build an AI data-center constellation of a million spacecraft in low Earth orbit, making rapid reuse essential.",
+          "ref": 19,
+          "source": "IT之家",
+          "tag": "航天",
+          "url": "https://www.ithome.com/1/027/253.htm"
+        },
+        {
+          "title_zh": "特斯拉开放Cybercab个人预订，月费299美元",
+          "title_en": "Tesla opens Cybercab pre-orders for personal use at $299 a month",
+          "body_zh": "特斯拉开始接受Cybercab“个人使用”预订，附带地理限制和每月299美元的费用。连马斯克本人也表示这个月费“太高”。",
+          "body_en": "Tesla has opened pre-orders for the Cybercab \"for personal use,\" with geographic restrictions and a $299 monthly fee. Even Elon Musk said the monthly charge is \"too high.\"",
+          "ref": 2,
+          "source": "TechCrunch",
+          "tag": "出行",
+          "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "全美航班因铜线升级故障停飞，FAA称与AI无关",
+          "title_en": "Nationwide ground stop blamed on copper-wire upgrade, FAA says no AI link",
+          "body_zh": "美国交通部长肖恩·达菲表示，FAA下令的全美停飞与一处远程设施将老旧铜线更换为光纤的“例行维护”有关，FAA局长布莱恩·贝德福德称“零证据显示与AI有关”。这是FAA史上第三次全国性停飞，超过2.8万架次航班取消或延误，预计15日晚恢复正常。",
+          "body_en": "Transportation Secretary Sean Duffy said the FAA's nationwide ground stop was tied to \"routine maintenance\" replacing old copper wire with fiber at a remote facility, and FAA administrator Bryan Bedford said there is \"zero evidence of anything AI-related.\" It was the FAA's third-ever nationwide ground stop, with more than 28,000 flights canceled or delayed; normal operations are expected by the evening of Nov. 15.",
+          "ref": 54,
+          "source": "Google 新闻中文",
+          "tag": "事故",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45OXBieUZnYkhYdUNyZE1NdTIwdVZnNVQ0WGxmd0c5MFlqX24ybl8xdFphV19kVGo2WWpVb2RtU2JaVGl2VE1ydHl2ZGhFcUVET3h0MFYzLXUxYV9uUUFvVnc4TjdRWVB2NFoxNzdoUUQwT2R5RElxZmxGYUhSOFk?oc=5"
+        },
+        {
+          "title_zh": "泽连斯基称美方提议乌克兰让出顿巴斯换取北约成员资格",
+          "title_en": "Zelensky says US floated ceding Donbas for NATO membership",
+          "body_zh": "泽连斯基表示，美国曾提出乌克兰放弃顿巴斯以换取北约成员资格的方案，美方未证实这一说法，一名美国官员对BBC称“许多想法仍在讨论中”。与此同时，库什纳称美国正推动欧洲与俄罗斯直接接触。",
+          "body_en": "Zelensky said the US floated Ukraine ceding the Donbas in exchange for NATO membership; Washington has not confirmed the account, with a US official telling the BBC that \"many ideas continue to be discussed.\" Separately, Jared Kushner said the US is facilitating direct engagement between Europe and Russia.",
+          "ref": 31,
+          "source": "BBC World",
+          "tag": "地缘",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "微软表示Outlook、Teams和Copilot的全球宕机已完全恢复，故障持续约一天。",
+    "香港迪士尼票务系统遭入侵，约1.7万个门票二维码疑似被盗，警方已介入。",
+    "伊朗海军称霍尔木兹海峡三艘油轮触雷起火。"
+  ],
+  "quick_en": [
+    "Microsoft says its global outage affecting Outlook, Teams and Copilot is fully resolved after about a day.",
+    "Hong Kong Disneyland's ticketing system was breached, with about 17,000 ticket QR codes suspected stolen; police are investigating.",
+    "Iran's navy says three tankers caught fire after hitting mines in the Strait of Hormuz."
+  ]
+}
