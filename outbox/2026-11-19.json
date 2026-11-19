@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-19",
+  "subject": "AI 与科技日报 2026-11-19 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-18 00:00 → 2026-11-19 07:45 (UTC+8)",
+  "headline_zh": "Anthropic 上市定价 83 美元；英伟达告别黄仁勋时代；中俄美元首深圳会晤",
+  "headline_en": "Anthropic prices IPO at $83; Nvidia enters post-Huang era; Xi, Putin and Trump meet in Shenzhen",
+  "sections": [
+    {
+      "title_zh": "AI 前沿",
+      "title_en": "AI Frontier",
+      "items": [
+        {
+          "title_zh": "Anthropic IPO 定价 83 美元，估值约 1.5 万亿美元",
+          "title_en": "Anthropic prices IPO at $83 a share, valuing it around $1.5 trillion",
+          "body_zh": "据 TechCrunch 报道，Anthropic 将 IPO 发行价定在每股 83 美元，高于此前预期区间，完全稀释后估值约 1.5 万亿美元。BBC 称其将跻身美国市值前十公司。这家成立仅五年的公司由此成为 AI 热潮中最受瞩目的上市案例。",
+          "body_en": "Anthropic priced its IPO at $83 a share, above its projected range, reportedly valuing the company at about $1.5 trillion on a fully diluted basis. The five-year-old Claude maker is expected to rank among the ten most valuable US companies.",
+          "ref": 11,
+          "source": "TechCrunch",
+          "tag": "市场",
+          "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+        },
+        {
+          "title_zh": "英伟达告别黄仁勋时代，临时 CEO 宣布 12 月加薪",
+          "title_en": "Nvidia moves past the Huang era as interim CEO promises December raises",
+          "body_zh": "英伟达 11 月 18 日召开黄仁勋辞职后的首次全员大会，临时 CEO 科莱特·克雷斯称“告别黄仁勋时代，让我们继续前进”，并承诺 12 月加薪、追加股权激励，比正常调薪周期提前数月。CNBC 报道称公司已启动新 CEO 遴选。",
+          "body_en": "Nvidia held its first all-hands meeting since founder Jensen Huang's resignation. Interim CEO Colette Kress told staff it was time to move on from the Huang era and promised December pay raises plus extra equity, months ahead of the normal cycle. The company has begun searching for a new CEO, CNBC reported.",
+          "ref": 35,
+          "source": "IT之家",
+          "tag": "人事",
+          "url": "https://www.ithome.com/1/029/134.htm"
+        },
+        {
+          "title_zh": "OpenAI 用 AI 辅助芯片设计，AMD GPU 能效最高提升 14%",
+          "title_en": "OpenAI's models help design chips, lifting AMD GPU PPA by up to 14%",
+          "body_zh": "OpenAI 11 月 18 日发布技术报告，称其模型已用于自研推理芯片 Jalapeño 及 AMD 下一代 GPU、CPU 的设计优化：AMD 旗舰 GPU 的功耗、性能、面积（PPA）最高改善 14%，Jalapeño 面积最高缩减 13%。OpenAI 同时开源 RISC-V 处理器测试，用于评估不同代际模型的芯片设计能力。",
+          "body_en": "OpenAI published a report saying its models helped optimize its in-house Jalapeño inference chip and AMD's next-gen GPUs and CPUs, improving PPA on a flagship AMD GPU by up to 14% and cutting Jalapeño's area by up to 13%. It also open-sourced a RISC-V testbed for benchmarking model generations on chip design.",
+          "ref": 34,
+          "source": "IT之家",
+          "tag": "硬件",
+          "url": "https://www.ithome.com/1/029/135.htm"
+        },
+        {
+          "title_zh": "谷歌连发 Gemini 4 Neon 与 Genie 4",
+          "title_en": "Google rolls out Gemini 4 Neon and Genie 4",
+          "body_zh": "谷歌 11 月 18 日至 19 日接连发布 Gemini 4 Neon 与 DeepMind 的 Genie 4，前者已在官方博客上线，后者以“Project Genie”名义开放。国内媒体此前已预告 Neon 将至，网友调侃谷歌在“遍历元素周期表”。",
+          "body_en": "Google released Gemini 4 Neon and DeepMind's Genie 4 within hours of each other, both announced on official blogs. Chinese tech media had flagged Neon's arrival, joking that Google is working its way through the periodic table.",
+          "ref": 1,
+          "source": "Hacker News",
+          "tag": "模型",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+        },
+        {
+          "title_zh": "微软 Ignite 一次发布七款模型，纳德拉谈 AI 智能体重塑互联网经济",
+          "title_en": "Microsoft unveils seven models at Ignite; Nadella says AI agents will reshape the web economy",
+          "body_zh": "微软在 Ignite 2026 上发布七款主打性价比的新模型。CEO 纳德拉同日表示，AI 智能体可能颠覆广告驱动的商业模式，迫使亚马逊等公司重新思考获客方式。他还称大量关键基础设施“无法打补丁”，淡化了近期 Outlook 宕机的影响。",
+          "body_en": "Microsoft launched seven new models pitched at scalable price-performance at Ignite 2026. CEO Satya Nadella said AI agents could disrupt advertising-driven business models and force companies like Amazon to rethink customer acquisition, while warning that much critical infrastructure is 'unpatchable'.",
+          "ref": 6,
+          "source": "Hacker News",
+          "tag": "模型",
+          "url": "https://microsoft.ai/news/microsoft-ignite-2026/"
+        },
+        {
+          "title_zh": "美政府拟要求企业披露使用中国 AI 模型情况",
+          "title_en": "US weighs forcing firms to disclose use of Chinese AI models",
+          "body_zh": "据路透社报道，特朗普政府正在考虑要求美国企业登记或披露其使用中国 AI 模型的情况。DW 中文同日以“美企使用的 AI 可能要被‘登记’了”为题跟进。此举若落地，将直接影响在美运营企业的模型选型。",
+          "body_en": "The Trump administration is weighing requiring US companies to register or disclose their use of Chinese AI models, Reuters reported. If enacted, the rule would directly affect which models American firms can deploy.",
+          "ref": 90,
+          "source": "Google AI 检索",
+          "tag": "政策",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRDZYbWdKS2hHRWRxVU9jRTZmUW5GdUZXdXNnMW43cnNKNmV1d2JIcnByM0dBWVBKbkd0TkkydWpQSkdZVkNWQ1RnS2JRQmI1TFE0ODRrX1lCdXkwejVvN3Qwa0taTDZtMkt2VWlTblJqZ0FQeVlMajlocTZ5UE95V29GQ19xQUlkNDh6WVRKVXJDbjM2ZUdaM0c4X25lUlFWRk1qakhGSkwzMGhKdWxFNlBsSnVhVE0?oc=5"
+        },
+        {
+          "title_zh": "巴尔的摩学校 AI 监控把薯片袋认成枪，学生起诉",
+          "title_en": "Baltimore students sue after school AI surveillance mistakes Doritos bag for a gun",
+          "body_zh": "据 NBC News 和《纽约时报》报道，巴尔的摩一所学校的学生起诉称，校内 AI 监控系统把一袋多力多滋误判为枪支。案件把校园 AI 安防的误报问题推上台面。",
+          "body_en": "Students at a Baltimore school are suing after an AI surveillance system allegedly mistook a bag of Doritos for a gun, NBC News and The New York Times reported. The case puts a spotlight on false positives in school AI security systems.",
+          "ref": 92,
+          "source": "Google AI 检索",
+          "tag": "安全",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYjhncHZEanhZT1N3aEtyem4xX0tDMzJOb3d2WUtQcW4wNjlYZUh0ZlRuanJQdDRnMGhTVExHUWtGQWNtZm1xZDhBbFN2SldqVGJULXlDLTJLbUxob1hobmcyZFhtNkJCeHNMbi1ZSllDaDFyVFRhTF81TjJRcDYzSmxOZ0o0VURTWmstc2lhNXBhdzROakZ4S2VVOHU2bGNSLU14U3doOXhBbjdHZGc4R09jOTdSYWt1NHc?oc=5"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "中俄美元首在深圳举行首次三方会晤",
+          "title_en": "Xi, Putin and Trump hold first trilateral summit in Shenzhen",
+          "body_zh": "特朗普抵达中国出席 APEC 深圳峰会，习近平亲赴机场迎接，为 46 年来中国元首首次接机。三人于周四举行史上首次中俄美三方会谈，地点在深圳麒麟山庄。Politico 称盟友对此感到“绝对是一场噩梦”。",
+          "body_en": "Trump arrived in China for the APEC summit in Shenzhen, where Xi Jinping met him at the airport — the first such reception by a Chinese leader in 46 years. The three leaders hold their first-ever trilateral talks on Thursday at the Qilin Villa. Politico reported that allies are 'spooked', calling it 'an absolute nightmare'.",
+          "ref": 49,
+          "source": "BBC World",
+          "tag": "地缘",
+          "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "国际法院就缅甸罗兴亚问题作出历史性种族灭绝裁决",
+          "title_en": "ICJ delivers historic genocide verdict against Myanmar over Rohingya",
+          "body_zh": "国际法院周四就缅甸政府是否对罗兴亚人实施种族灭绝作出裁决，此前从未有国家被国际法院判定犯下种族灭绝罪。据《卫报》报道，外界担心美国可能因此制裁包括今年诺贝尔和平奖得主纳维·皮莱在内的法官。",
+          "body_en": "The International Court of Justice ruled Thursday on whether Myanmar committed genocide against the Rohingya — no state has ever been found guilty of genocide by an international court. The Guardian reported fears that the US could sanction judges, including this year's Nobel Peace laureate Navi Pillay.",
+          "ref": 47,
+          "source": "BBC World",
+          "tag": "地缘",
+          "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "乌克兰用中继无人机炸毁克里米亚大桥",
+          "title_en": "Ukraine blows up Crimea bridge using relay drones",
+          "body_zh": "据 Ars Technica 报道，乌克兰使用自制中继无人机绕过星链限制，炸毁了普京的克里米亚大桥。俄方誓言重建，但《纽约时报》称可能需要数年。",
+          "body_en": "Ukraine destroyed Putin's Crimea bridge using homegrown relay drones that bypassed Starlink limits, Ars Technica reported. Russia has vowed to rebuild, but The New York Times says it could take years.",
+          "ref": 19,
+          "source": "Ars Technica",
+          "tag": "冲突",
+          "url": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "中韩自贸协定第二阶段谈判实质性完成，涵盖文化合作。",
+    "我国成功发射实践二十四号卫星。",
+    "MLB 总裁曼弗雷德称球迷支持工资帽，联盟 12 月 2 日可能停摆。"
+  ],
+  "quick_en": [
+    "China and South Korea substantially concluded the second phase of FTA talks, covering cultural cooperation.",
+    "China successfully launched the Shijian-24 satellite.",
+    "MLB commissioner Rob Manfred cited fan support for a salary cap as a lockout looms on December 2."
+  ]
+}
