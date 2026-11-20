@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-20",
+  "subject": "AI 与科技日报 2026-11-20 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-19 00:00 → 2026-11-20 07:45 (UTC+8)",
+  "headline_zh": "Anthropic 上市首日成史上最大 IPO；中俄美元首罕见三方会晤；英伟达黄仁勋因丑闻辞职",
+  "headline_en": "Anthropic pulls off the largest IPO ever; Trump, Putin and Xi hold rare trilateral summit; Nvidia's Jensen Huang resigns amid scandal",
+  "sections": [
+    {
+      "title_zh": "AI 前沿",
+      "title_en": "AI Frontier",
+      "items": [
+        {
+          "title_zh": "Anthropic 上市：813 亿美元 IPO，估值 1.5 万亿美元",
+          "title_en": "Anthropic debuts with $81.3B IPO at $1.5T valuation",
+          "body_zh": "Anthropic 以每股 83 美元完成史上最大规模 IPO，完全稀释后市值约 1.5 万亿美元，成为首家纯 AI 上市公司。这既是对 Claude 商业化的公开定价，也是整个 AI 行业估值的一次压力测试。",
+          "body_en": "Anthropic priced its IPO at $83 a share, raising $81.3 billion and reaching a fully diluted valuation of about $1.5 trillion — the largest listing on record and the first by a pure-play AI company. The debut is now a public referendum on Claude's business and on AI valuations broadly.",
+          "ref": 31,
+          "source": "IT之家",
+          "tag": "市场",
+          "url": "https://www.ithome.com/1/029/755.htm"
+        },
+        {
+          "title_zh": "Claude 解决黑洞物理两个开放问题",
+          "title_en": "Claude solves two open problems in black hole physics",
+          "body_zh": "Anthropic 发布研究称 Claude 解决了黑洞物理领域的两个开放问题。若经同行验证，这将是 AI 在基础物理研究中少见的实质性贡献。",
+          "body_en": "Anthropic says Claude has solved two open problems in black hole physics. If the results hold up to peer review, it would mark a rare substantive AI contribution to fundamental physics.",
+          "ref": 2,
+          "source": "Hacker News",
+          "tag": "科研",
+          "url": "https://www.anthropic.com/research/claude-black-hole-physics"
+        },
+        {
+          "title_zh": "苹果招聘工程师，自研 AI 智能体",
+          "title_en": "Apple hiring engineers to build its own AI agent",
+          "body_zh": "彭博发现苹果招聘信息，显示其正组建团队开发能浏览网页、跨应用操作、写代码和调用服务的 AI 智能体。这意味着苹果要在 Siri 之外补上代理式 AI 的短板，直接对标 OpenAI 与 Anthropic。",
+          "body_en": "A Bloomberg-spotted job listing shows Apple is building an agentic AI assistant that can browse the web, work across apps, write code and call services. The move would fill Apple's agent gap beyond Siri and put it directly against OpenAI and Anthropic.",
+          "ref": 13,
+          "source": "The Verge",
+          "tag": "产品",
+          "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+        },
+        {
+          "title_zh": "美众院：半年批准近 90 万颗 AI 芯片对华销售",
+          "title_en": "House panel: nearly 900,000 AI chips cleared for China in six months",
+          "body_zh": "美国众议院委员会披露，商务部在六个月内批准了超过 87.9 万颗 AI 芯片对华销售。这一数字与出口管制的收紧姿态形成反差，预计将引发新一轮国会审查。",
+          "body_en": "A House committee says the Commerce Department cleared more than 879,000 AI chips for sale to Chinese firms in six months. The figure sits awkwardly against tightening export controls and is likely to trigger fresh congressional scrutiny.",
+          "ref": 90,
+          "source": "Google AI 检索",
+          "tag": "政策",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKYzUycHNKbTdKZUE2clNGYUp5WFFBOTdaWndZbVdDZW0xSTQzUi1EZlRsRElldE00bktXMUFMaG1Sclo4eGdCVnZab1JUbWJwZHQ4cGFSTzgyNkZSZmF0WHAzR0hTa1B3eUQ5cmJRTGRfd1ZBdkFiSzNpU1RDeF8wU0pmbXBqWXYxeFNuaWdmV01QLWk0MWdrclJDV2ZYNVFFN0puWU9B?oc=5"
+        },
+        {
+          "title_zh": "英伟达黄仁勋因婚外情辞职，加州调查对华技术转移",
+          "title_en": "Nvidia's Jensen Huang resigns over affair; California probes China tech transfer",
+          "body_zh": "英伟达 CEO 黄仁勋因与一名被指为中国间谍的女性有婚外情而辞职，公司股价较 10 月 6 日高点跌近 40%。加州当局已就中国是否不当获取英伟达技术展开调查，事件正从公司丑闻升级为国家安全议题。",
+          "body_en": "Nvidia CEO Jensen Huang has resigned after an affair with a woman alleged to be a Chinese spy; the stock is down nearly 40% from its October 6 peak. California is now probing whether China improperly acquired Nvidia technology, turning a corporate scandal into a national-security matter.",
+          "ref": 12,
+          "source": "TechCrunch",
+          "tag": "地缘",
+          "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+        },
+        {
+          "title_zh": "谷歌首页上线 AI 聊天侧栏",
+          "title_en": "Google puts AI chats on its homepage",
+          "body_zh": "谷歌产品副总裁 Robby Stein 演示了首页新增的可折叠 AI 聊天侧栏，用户可直接查看和继续此前的 AI 对话。这是谷歌把 AI 入口从搜索框延伸到常驻界面的又一步。",
+          "body_en": "Google VP of product Robby Stein showed a new collapsible sidebar on the homepage for viewing and continuing AI chats. It is another step in pushing AI beyond the search box into a persistent interface.",
+          "ref": 17,
+          "source": "The Verge",
+          "tag": "产品",
+          "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "中俄美元首罕见三方会晤，发表「和平宣言」",
+          "title_en": "Trump, Putin and Xi hold rare trilateral summit, issue 'peace declaration'",
+          "body_zh": "特朗普、普京与习近平举行首次三方会谈并发布「和平宣言」，但具体和平协议仍无实质进展。普京在会上质疑诺贝尔和平奖的价值，并称俄方「没有发动乌克兰战争」。",
+          "body_en": "Trump, Putin and Xi held their first trilateral meeting and issued a 'peace declaration,' though no concrete peace deals emerged. Putin used the stage to question the value of the Nobel Peace Prize and deny Russia started the war in Ukraine.",
+          "ref": 46,
+          "source": "BBC World",
+          "tag": "地缘",
+          "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "国际法院裁定缅甸对罗兴亚人实施种族灭绝",
+          "title_en": "UN court rules Myanmar committed genocide against Rohingya",
+          "body_zh": "国际法院作出史无前例的判决，认定缅甸在 2017 年军事镇压中对罗兴亚少数民族实施种族灭绝。这一裁决可能为针对以色列和加沙的类似诉讼提供先例。",
+          "body_en": "The International Court of Justice ruled that Myanmar committed genocide against its Rohingya minority during the 2017 military crackdown. The unprecedented verdict could set a precedent for similar cases involving Israel and Gaza.",
+          "ref": 45,
+          "source": "BBC World",
+          "tag": "国际法",
+          "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "联合国：全球四分之一女性在婚姻中无法拒绝性行为",
+          "title_en": "UN: one in four women worldwide cannot refuse sex within marriage",
+          "body_zh": "联合国人口基金报告显示，全球约四分之一女性在伴侣要求性行为时没有拒绝权，西非和中非这一比例高达 45%。报告指出未成年女孩受影响最严重。",
+          "body_en": "A UNFPA report finds about one in four women worldwide have no power to refuse sex when a husband or partner demands it, rising to 45% in west and central Africa. Girls are the worst affected, the agency says.",
+          "ref": 51,
+          "source": "The Guardian World",
+          "tag": "社会",
+          "url": "https://www.theguardian.com/global-development/2026/nov/19/women-girls-rights-rape-sexual-violence-africa-marriage-unfpa"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "谷歌与蓝色起源签约发射「Project Suncatcher」卫星，但长期问题未解。",
+    "Sila 与松下能源签署十亿美元级硅碳负极材料供应协议，美国下一代电池迎来利好。",
+    "澳大利亚团队将人体肝脏在体外存活七周，创纪录，细节尚待发表。"
+  ],
+  "quick_en": [
+    "Google taps Blue Origin to launch its Project Suncatcher satellite, though its long-term problem remains.",
+    "Sila signed a billion-dollar deal to supply Panasonic Energy with silicon-carbon anode material, a boost for next-gen US batteries.",
+    "Australian researchers kept a human liver alive outside the body for seven weeks, a record; details are pending publication."
+  ]
+}
