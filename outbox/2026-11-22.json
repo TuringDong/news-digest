@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-22",
+  "subject": "AI 与科技日报 2026-11-22 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-21 00:00 → 2026-11-22 07:45 (UTC+8)",
+  "headline_zh": "英伟达遭SEC会计调查股价近腰斩；Signal默认屏蔽截图防AI；UN杀手机器人谈判无果",
+  "headline_en": "Nvidia hit by SEC accounting probe as stock halves; Signal blocks screenshots to fend off AI agents; UN talks on killer robots stall",
+  "sections": [
+    {
+      "title_zh": "AI 与芯片",
+      "title_en": "AI & Chips",
+      "items": [
+        {
+          "title_zh": "英伟达遭SEC会计调查，股价较10月高点近腰斩",
+          "title_en": "Nvidia faces SEC accounting probe as shares nearly halve from October peak",
+          "body_zh": "路透社援引知情人士称，SEC执法部门正在审查英伟达可能存在的会计问题，SEC与英伟达均拒绝置评。消息当天英伟达股价跌超14%至125.5美元，较10月高点243.4美元跌去逾48%。",
+          "body_en": "The SEC's enforcement staff is examining potential accounting issues at Nvidia, Reuters reported, citing people familiar with the matter; both the regulator and the company declined to comment. Nvidia shares fell more than 14% to $125.5 that day, down over 48% from their October peak of $243.4.",
+          "ref": 33,
+          "source": "IT之家",
+          "tag": "市场",
+          "url": "https://www.ithome.com/1/030/514.htm"
+        },
+        {
+          "title_zh": "METR更新AI能力曲线：编程进步快，判断类任务仍偏弱",
+          "title_en": "METR updates its AI capability curve: coding improves fast, judgment tasks lag",
+          "body_zh": "AI评估非营利机构METR更新了其“时间跨度”图表，发现部分AI能力仍沿指数轨迹提升。但报告同时指出，模型在需要判断力的任务上不如编程任务表现好。",
+          "body_en": "The AI evaluation nonprofit METR has updated its widely cited time-horizon plot, finding that some capabilities are still improving on an exponential trajectory. The report also shows models are less capable at tasks requiring judgment than at coding.",
+          "ref": 23,
+          "source": "MIT Tech Review",
+          "tag": "研究",
+          "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
+        },
+        {
+          "title_zh": "Anthropic研究员称用AI证明黎曼猜想，数学界回应",
+          "title_en": "Anthropic researcher claims AI-assisted Riemann Hypothesis proof; mathematicians respond",
+          "body_zh": "据财新报道，Anthropic一名研究员宣称借助Claude完成了黎曼猜想的Lean形式化证明，国际数学界已作出回应。同一工作也出现在Lean社区的博客上，真实性尚待数学界正式核验。",
+          "body_en": "An Anthropic researcher claims to have produced a Lean-verified proof of the Riemann Hypothesis with Claude's help, Caixin reported, drawing a response from the international math community. The work also appears on the Lean Prover community blog; its validity still awaits formal verification.",
+          "ref": 41,
+          "source": "财新",
+          "tag": "研究",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0aVpQaWktZXFzWXkyR3VyVXVCdm1Ub2FHek9heWRmemVsc2lvRTU5SDh1dmNtanZhZ18zOTA2d3c5bFpyemRJa2x5STJCenVoYUo4Wm9SLW41b1Q2aUlyRkxR?oc=5"
+        },
+        {
+          "title_zh": "谷歌搜索首页改版：去掉搜索按钮，加AI侧栏",
+          "title_en": "Google redesigns search homepage: no search button, adds AI sidebar",
+          "body_zh": "谷歌上线新版搜索首页，移除了传统的搜索按钮，并加入AI聊天历史与侧边栏入口。这意味着AI工具在搜索页上的位置进一步前置。",
+          "body_en": "Google has rolled out a new search homepage that drops the traditional search button and adds AI chat history plus a sidebar. The change pushes AI tools further to the front of the search experience.",
+          "ref": 22,
+          "source": "Ars Technica",
+          "tag": "产品",
+          "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/"
+        },
+        {
+          "title_zh": "GPT-6.2 Astra具身任务成功率较上代翻倍",
+          "title_en": "GPT-6.2 Astra doubles success rate on embodied tasks versus prior model",
+          "body_zh": "量子位报道称，GPT-6.2 Astra在16项具身智能任务上的成功率较GPT-6 Astra翻倍。这被视为大模型向机器人控制延伸的又一进展。",
+          "body_en": "QbitAI reports that GPT-6.2 Astra doubled its success rate on 16 embodied-AI tasks compared with GPT-6 Astra. The result is being read as another step in extending large models toward robot control.",
+          "ref": 24,
+          "source": "量子位",
+          "tag": "模型",
+          "url": "https://www.qbitai.com/2026/11/511779.html"
+        },
+        {
+          "title_zh": "DeepSeek V1作者创业项目曝光：做开源Agent",
+          "title_en": "DeepSeek V1 author's startup surfaces with open-source agent project",
+          "body_zh": "据量子位报道，DeepSeek V1论文作者之一的创业项目曝光，方向是开源Agent。具体产品形态与融资细节尚未披露。",
+          "body_en": "A startup founded by one of the DeepSeek V1 paper's authors has surfaced, focused on open-source agents, according to QbitAI. Product details and funding remain undisclosed.",
+          "ref": 25,
+          "source": "量子位",
+          "tag": "创业",
+          "url": "https://www.qbitai.com/2026/11/511570.html"
+        }
+      ]
+    },
+    {
+      "title_zh": "安全与政策",
+      "title_en": "Security & Policy",
+      "items": [
+        {
+          "title_zh": "Signal默认屏蔽截图，防Siri与Gemini读取私聊",
+          "title_en": "Signal blocks screenshots by default to keep Siri and Gemini out of chats",
+          "body_zh": "Signal在iOS/Android 8.37版中默认关闭应用内截图和录屏，以阻止系统级AI智能体读取用户消息。总裁Meredith Whittaker称，系统级AI智能体的扩张对Signal的隐私机制构成“生存性威胁”。",
+          "body_en": "Signal's 8.37 release for iOS and Android disables in-app screenshots and screen recording by default to stop system-level AI agents from reading users' messages. President Meredith Whittaker called the spread of such agents an \"existential threat\" to Signal's privacy model.",
+          "ref": 30,
+          "source": "IT之家",
+          "tag": "安全",
+          "url": "https://www.ithome.com/1/030/517.htm"
+        },
+        {
+          "title_zh": "FBI与农业部据报遭黑客攻击，NCIC数据库受关注",
+          "title_en": "FBI and USDA reportedly hacked, with NCIC database in focus",
+          "body_zh": "据多家媒体报道，美国联邦调查局和农业部遭到黑客攻击，FBI此次被指向国家犯罪信息中心（NCIC）数据库。CNN称这是FBI近几个月内第二次遭此类攻击，特朗普称此事“不妙”。",
+          "body_en": "Multiple outlets reported that the FBI and the USDA were hacked, with the FBI incident said to target the National Crime Information Center database. CNN called it the second such attack on the bureau in a few months, and President Trump said the reported breach is \"not good.\"",
+          "ref": 15,
+          "source": "The Verge",
+          "tag": "安全",
+          "url": "https://www.theverge.com/tech/1039543/fbi-usda-hacked"
+        },
+        {
+          "title_zh": "联合国“杀手机器人”谈判无果，仅同意继续讨论",
+          "title_en": "UN 'killer robot' talks end without agreement, only a pledge to keep talking",
+          "body_zh": "在日内瓦开会的联合国代表未能就自主武器规则达成一致，最终只同意“开始讨论各种选项”。近200个国家参与，但未对具有法律约束力的框架作出承诺。",
+          "body_en": "UN diplomats meeting in Geneva failed to agree on rules for autonomous weapons, settling instead for a pledge to \"start discussing options.\" Nearly 200 countries took part, but there was no commitment to a legally binding framework.",
+          "ref": 14,
+          "source": "The Verge",
+          "tag": "政策",
+          "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+        },
+        {
+          "title_zh": "FCC裁定加州无权执行电话服务规则",
+          "title_en": "FCC rules California cannot enforce its phone-service rules",
+          "body_zh": "美国联邦通信委员会（FCC）预占加州要求AT&T继续提供家庭电话服务的州级规定，裁定加州不得执行。这是联邦监管机构与州级消费者保护之间又一次正面冲突。",
+          "body_en": "The FCC preempted California's rules requiring AT&T to keep offering home phone service, ruling the state cannot enforce them. It is the latest direct clash between federal regulators and state-level consumer protection.",
+          "ref": 20,
+          "source": "Ars Technica",
+          "tag": "政策",
+          "url": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "墨西哥抓获FBI十大通缉犯“矮子伊西德罗”",
+          "title_en": "Mexico captures FBI most-wanted fugitive 'El Chapo Isidro'",
+          "body_zh": "墨西哥军方在锡那罗亚州一次特种部队突袭中抓获Fausto Isidro Meza Flores，他被控贩毒与酷刑，在逃超过十年。他是FBI十大通缉犯之一。",
+          "body_en": "Mexican special forces captured Fausto Isidro Meza Flores in a raid in Sinaloa state. Accused of drug trafficking and torture, he had evaded capture for more than a decade and was on the FBI's Ten Most Wanted list.",
+          "ref": 48,
+          "source": "The Guardian World",
+          "tag": "社会",
+          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested"
+        },
+        {
+          "title_zh": "化石燃料之争令COP31气候谈判陷入僵局",
+          "title_en": "Fossil fuel fight leaves COP31 climate talks deadlocked",
+          "body_zh": "近200个国家在COP31上就新的全球气候协议陷入僵局，分歧核心是化石燃料。谈判尚未产出可交付的文本。",
+          "body_en": "Nearly 200 countries are deadlocked at COP31 over a new global climate agreement, with fossil fuels the central fault line. Talks have yet to produce a deliverable text.",
+          "ref": 44,
+          "source": "BBC World",
+          "tag": "气候",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "特朗普称寻求与伊朗达成“永久性”协议",
+          "title_en": "Trump says he wants a 'permanent' deal with Iran",
+          "body_zh": "特朗普表示希望与伊朗达成永久性协议，以阻止其未来核野心，并称下一步行动可能要到2027年。伊朗外长则表示浓缩铀不会运出国，仍对外交开放。",
+          "body_en": "Trump said he wants a permanent deal with Iran to block its future nuclear ambitions, warning his next move may not come until 2027. Iran's foreign minister said enriched uranium will not leave the country and that Tehran remains open to diplomacy.",
+          "ref": 80,
+          "source": "Google News World",
+          "tag": "地缘",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTGgwZTZaQWNtSzNpRDhQajRHRHFFTDhiVXczZmUtaFJiMVdTMFcwN1dWV053c1lGY2hiUnJrNnc3X1JoREFHLWNYTG52bVk5cXhMSDlCU2NkcDVCeWhQamZsX3JXdVBYdzJSdWQ1NDlKaTE4ZzIxc3U1SE1lcnhjdm45TmtHVzBMTmI4?oc=5"
+        },
+        {
+          "title_zh": "阿森纳客场2-2纽卡，英超领跑优势扩至6分",
+          "title_en": "Arsenal draw 2-2 at Newcastle to go six points clear in Premier League",
+          "body_zh": "Noni Madueke下半场进球，帮助阿森纳在圣詹姆斯公园2-2战平纽卡斯尔。卫冕冠军借此将英超榜首优势扩大到6分，但门将Raya在比赛中受伤。",
+          "body_en": "Noni Madueke's second-half goal earned Arsenal a 2-2 draw at Newcastle's St James' Park. The reigning champions moved six points clear at the top of the Premier League, though goalkeeper Raya picked up an injury.",
+          "ref": 60,
+          "source": "The Guardian Sport",
+          "tag": "体育",
+          "url": "https://www.theguardian.com/football/2026/nov/21/newcastle-arsenal-premier-league-match-report"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "Anthropic研究员Tao Lin预测，到2027年底AI将在几乎所有领域超越顶尖专家。",
+    "欧盟首次专题AI峰会召开，59位科技界人士联名呼吁加大投入以追赶中美。",
+    "利兹联4-1客胜切尔西，27年来首次在斯坦福桥赢球。"
+  ],
+  "quick_en": [
+    "Anthropic researcher Tao Lin predicts AI will surpass top experts in almost every field by the end of 2027.",
+    "The EU held its first dedicated AI summit, with 59 tech figures signing an open call for more investment to catch up with the US and China.",
+    "Leeds United won 4-1 at Chelsea, their first victory at Stamford Bridge in 27 years."
+  ]
+}
