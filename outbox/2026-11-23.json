@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-23",
+  "subject": "AI 与科技日报 2026-11-23 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-22 00:00 → 2026-11-23 07:45 (UTC+8)",
+  "headline_zh": "COP31 谈崩无协议；黎曼猜想 AI 证明获 Lean 核验；达美系统故障致亚特兰大数百航班延误",
+  "headline_en": "COP31 collapses without a deal; Lean verifies AI-assisted Riemann proof; Delta system outage delays hundreds of Atlanta flights",
+  "sections": [
+    {
+      "title_zh": "AI 前沿",
+      "title_en": "AI Frontier",
+      "items": [
+        {
+          "title_zh": "黎曼猜想 AI 证明通过 Lean 核验，作者栏成难题",
+          "title_en": "Lean community verifies AI-assisted Riemann proof, authorship in question",
+          "body_zh": "Lean 与 Mathlib 社区发布联合声明，确认 Anthropic 数学家 Alpöge 与 Claude 合作给出的黎曼猜想形式化证明正确，代码约 1700 万行、证明文件超过 25 万页。菲尔兹奖得主梅纳德表示相信证明正确，但成果需被人理解才可能获认可。科学网追问：25 万页证明的「作者栏」该写谁。",
+          "body_en": "The Lean and Mathlib communities confirmed that a formal proof of the Riemann Hypothesis produced by Anthropic mathematician Alpöge with Claude checks out: roughly 17 million lines of Lean code and over 250,000 pages of proof. Fields Medalist James Maynard says he believes the proof is correct but that it must be understood to be accepted. Chinese science outlet ScienceNet asks who belongs in the author line of a 250,000-page proof.",
+          "ref": 60,
+          "source": "Google 新闻中文",
+          "tag": "AI 科研",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJTU05TGEwU2tIZ21BcXdBUVBoc2wzMlk3QmtwbldTSXhxa0lLb0E1WVphU1ZSZWlfeFpxdE50MmprNHNya09uN3hSb2h4UFhIOXpLVkNMLWhCaUo2OW1nekYtbEJpdw?oc=5"
+        },
+        {
+          "title_zh": "OpenAI 首席科学家谈给 AI 发展设限",
+          "title_en": "OpenAI chief scientist on putting a speed limit on AI",
+          "body_zh": "TechCrunch 报道，OpenAI 首席科学家就如何限制 AI 开发速度提出思路，核心前提是先就「如何衡量速度」达成一致。这延续了业界对 AI 发展节奏治理的讨论。",
+          "body_en": "TechCrunch reports that OpenAI's chief scientist has laid out thinking on capping the pace of AI development, starting with the need to agree on how speed is measured. The piece extends the industry debate over governing AI's tempo.",
+          "ref": 8,
+          "source": "TechCrunch",
+          "tag": "治理",
+          "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+        },
+        {
+          "title_zh": "独立科学小组：各国发展 AI 不必一味追尖端模型",
+          "title_en": "UN science panel: countries need not chase frontier models",
+          "body_zh": "联合国新闻援引独立科学小组观点称，各国建设 AI 能力不必一味追求尖端模型。这一表态对中小国家和资源有限地区有直接政策含义。",
+          "body_en": "UN News cites an independent scientific panel saying countries don't have to chase frontier models to build AI capacity. The message carries direct policy weight for smaller and resource-constrained economies.",
+          "ref": 27,
+          "source": "Google AI 中文检索",
+          "tag": "政策",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5wVG9qZ2Rnb2RUQXk1VXh5SkNLN05TX05SZVhuRm9YMXVJemF1emNYdDNnV1ZKWDgzckx3Mkp0ZjYtV0g1YmJ6VVZKbFk3V1lJN0M2UGdDcw?oc=5"
+        },
+        {
+          "title_zh": "AI 提议给电池加维生素 C，助中国团队突破",
+          "title_en": "AI suggests vitamin C for batteries, aiding Chinese team's breakthrough",
+          "body_zh": "上观新闻报道，AI 提出在电池中加入维生素 C 的思路，打破人类思维定式，帮助中国科学家取得突破。这是 AI 参与材料发现的一个具体案例。",
+          "body_en": "Shanghai Observer reports that an AI proposed adding vitamin C to batteries, breaking human thinking patterns and helping Chinese scientists score a breakthrough. It's a concrete case of AI contributing to materials discovery.",
+          "ref": 29,
+          "source": "Google AI 中文检索",
+          "tag": "AI 科研",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xVmk1T1RadUUwM2htZUZXcjVUT3VmMGowUFZyTG8tRy1Rb1Vta29pX3Itdnd1U25Jekk0R2FJNmc0ek9PN1QtUmhaU3EwRnZUenZ2NFVEbU5nT1RI?oc=5"
+        },
+        {
+          "title_zh": "AI 大模型计费被指黑箱，低价中转站风险高",
+          "title_en": "AI model billing called a black box; cheap resellers carry risk",
+          "body_zh": "华商网报道称，AI 大模型计费存在黑箱，一个问题可能消耗上百元 Token，低价中转站更存风险。这提醒用户关注调用成本与渠道合规。",
+          "body_en": "Huashang Net reports that AI model billing is opaque, with a single question potentially burning through 100 yuan in tokens, and that cut-rate resellers carry extra risk. The warning is a reminder to watch both cost and channel compliance.",
+          "ref": 28,
+          "source": "Google AI 中文检索",
+          "tag": "市场",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwUkt6UWpsekpKakNyOTJlTGZudnR4aE5FTERmTktxRW1JSTc4ZGdUNWZRUjNncjhTWUsycU1WMngzcTRGLUpSUEJVdGZBRWQ1WmhOemRVdGo2Y2lKZTNn?oc=5"
+        },
+        {
+          "title_zh": "Mozilla 指责苹果阻止真 Firefox 登陆 iPhone",
+          "title_en": "Mozilla accuses Apple of blocking real Firefox on iPhone",
+          "body_zh": "Mozilla 11 月 20 日发声明，指责苹果长期阻碍真正的 Firefox 登陆 iPhone：iOS 版仍用 WebKit，且苹果要求换内核必须另发全新 App，现有用户得重新安装。即便欧盟 DMA 和日本新法已要求苹果调整，Mozilla 称现行限制仍难接受。",
+          "body_en": "Mozilla said in a Nov. 20 statement that Apple has long blocked a true Firefox on iPhone: the iOS version still runs on WebKit, and Apple requires a separate new app to switch engines, forcing existing users to reinstall. Even after the EU's DMA and Japan's new smartphone law pushed Apple to adjust, Mozilla calls the current limits unacceptable.",
+          "ref": 23,
+          "source": "IT之家",
+          "tag": "监管",
+          "url": "https://www.ithome.com/1/030/727.htm"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "COP31 无协议收场，化石燃料表述成导火索",
+          "title_en": "COP31 ends without a deal after fossil-fuel wording row",
+          "body_zh": "在土耳其安塔利亚举行的联合国气候大会未能就重大气候协议达成一致，谈判因是否提及化石燃料陷入争执，比原定结束时间拖了两天，成为该峰会史上最长的一届。古特雷斯对未就政治决定达成一致表示失望。",
+          "body_en": "The UN climate summit in Antalya, Turkey, failed to reach a major climate deal, with talks deadlocked over whether to mention fossil fuels and running two days past schedule — the longest in the summit's history. UN chief Guterres expressed disappointment that no political decision was reached.",
+          "ref": 35,
+          "source": "BBC World",
+          "tag": "气候",
+          "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "俄罗斯军舰在利比亚班加西疑遭无人机袭击沉没",
+          "title_en": "Russian warship sinks in Benghazi after suspected drone strike",
+          "body_zh": "一艘停靠利比亚班加西港、正返回俄罗斯的俄军舰周日凌晨遭疑似乌克兰海上无人机袭击，发生剧烈爆炸后沉没，目前无人认领。同日另一艘俄船在芬兰湾遇袭后被拖走，芬兰国防军称袭击很可能由乌克兰实施。",
+          "body_en": "A Russian warship docked in Libya's Benghazi port on its way back to Russia was struck early Sunday in a suspected Ukrainian sea-drone attack, exploding and sinking; no one has claimed responsibility. Separately, another Russia-bound ship was towed away after an attack in the Gulf of Finland, which Finland's defense forces said Ukraine likely carried out.",
+          "ref": 41,
+          "source": "The Guardian World",
+          "tag": "地缘",
+          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "达美航空重量与平衡系统故障，截至美东 22 日 11 时亚特兰大机场 681 个航班延误，其中 591 个为达美航班。",
+    "《以撒的结合：忏悔+》因使用 AI 音乐遭 Steam 差评轰炸，开发者已移除相关曲目。",
+    "意大利珠宝商保罗·宝格丽去世，享年 89 岁，家人称其为「我们时代最伟大的珠宝商」。"
+  ],
+  "quick_en": [
+    "A Delta weight-and-balance system outage delayed 681 flights at Atlanta's airport as of 11am ET Sunday, 591 of them Delta's.",
+    "The Binding of Isaac: Repentance Plus was review-bombed on Steam over AI-generated music; the developer has removed the tracks.",
+    "Italian jeweler Paolo Bulgari died at 89; his family called him 'the greatest jeweler of our time.'"
+  ]
+}
