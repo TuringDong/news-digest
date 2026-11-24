@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-24",
+  "subject": "AI 与科技日报 2026-11-24 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-23 00:00 → 2026-11-24 07:45 (UTC+8)",
+  "headline_zh": "黄仁勋复职英伟达市值暴涨近万亿；Anthropic 上市 CEO 套现 2.8 亿；COP31 气候峰会破裂",
+  "headline_en": "Jensen Huang returns to Nvidia as market cap jumps nearly $1T; Anthropic CEO cashes out $280M at IPO; COP31 climate talks collapse",
+  "sections": [
+    {
+      "title_zh": "AI 与芯片",
+      "title_en": "AI & Chips",
+      "items": [
+        {
+          "title_zh": "黄仁勋复职英伟达 CEO，市值单日增近万亿美元",
+          "title_en": "Jensen Huang reinstated as Nvidia CEO, market cap jumps nearly $1 trillion",
+          "body_zh": "英伟达董事会一致投票恢复黄仁勋总裁兼 CEO 及董事职务。消息公布后英伟达股价盘前最高涨 30%，市值增加近 1 万亿美元，纳斯达克指数上涨 6.5%。黄仁勋在总部对员工说“感谢给我第二次机会”。",
+          "body_en": "Nvidia's board unanimously reinstated Jensen Huang as president, CEO and director. The stock jumped as much as 30% premarket, adding nearly $1 trillion in market value and lifting the Nasdaq 6.5%. Huang told employees at headquarters, 'Thank you for giving me a second chance.'",
+          "ref": 33,
+          "source": "IT之家",
+          "tag": "人事",
+          "url": "https://www.ithome.com/1/031/252.htm"
+        },
+        {
+          "title_zh": "Anthropic CEO 上市首日套现约 2.8 亿美元",
+          "title_en": "Anthropic CEO sells $280M in stock on IPO day",
+          "body_zh": "SEC 文件显示，达里奥·阿莫代伊在 Anthropic IPO 当天以每股 83 美元的发行价出售 337.8 万股，套现约 2.804 亿美元。Anthropic 当日收盘报 87.64 美元，市值约 1.15 万亿美元。",
+          "body_en": "SEC filings show Dario Amodei sold 3.38 million Class A shares at the $83 IPO price on Anthropic's first trading day, netting about $280 million. Anthropic closed at $87.64, valuing the company at roughly $1.15 trillion.",
+          "ref": 31,
+          "source": "IT之家",
+          "tag": "市场",
+          "url": "https://www.ithome.com/1/031/253.htm"
+        },
+        {
+          "title_zh": "Anthropic 推出 Claude Ship，让 AI 代理审批代码",
+          "title_en": "Anthropic launches Claude Ship to let AI agents approve code",
+          "body_zh": "Anthropic 发布 Claude Ship，允许 AI 代理审查、修复并批准代码变更，目标是消除 AI 生成代码堆积后的审批瓶颈。这是 Anthropic 在开发者工具链上的一次明显扩张。",
+          "body_en": "Anthropic launched Claude Ship, letting AI agents review, fix and approve code changes to clear the approval bottleneck created by AI-generated code. It marks a clear expansion into the developer toolchain.",
+          "ref": 8,
+          "source": "TechCrunch",
+          "tag": "产品",
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+        },
+        {
+          "title_zh": "美方拟将 Megaspeed 列入黑名单",
+          "title_en": "US moves to blacklist Megaspeed",
+          "body_zh": "据 BBC 和 TechCrunch 报道，与黄仁勋丑闻相关的 Megaspeed 因被指将 AI 芯片转运至中国，可能被列入美国黑名单，届时未经特别许可不得与美国公司交易。",
+          "body_en": "Megaspeed, the company at the center of the Jensen Huang scandal, is set to be blacklisted by the US over allegations it funneled AI chips to China, which would bar it from doing business with US firms without a special license, according to BBC and TechCrunch.",
+          "ref": 44,
+          "source": "BBC World",
+          "tag": "监管",
+          "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "Ladybird 浏览器引擎进入 alpha 测试",
+          "title_en": "Ladybird browser engine enters alpha",
+          "body_zh": "开发者 Andreas Kling 宣布，从零构建的独立浏览器引擎 Ladybird 在 macOS 和 Linux 上发布 alpha 版，历时四年多。这是多年来首个全新的浏览器引擎进入公开测试。",
+          "body_en": "Developer Andreas Kling released the alpha of Ladybird, a from-scratch browser engine, on macOS and Linux after more than four years of work. It is the first new browser engine in years to reach public testing.",
+          "ref": 13,
+          "source": "The Verge",
+          "tag": "软件",
+          "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing"
+        },
+        {
+          "title_zh": "OpenAI 与思科开源 Shirudo，为 Linux 提供免重启补丁",
+          "title_en": "OpenAI and Cisco open-source Shirudo for no-reboot Linux patching",
+          "body_zh": "OpenAI 与思科联合推出基于 eBPF 的开源安全运行时 Shirudo，可在不重启系统的情况下临时拦截漏洞利用，已通过 Java4Shell 攻击测试。",
+          "body_en": "OpenAI and Cisco released Shirudo, an open-source eBPF-based security runtime that temporarily blocks exploits without rebooting systems. It has passed Java4Shell attack interception tests.",
+          "ref": 32,
+          "source": "IT之家",
+          "tag": "安全",
+          "url": "https://www.ithome.com/1/031/245.htm"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "COP31 气候峰会未能达成协议",
+          "title_en": "COP31 climate summit ends without a deal",
+          "body_zh": "在土耳其举行的 COP31 因化石燃料分歧在最后时刻破裂，欧洲等国拒签，为 2009 年以来首次。中方表示“深感失望”，多方呼吁改革联合国气候谈判机制。",
+          "body_en": "COP31 in Turkey collapsed in its final hours over fossil fuels, with European countries refusing to sign — the first such failure since 2009. China said it was 'deeply disappointed,' and calls are growing to reform UN climate talks.",
+          "ref": 72,
+          "source": "Google 新闻中文",
+          "tag": "气候",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT1NfaXJRRUU4cHJ1YWkzOWJpVDcxTWo4bVRTUnNWaGYxSFNqM196VVVkakdRdl9FWjFCdmM2d3k3NFFJTG1NUDkxQV9GZXAzRi1WdEZ4VnlxRUJib05tcVg1NnY4NUs1bkVZTmZYdkxIWUdzQ3BRbExnNmNTY3RNMlVKQlVqTDFvODNfNzNWejdvcUNJN2JYQ2V4cmp4UdIBoAFBVV95cUxPWEpoWEZPVlhWUTQzRUVqREVWbFRVVEc3VG9GcDBXUUNsOG1kVmg5Z012SmJ3cGVwbTJjdkxrTkVzY0FMZGdCTUc4dU9nQ1dXOVVoZzhseHZtQ3JtTmtlUURDS3NOMVVpazFNVnB5Tmo1bTdhYm1aV3cxdDRpbmxjNjI2MXdSd3NpelU2R0FSRllYZTNYNk9STWJxMDVlU0tI?oc=5"
+        },
+        {
+          "title_zh": "乌克兰无人机在利比亚港口击沉俄军舰",
+          "title_en": "Ukrainian drones sink Russian warship in Libya",
+          "body_zh": "乌克兰安全部门确认，从母船发射 7 架海军无人机，在利比亚班加西港击沉俄军“水星”号护卫舰，并击中另一艘俄舰。克里姆林宫警告地区紧张升级。",
+          "body_en": "Ukraine's security service confirmed it launched seven naval drones from a mothership, sinking the Russian corvette Merkury in Benghazi port and hitting another Russian vessel. The Kremlin warned of rising regional tensions.",
+          "ref": 50,
+          "source": "The Guardian World",
+          "tag": "地缘",
+          "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "伊朗歌手 Parastoo Ahmadi 因未戴头巾演出被鞭刑 74 下，律师称另有三人及一名制作人同受处罚。",
+    "曼彻斯特演唱会发现不明物质，逾 1.2 万人紧急疏散。",
+    "智谱发布新一代 GLM-5.4 大模型。"
+  ],
+  "quick_en": [
+    "Iranian singer Parastoo Ahmadi was flogged 74 times for performing without a hijab, with three musicians and a producer also punished, lawyers say.",
+    "More than 12,000 people were evacuated from a Manchester concert after an unknown substance was found.",
+    "Zhipu released its new GLM-5.4 large model."
+  ]
+}
