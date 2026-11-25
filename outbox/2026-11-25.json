@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-25",
+  "subject": "AI 与科技日报 2026-11-25 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-24 00:00 → 2026-11-25 07:45 (UTC+8)",
+  "headline_zh": "黄仁勋道歉并称在心理治疗；华为被判窃取商业秘密；GPT-6 展现蛋白质设计能力",
+  "headline_en": "Jensen Huang apologizes and says he's in therapy; Huawei found guilty of trade secret theft; GPT-6 shows protein-design capability",
+  "sections": [
+    {
+      "title_zh": "AI 前沿",
+      "title_en": "AI Frontier",
+      "items": [
+        {
+          "title_zh": "GPT-6 展现内在蛋白质设计能力",
+          "title_en": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "body_zh": "OpenAI 发布博文称，GPT-6 模型展现出内在的蛋白质设计能力，无需专门微调即可完成相关任务。若属实，这意味着通用大模型开始直接切入生物设计领域。",
+          "body_en": "OpenAI says its GPT-6 models show intrinsic protein-design capabilities, handling such tasks without dedicated fine-tuning. If it holds up, general-purpose models are moving straight into biological design.",
+          "ref": 1,
+          "source": "Hacker News",
+          "tag": "AI",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+        },
+        {
+          "title_zh": "AI 智能体连日常任务都做不好",
+          "title_en": "Even the best AI agents struggle with everyday life",
+          "body_zh": "TechCrunch 报道的一项新基准显示，即便最先进的 AI 模型，在可靠、安全地完成日常任务上仍然吃力，还可能引入新问题。这给火热的个人 AI 助理热潮泼了一盆冷水。",
+          "body_en": "A new benchmark reported by TechCrunch finds that even the most advanced AI models struggle to complete everyday tasks reliably and safely, and can introduce new problems. That's a sobering check on the personal-AI-assistant boom.",
+          "ref": 9,
+          "source": "TechCrunch",
+          "tag": "AI",
+          "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/"
+        },
+        {
+          "title_zh": "Anthropic 让 Claude 生成内容一键装成桌面应用",
+          "title_en": "Anthropic lets Claude artifacts install as desktop apps",
+          "body_zh": "Anthropic 为 Claude 的交互式 Artifacts 增加「安装为应用」选项，生成的应用可作为独立软件装到 macOS 和 Windows 上，拥有独立图标和可选权限。这模糊了 AI 生成内容与传统软件的边界。",
+          "body_en": "Anthropic added an 'Install as app' option to Claude's interactive Artifacts, letting generated apps be installed as standalone software on macOS and Windows, with their own icons and optional permissions. It blurs the line between AI output and conventional software.",
+          "ref": 34,
+          "source": "IT之家",
+          "tag": "产品",
+          "url": "https://www.ithome.com/1/031/911.htm"
+        },
+        {
+          "title_zh": "文心 5.5 Flash Preview 以 Apache 2.0 开源",
+          "title_en": "Baidu open-sources ERNIE 5.5 Flash Preview under Apache 2.0",
+          "body_zh": "百度正式开源文心 5.5 Flash Preview，采用 Apache 2.0 协议。这是中国大模型厂商在开源路线上又一次明确表态，方便开发者直接商用集成。",
+          "body_en": "Baidu has open-sourced ERNIE 5.5 Flash Preview under the Apache 2.0 license. It's another clear signal from a major Chinese model maker on open weights, making commercial integration easier for developers.",
+          "ref": 29,
+          "source": "量子位",
+          "tag": "开源",
+          "url": "https://www.qbitai.com/2026/11/512354.html"
+        },
+        {
+          "title_zh": "Bengio：我们正冲向巨大危险",
+          "title_en": "Yoshua Bengio: 'We're racing towards huge dangers'",
+          "body_zh": "AI 先驱 Yoshua Bengio 在 CBS 采访中警告，行业正快速冲向巨大风险。这类表态来自图灵奖得主，分量不轻。",
+          "body_en": "AI pioneer Yoshua Bengio warned in a CBS interview that the field is racing toward huge dangers. Coming from a Turing Award winner, the warning carries weight.",
+          "ref": 91,
+          "source": "Google AI 检索",
+          "tag": "安全",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeHppUHFENjRTVWpQN2ZSR2dKbmdHQ2hhaXBuWC1FU05rRkxYSzR1ZXpYZDR5aTJvc0pEUTZDdFBuWkZvR3dUaERXNFZSWV9JTkE5WkJqR2lGaGhqRDY3VjY4d002dFZNV3BaRVVKN2JvSVluVUdGV1FWY0Z1ajVVS292SncyeHVGaExpQQ?oc=5"
+        },
+        {
+          "title_zh": "AI 债务市场因黄仁勋回归而震荡",
+          "title_en": "AI debt markets shudder as Nvidia's top 'banker' returns",
+          "body_zh": "CNBC 报道，黄仁勋回归英伟达后，AI 相关债务市场出现波动。市场担心的是，支撑 AI 扩张的融资链条对英伟达这位关键人物的依赖过深。",
+          "body_en": "CNBC reports that AI-linked debt markets wobbled after Jensen Huang's return to Nvidia. The worry is how deeply the financing chain behind the AI buildout depends on one key figure at Nvidia.",
+          "ref": 94,
+          "source": "Google AI 检索",
+          "tag": "市场",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nS1FDUS1xNTd6cWFBUE9JbUxkUnZUSnJFck82RHlqeEZOVTBUenpqYWJHbjd0VldkNEI4b3NFalZXTXhRTVFpQ042V2FVQ0g2SXNHeUlYOU1yQnVDWE5FaDFFUWNIUXB3UFpzbm9PcDNNb0Vrc19wV0RKZ2ZwWjjSAYQBQVVfeXFMUERIbXJUSm81dUY0YV9wRlo2YkpfNTBtY3JCOGFsSFM1ODBzU1ltLVFnaHZyRkhmZURkY3dCX1RKVjc3MUd0RVZGR0dtZFZFZjc0LTczZmIwVm1sTjBsaUNZSEo5MEhTWXdMcXU2aHVXTHNRWXJLZnd6VUU0cmxEUHdHZGRp?oc=5"
+        }
+      ]
+    },
+    {
+      "title_zh": "公司与产业",
+      "title_en": "Companies & Industry",
+      "items": [
+        {
+          "title_zh": "黄仁勋全员会道歉，称每天接受心理治疗",
+          "title_en": "Jensen Huang apologizes at all-hands, says he's in therapy",
+          "body_zh": "据 CNN 报道，英伟达 CEO 黄仁勋在全员会议上向员工道歉，承认自己犯了严重错误，并称每天接受超过一小时心理治疗。他否认白宫在其复职中起主导作用，称董事会独立决定。",
+          "body_en": "Nvidia CEO Jensen Huang apologized to staff at an all-hands meeting, acknowledging serious mistakes and saying he now spends more than an hour a day in therapy, according to CNN. He denied the White House drove his reinstatement, saying the board decided independently.",
+          "ref": 32,
+          "source": "IT之家",
+          "tag": "公司",
+          "url": "https://www.ithome.com/1/031/913.htm"
+        },
+        {
+          "title_zh": "华为被判窃取美国商业秘密",
+          "title_en": "Huawei found guilty of stealing US trade secrets",
+          "body_zh": "纽约联邦法院陪审团裁定华为窃取美国商业秘密罪名成立，但敲诈勒索指控不成立。这场持续数月的审判指控其窃取多家公司的源代码和专有技术。",
+          "body_en": "A federal jury in New York found Huawei guilty of stealing US trade secrets but acquitted it of racketeering. The months-long trial accused the Chinese telecom giant of taking source code and proprietary technology from several companies.",
+          "ref": 14,
+          "source": "The Verge",
+          "tag": "法律",
+          "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial"
+        },
+        {
+          "title_zh": "美司法部长回避英伟达调查提问",
+          "title_en": "US attorney general dodges questions on Nvidia investigation",
+          "body_zh": "BBC 报道，英伟达股价下跌 7%，议员要求解释特朗普总统在黄仁勋复职中的角色，司法部长回避了相关提问。围绕英伟达的公司治理争议仍在发酵。",
+          "body_en": "Nvidia shares fell 7% as lawmakers demanded answers about President Trump's role in Huang's reinstatement, and the attorney general dodged questions on the matter, the BBC reported. The governance controversy around Nvidia is still unfolding.",
+          "ref": 45,
+          "source": "BBC World",
+          "tag": "监管",
+          "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "微软云大故障暴露工程「战争迷雾」",
+          "title_en": "Microsoft's historic cloud outage exposed an engineering 'fog of war'",
+          "body_zh": "Ars Technica 获得的内部备忘录显示，微软那场历史性云故障后启动了「Code Red」整改，并定下雄心勃勃的一小时恢复目标。这暴露出超大规模云在故障中的真实应对状态。",
+          "body_en": "Internal memos obtained by Ars Technica show Microsoft launched a 'Code Red' overhaul after its historic cloud outage, setting ambitious one-hour recovery goals. The documents expose how a hyperscaler really operates during a failure.",
+          "ref": 19,
+          "source": "Ars Technica",
+          "tag": "云",
+          "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "胡塞无人机袭击利雅得高楼致 11 伤",
+          "title_en": "Houthi drone attack on Riyadh tower injures 11",
+          "body_zh": "沙特民防部门称，胡塞武装无人机袭击利雅得 PIF 大厦，造成 11 人受伤。这是对沙特首都地标建筑的又一次直接打击，地区冲突外溢风险上升。",
+          "body_en": "A Houthi drone attack on Riyadh's PIF Tower injured 11 people, Saudi civil defence said. It's another direct strike on a landmark in the Saudi capital, raising the risk of regional spillover.",
+          "ref": 83,
+          "source": "Google News World",
+          "tag": "地缘",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT3JsaU96a05ySk9rVHZIazNjQmt6Z2ZCZF9nRWFSVHVqa0s1LVhhRXhVc1VSMjNfWHhQTVZyZU9GZEtsZHRRVU5yVGVUYmVwZkRDNC1iSmYyWDc0UTdhV2pOenhuWDFkQ0ZWWkhwcTFoN2tsU3JjcllUWWJkcDBvUHU4MTAzSi0zX05oM0NLQVpua1VFNmJfcWE3cmh1al82V29SdDhCSkc4d9IBrwFBVV95cUxPQ1M5eHo1Rk9NaE5DM2hNbGF1akUxczVaekNKRWRUN3JxZ0ZJd05TYno2b2o2bVU0ZWJxWE5GWE5kT19lRHR6Z3k0TVpkaXFuY2dBMXNmaFE2YWpubno0VGZFUFlEbEJqY2NKODVWX09BVUpEUGZTXzRrY3RZWi1YUFdtaUN2amFOSm1sNXJRRzA3TW84Sk0wcUJYN1NCSEpKbV9ZZk8zNUtZSzJVdjFV?oc=5"
+        },
+        {
+          "title_zh": "委内瑞拉披露 2375 亿美元公共债务",
+          "title_en": "Venezuela unveils $237.5bn public debt ahead of restructuring",
+          "body_zh": "委内瑞拉在历史性债务重组前公布约 2375 亿美元公共债务。这个数字为债权人谈判划定了起点，也揭示该国经济危机的深度。",
+          "body_en": "Venezuela disclosed about $237.5 billion in public debt ahead of a historic restructuring. The figure sets a starting point for creditor talks and lays bare the depth of the country's economic crisis.",
+          "ref": 85,
+          "source": "Google News World",
+          "tag": "经济",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTGZDS2s5a3NJakp5c2FHbUpSaS1ObHVfaHNkUm84RGdlLUNadURvNGl3LXdtamRNak5Yd0IyXzlRVUFBSHh6Q2I4TU9taTJ3Z1FuemdSV0VXNHBLT0JFeHEzUWZCTmx2UHJHV2g3TzNZbnBObXJiSUx0Q0t6UFFLcmxZV3M?oc=5"
+        },
+        {
+          "title_zh": "卡塔赫纳超市人质事件 15 人获释",
+          "title_en": "Hostages held in Cartagena supermarket; 15 released",
+          "body_zh": "哥伦比亚旅游城市卡塔赫纳武装分子在一家超市劫持人质，总统称事件源于一起未遂抢劫，已有 15 人获释。事件发生在该国最热门旅游目的地之一，引发安全担忧。",
+          "body_en": "Armed men held hostages in a supermarket in the Colombian tourist city of Cartagena; the president said the incident stemmed from a botched robbery and that 15 people had been released. It happened in one of the country's most popular destinations, raising security concerns.",
+          "ref": 52,
+          "source": "The Guardian World",
+          "tag": "社会",
+          "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "美国麻疹死亡病例增至 14 例，威斯康星州报告第 3 例死亡。",
+    "NASA 火星舰队半数因技术问题离线，毅力号通信困难，奥德赛号燃料告急。",
+    "15 岁印度小将 Sooryavanshi 53 球轰 204 分，刷新 List A 最快双百纪录。"
+  ],
+  "quick_en": [
+    "US measles deaths rise to 14, with Wisconsin reporting its third fatality.",
+    "Half of NASA's Mars fleet is offline due to technical issues; Perseverance has transmission trouble and Odyssey is low on fuel.",
+    "India's 15-year-old Vaibhav Sooryavanshi smashed 204 off 53 balls, nearly halving the record for the fastest List A double-century."
+  ]
+}
