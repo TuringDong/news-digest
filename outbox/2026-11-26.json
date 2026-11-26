@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-26",
+  "subject": "AI 与科技日报 2026-11-26 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-25 00:00 → 2026-11-26 07:45 (UTC+8)",
+  "headline_zh": "AI 股大跌拖累美股，S&P 考虑下调英伟达评级；美国对多国加征新关税",
+  "headline_en": "AI selloff drags US stocks lower, S&P weighs Nvidia downgrade, and new US tariffs hit China and the EU",
+  "sections": [
+    {
+      "title_zh": "AI 与科技",
+      "title_en": "AI & Tech",
+      "items": [
+        {
+          "title_zh": "AI 股抛售加剧，纳指盘中跌近 4%",
+          "title_en": "AI stock rout deepens, Nasdaq falls nearly 4%",
+          "body_zh": "受 AI 泡沫担忧、新关税和通胀压力叠加影响，美国三大股指周三继续下挫，科技股为主的纳斯达克盘中跌近 4%。WSJ 称市场正在经历「AI 繁荣转向萧条」的剧烈重估，午后出现一定反弹，但跌幅仍显著。",
+          "body_en": "All three major US indexes fell on Wednesday, with the tech-heavy Nasdaq down almost 4% intraday, as worries about AI valuations, new tariffs and inflation piled up. The Wall Street Journal described the move as the AI boom turning to bust, though an afternoon bounce trimmed the losses.",
+          "ref": 34,
+          "source": "BBC World",
+          "tag": "市场",
+          "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "S&P 考虑因治理与「关键人」风险下调英伟达评级",
+          "title_en": "S&P considers Nvidia downgrade over governance and key-man risk",
+          "body_zh": "标普表示可能将英伟达信用评级下调至 AA-，即第四高评级，理由涉及公司治理和过度依赖黄仁勋的「关键人」风险。这一信号出现在英伟达因美国收紧对华 AI 芯片出口而面临卖家寻找新买家的背景下。",
+          "body_en": "S&P said it may cut Nvidia's credit rating to AA-, the fourth-highest grade, citing governance concerns and key-man risk tied to Jensen Huang. The warning comes as Nvidia sellers seek new buyers after Washington tightened curbs on AI chip access to China.",
+          "ref": 1,
+          "source": "TechCrunch",
+          "tag": "硬件",
+          "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
+        },
+        {
+          "title_zh": "FCC 批准 SpaceX 在太空部署 AI 数据中心",
+          "title_en": "FCC approves SpaceX plan for AI data centers in space",
+          "body_zh": "美国联邦通信委员会批准了 SpaceX 在轨建设 AI 数据中心的计划，并驳回了反对者关于影响科学研究等担忧，称这些事项超出其监管权限。FCC 同时授权 SpaceX 部署多达 100 万颗卫星，将使在轨卫星数量增加约 50 倍。",
+          "body_en": "The FCC approved SpaceX's plan to put AI data centers in orbit, dismissing opponents' concerns about scientific research as outside its regulatory authority. The agency also authorized SpaceX to deploy as many as 1 million satellites, roughly a 50-fold increase in the number of satellites in orbit.",
+          "ref": 2,
+          "source": "TechCrunch",
+          "tag": "政策",
+          "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+        },
+        {
+          "title_zh": "OpenAI 合并 Chat 与 Work，重度用户或更早触限",
+          "title_en": "OpenAI merges Chat and Work, heavy users may hit limits sooner",
+          "body_zh": "OpenAI 将把 ChatGPT 的 Chat 与 Work 两种体验合并，并引入统一的用量计量。公司提示，重度用户可能会比过去更早触及使用上限。",
+          "body_en": "OpenAI is combining the Chat and Work experiences in ChatGPT under a single usage meter. The company warned that heavy users may hit their limits sooner than before.",
+          "ref": 3,
+          "source": "TechCrunch",
+          "tag": "产品",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+        },
+        {
+          "title_zh": "Amodei 回击「向 AI 交出人类控制权」指控",
+          "title_en": "Amodei calls accusations of surrendering control to AI 'absurd'",
+          "body_zh": "Anthropic CEO Dario Amodei 否认竞争对手关于他主张把人类能动性交给 AI 的说法，称其「荒谬」。这一争论的背景是，领先 AI 公司正越来越多地自动化自身的研究和模型开发流程。",
+          "body_en": "Anthropic CEO Dario Amodei pushed back on rivals' claims that he favors surrendering human agency to AI, calling the accusations absurd. The spat comes as leading AI labs increasingly automate their own research and model development.",
+          "ref": 6,
+          "source": "TechCrunch",
+          "tag": "AI",
+          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+        },
+        {
+          "title_zh": "1Password 遭入侵，客户姓名与邮箱泄露",
+          "title_en": "1Password breach leaks customer names and emails",
+          "body_zh": "1Password 称黑客侵入其后端系统，窃取了客户姓名和邮箱地址，但密码及保险库内其他信息未泄露。公司警告用户可能面临钓鱼风险，受影响用户数量尚不清楚。",
+          "body_en": "1Password said a hacker gained access to its backend systems and stole customer names and email addresses, though passwords and vault data were not exposed. The company warned users of possible phishing attempts; the number of affected users is unclear.",
+          "ref": 11,
+          "source": "The Verge",
+          "tag": "安全",
+          "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak"
+        },
+        {
+          "title_zh": "欧洲 Hera 探测器抵达 DART 撞击现场",
+          "title_en": "Europe's Hera probe finds chaotic scene at asteroid impact site",
+          "body_zh": "欧洲航天局的 Hera 探测器抵达四年前 NASA DART 撞击小行星 Dimorphos 的现场，发现撞击留下体育场大小的陨石坑，表面被彻底改变。研究人员称 DART「制造了非常大的混乱」，此前并不清楚具体形态。",
+          "body_en": "Europe's Hera spacecraft has arrived at the asteroid Dimorphos, four years after NASA's DART mission deliberately crashed into it, revealing a stadium-sized crater and a thoroughly reshaped surface. Researchers said DART made a really large mess, and they had not known what kind of mess to expect.",
+          "ref": 12,
+          "source": "Ars Technica",
+          "tag": "科学",
+          "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "美国对中国、欧盟等 14 个贸易伙伴加征新关税",
+          "title_en": "US imposes new tariffs on China, EU and 12 other partners",
+          "body_zh": "特朗普政府以补贴工厂等不公平做法为由，宣布对包括中国、欧盟、巴西在内的 14 个贸易伙伴加征新关税。消息公布后全球市场震荡，美股同步下挫。",
+          "body_en": "The Trump administration announced new tariffs on 14 trading partners, including China, the EU and Brazil, citing unfair practices such as subsidized factories. Global markets reacted sharply, with US stocks falling in tandem.",
+          "ref": 30,
+          "source": "BBC World",
+          "tag": "地缘",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "开罗环城路油罐车相撞起火，至少 31 死",
+          "title_en": "Fuel tanker crash sparks Cairo highway fire, killing at least 31",
+          "body_zh": "一辆油罐车在开罗环城路上翻车并起火，造成至少 31 人死亡、20 多人受伤，多辆汽车和摩托车被烧毁。环城路是环绕埃及首都的关键交通干道。",
+          "body_en": "A fuel tanker overturned and caught fire on Cairo's ring road, killing at least 31 people and injuring more than 20, with cars and motorcycles left charred. The ring road is a key artery around the Egyptian capital.",
+          "ref": 32,
+          "source": "BBC World",
+          "tag": "事故",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "以色列法官建议撤销内塔尼亚胡最严重指控",
+          "title_en": "Israeli judges recommend dropping most serious charges against Netanyahu",
+          "body_zh": "以色列法官表示，在三起案件中的一起中，内塔尼亚胡被定罪的可能性很小，建议检方撤销相关最严重指控。内塔尼亚胡随即称其腐败审判应当结束。",
+          "body_en": "Israeli judges said there was little chance of conviction in one of three cases against Benjamin Netanyahu and recommended prosecutors drop the most serious charges. The prime minister responded that his corruption trial should end.",
+          "ref": 33,
+          "source": "BBC World",
+          "tag": "政治",
+          "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "神舟二十四号载人飞船发射成功，首位巴基斯坦航天员进入中国空间站。",
+    "WhatsApp 为 30 亿用户上线定时发送消息功能，Meta 称这是最受期待的功能之一。",
+    "国际象棋世界冠军赛第二局，Gukesh 与 Sindarov 仅 20 回合、1 小时 57 分钟握手言和。"
+  ],
+  "quick_en": [
+    "China's Shenzhou-24 crewed mission launched successfully, carrying the first Pakistani astronaut to the Tiangong space station.",
+    "WhatsApp rolled out scheduled messages to its 3 billion users, one of Meta's most-requested features.",
+    "Game 2 of the world chess championship between Gukesh and Sindarov ended in a 20-move draw after 1 hour 57 minutes."
+  ]
+}
