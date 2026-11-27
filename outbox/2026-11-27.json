@@ -1,0 +1,173 @@
+{
+  "date": "2026-11-27",
+  "subject": "AI 与科技日报 2026-11-27 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-26 00:00 → 2026-11-27 07:45 (UTC+8)",
+  "headline_zh": "英伟达暂停东南亚服务器出货；美国拟对14个经济体加征301关税；Anthropic上市",
+  "headline_en": "Nvidia pauses Southeast Asia server shipments; US proposes 301 tariffs on 14 economies; Anthropic goes public",
+  "sections": [
+    {
+      "title_zh": "AI 与芯片",
+      "title_en": "AI & Chips",
+      "items": [
+        {
+          "title_zh": "英伟达暂停向东南亚四国出货服务器",
+          "title_en": "Nvidia pauses server shipments to four Southeast Asian nations",
+          "body_zh": "英伟达已通知制造伙伴暂停向马来西亚、新加坡、泰国和印度尼西亚发运服务器，配合美国收紧AI芯片流向中国的管制。此举可能冲击东南亚数据中心建设节奏，也令当地AI算力供应承压。",
+          "body_en": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as Washington tightens its push to keep AI chips out of China. The move could slow data-center buildouts across Southeast Asia and squeeze local AI compute supply.",
+          "ref": 1,
+          "source": "TechCrunch",
+          "tag": "地缘",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+        },
+        {
+          "title_zh": "标普考虑因治理与关键人风险下调英伟达评级",
+          "title_en": "S&P weighs Nvidia downgrade over governance and key-man risk",
+          "body_zh": "标普表示可能将英伟达信用评级下调至AA-，即第四高评级，理由是公司治理和“关键人”风险。这给英伟达的融资成本和投资者信心添了一层不确定性。",
+          "body_en": "S&P said it may cut Nvidia's credit rating to AA-, the fourth-highest grade, citing governance and key-man risks. The review adds a layer of uncertainty to Nvidia's funding costs and investor confidence.",
+          "ref": 6,
+          "source": "TechCrunch",
+          "tag": "市场",
+          "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
+        },
+        {
+          "title_zh": "Anthropic 上市，GTA VI 同日发售",
+          "title_en": "Anthropic goes public as GTA VI launches",
+          "body_zh": "Anthropic 于同日进入公开市场，而打磨多年、高度依赖人力的《侠盗猎车手VI》成为史上最成功的娱乐产品发售之一。两件事同天发生，恰好构成效率与匠心的对照。",
+          "body_en": "Anthropic entered the public market on the same day that Grand Theft Auto VI, a painstakingly human-made game, became one of the most successful entertainment launches ever. The coincidence frames a contrast between efficiency and craft.",
+          "ref": 5,
+          "source": "TechCrunch",
+          "tag": "市场",
+          "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/"
+        },
+        {
+          "title_zh": "SAP 考虑在 AI 重组中裁减至少一万人",
+          "title_en": "SAP considers at least 10,000 job cuts in AI restructuring",
+          "body_zh": "据彭博报道，SAP 正考虑在AI驱动的重组中裁减至少1万个岗位。这是欧洲大型软件公司迄今规模最大的AI相关裁员计划之一。",
+          "body_en": "SAP is considering at least 10,000 job cuts as part of an AI-driven restructuring, Bloomberg reported. It would be one of the largest AI-related workforce reductions at a major European software company to date.",
+          "ref": 86,
+          "source": "Reuters",
+          "tag": "市场",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUUhZaXItb2lOYVhHRHBoUkpGZFM2Y0ZpQ1dSN3QwUnEyQlBKdmlRVG9fdFM5WS1UNm41dGZnRVhyY1FIbjBvOUNFWEREN1F4S1l1amVSUGFheGl4N1NNbk1ieF9HU3N0azQ1djN1bjA2RWhIc1VhVWVWb0RVbG1HMVlPbFQyb0N5N1ZLTUVZeXlxMDk4d3d0UHh1ajdZeWd3ekx5TU52Z3BDaXdhOU9uN3dtd1lLMXM?oc=5"
+        },
+        {
+          "title_zh": "Anthropic 平台工程负责人：晋升不再看项目耗时",
+          "title_en": "Anthropic engineering lead: promotions no longer hinge on project duration",
+          "body_zh": "Anthropic 平台工程负责人凯特琳·莱斯表示，AI普及后，以项目完成时间衡量工程师晋升已失去参考价值，团队更看重降低系统延迟、避免事故等实际影响。工作重心正从写代码转向协调人与智能体。",
+          "body_en": "Anthropic platform engineering lead Caitlin Rice said project duration is no longer a useful promotion criterion now that AI compresses timelines, and her team weighs concrete impact such as lower latency and fewer incidents. The focus is shifting from writing code to coordinating people and agents.",
+          "ref": 29,
+          "source": "IT之家",
+          "tag": "职场",
+          "url": "https://www.ithome.com/1/033/141.htm"
+        },
+        {
+          "title_zh": "AI 生成百年数学难题解法引发学界讨论",
+          "title_en": "AI-generated solution to century-old math problem stirs debate",
+          "body_zh": "NPR报道，数学界正在回应一个由AI生成的、针对百年老问题的解法。若获认可，这将是AI在纯数学领域少见的实质性贡献。",
+          "body_en": "The math community is reacting to an AI-generated solution to a century-old problem, NPR reported. If validated, it would mark a rare substantive contribution by AI to pure mathematics.",
+          "ref": 84,
+          "source": "NPR",
+          "tag": "前沿",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObG5YdUxKYjhldTZOX3FRUzdMX2ZXdDlqZWNCVU9UQjFTRm1UY3ZtOFVoLXJZbXNzNzgySlJpQUZzc1FGTU9RTFZGUnZOTzlSNEZsVGs3TUlxdHl1QlhzdWZVci1CcXRGV3JHTzVlMkNRcWttQmdMdVFFZVFQWkVqNmxDODdrRkt3ZlEwcF9DRTJSX1JzN0FkUTZkMnlvelp0bTRGcjJsQ3RFdjNRa0xUQ18wblBBa2stZXl1U3BvWjU1TkRISmpJ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_zh": "政策与监管",
+      "title_en": "Policy & Regulation",
+      "items": [
+        {
+          "title_zh": "美国拟对14个经济体加征301关税",
+          "title_en": "US proposes 301 tariffs on 14 economies",
+          "body_zh": "美国公布301调查结果，拟对中国、台湾等14个经济体加征关税，中国商务部表示坚决反对。欧盟高官称此举“荒谬”，亚洲多国也纷纷反驳，贸易摩擦范围可能扩大。",
+          "body_en": "The US unveiled the results of its Section 301 probe and proposed new tariffs on 14 economies including China and Taiwan; China's Commerce Ministry said it firmly opposes the move. EU officials called it \"absurd\" and several Asian trading partners pushed back, raising the risk of a wider trade fight.",
+          "ref": 64,
+          "source": "DW.com",
+          "tag": "贸易",
+          "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxPeWhaWjdTdHFpQTg1MFVpaTBDQTMwa2R4RmVsT0hWZnFzREJlbEhOOHRtcjV2WGlkYkI5WG8tRWJjMHNsRVJQXzQ4S0pYUy04Q0pTdkJjX21wMC1iQndTMmdURVBPZDZsbWYwczB0aVdtT1Y5OEo2RTVoZ1dzN2RBdnhGRXJqZ0VZcVVPT0RxRjBRcHhndDAwN2RTZjRCWmI2am5xeVRMcWd4YmVlR3dCQ2dyUnAzOTN0b3RucVRRTzhCMFVXUHBsbmlvQ1VoYWp2aS1uZGRIUVVhZmZoS1RFMmRMYWJIbU1uczd0SmxwREFSVmIwd25uUUZ5b0FDYldIOGhjc0I2MDlkTjR6Zlpab3lQUE1pRDBtVXFUZnRFazBxRTE0elh3YkxkZGs5SnNRSHBmUmhBNE5fUXZNeDJwVENQTm9YTVlhSDBVT3BNbG5xZmpYYkdaMWtsdDNTTk9OUjFMeklCbldBcVNyX05tQk50SlA4amdWbnVBcUpEbWFFdDRkZ2JrYlB2aUdZNjdjSlZJUnVYT1IxN3JNMXNERDY4cGF1TkgtRzlFdVRhMEJrQdIBsgNBVV95cUxQUjJ5Rko1T3VaN3dzRmJZenRxbk9EamRwdUFmbVdzbUllUVJraXB4TWF3eGk4ZjJiaDczTS0xMnFqNE9EVEN2bDFuRm5PLVNEaml6Nl9TSGxzb2w4WFZmZlVYWVJaYS14czY3YVlQZS1oNUlGWTV2eEJLTDYwQXpkWE1iZlVDUHB6VllCN1VDYjNhbTQzQk9xT1M4a3hIN1A4VnlBZkRsVlBOdnVvZXQ5LUFubUV1NWFzbGdoY2piRHlLcUZUdWFBSzVjbGxkMGkzRnc3bDU2SEgybEVPa0VTcFNBN1F4ZHNVUE5aaXlLYkl0X19wNEJBOGdtOG1sSW9pR05IdXVqN0ptRkh0OGZwTmFEdmlmN3duSW83ZndwVkczRU15WEdHUTdSQ05CLVV4Yl9WZ3R5NnNwbFVYTkQ5dmF2OHpQMmZKVFdjOXo0SUJ6SFNDbUtDcWUyYXhTMDlQU04xUklaYVkxVzR1T29KOXVNd0RJd1Y5SXd6dVV3U2wyd3NZcXN6aTVJV01SNS1Hb0NtaFVocDI5cGY5Q1NKVjZ5dVRrUWhrYVE1VkhyeG9mQQ?oc=5"
+        },
+        {
+          "title_zh": "谷歌要求安卓开发者公开电话与地址",
+          "title_en": "Google to require Android developers to publish phone and address",
+          "body_zh": "谷歌宣布从明年起，许多独立安卓应用开发者须公开电话号码和地址，以符合欧盟《数字服务法》。开发者担忧隐私受损，谷歌称联系方式将受到保护。",
+          "body_en": "Google said that from next year many independent Android developers must publicly share a phone number and address to comply with the EU's Digital Services Act. Developers worry about privacy; Google says contact details will be protected.",
+          "ref": 10,
+          "source": "The Verge",
+          "tag": "监管",
+          "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu"
+        },
+        {
+          "title_zh": "英国央行行长：未发布 AI 模型引发加密担忧",
+          "title_en": "BoE's Bailey flags encryption concerns over unreleased AI models",
+          "body_zh": "英国央行行长安德鲁·贝利表示，一些尚未发布的AI模型已引发对加密安全的担忧。这显示监管机构正把前沿模型的能力视为金融稳定的潜在变量。",
+          "body_en": "Bank of England Governor Andrew Bailey said unreleased AI models have raised concerns about encryption security. The remarks signal regulators are treating frontier-model capabilities as a potential variable for financial stability.",
+          "ref": 87,
+          "source": "Financial Times",
+          "tag": "监管",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbWxtSWdkclhVM25LM250eXk0V3AyWHl5VU82OHdETGpVOHBNeHVwR0tKM1JiVUlmNnpRZHZuX2o5bFctVU16OVctaDVFM0RUTWxLZXladmFDSjdjMUpkLVhiX3dRYVhrTVRDTUpud0R6RU1NYWx3TElCWmlkSndmTjdwTEQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "泽连斯基称美国对俄施压不够",
+          "title_en": "Zelensky says US not pressing Russia hard enough",
+          "body_zh": "乌克兰总统泽连斯基对BBC表示，美国过于关注中东，没有对俄罗斯施加足够压力，并称特朗普把普京称为朋友“很奇怪”。此番表态出现在特朗普称已要求普京“收手”之后。",
+          "body_en": "Ukraine's President Zelensky told the BBC that Washington is too focused on the Middle East and not pressing Russia hard enough, calling it \"strange\" that Trump has described Putin as a friend. The remarks came after Trump said he had asked Putin to \"pull back\" military aggression in Europe.",
+          "ref": 38,
+          "source": "BBC World",
+          "tag": "地缘",
+          "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title_zh": "开罗油罐车相撞起火致至少31死",
+          "title_en": "Cairo fuel tanker crash and fire kills at least 31",
+          "body_zh": "埃及当局称，一辆油罐车在开罗环城公路发生碰撞并引发大火，造成至少31人死亡、21人受伤，多辆汽车和摩托车被烧毁。警方已拘留涉事司机。",
+          "body_en": "A fuel tanker crash on Cairo's ring road ignited a huge fire that killed at least 31 people and injured at least 21, Egyptian authorities said, leaving cars and motorcycles charred. Police have detained the driver suspected of causing the crash.",
+          "ref": 45,
+          "source": "The Guardian World",
+          "tag": "事故",
+          "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway"
+        },
+        {
+          "title_zh": "刚果（金）埃博拉疫情达1.2万例",
+          "title_en": "Congo Ebola outbreak reaches 12,000 cases",
+          "body_zh": "刚果（金）埃博拉疫情已累计1.2万例，东部战事迫使部分防控人员撤离，死亡人数已超5700人。NPR称，防控响应正面临严重威胁。",
+          "body_en": "The Ebola outbreak in the Democratic Republic of Congo has reached 12,000 cases, with fighting in the east forcing some responders to evacuate; the death toll has topped 5,700. NPR reported that the outbreak response is now seriously threatened.",
+          "ref": 81,
+          "source": "NPR",
+          "tag": "公共卫生",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5uQzZ2Z05RVGJOSUNFUUc5MkFqWG01c2FkQjA0TllLdGY2cGc2MFplakYwWFVlcGFiWVlIdy1FWnAzVkJIejNtMk9FU0Z2QWhfUXFVSW9Qd2UwV1JiaGlKRjVVYi1qZ0NYOE1yT1BTRlNRdGc?oc=5"
+        }
+      ]
+    },
+    {
+      "title_zh": "体育与娱乐",
+      "title_en": "Sports & Culture",
+      "items": [
+        {
+          "title_zh": "熊队感恩节绝杀雄狮，终结对手六连胜",
+          "title_en": "Bears stun Lions on Thanksgiving with last-second TD",
+          "body_zh": "芝加哥熊队四分卫凯莱布·威廉姆斯在终场前3秒传出6码达阵，帮助球队以39比35客场逆转底特律雄狮。这是熊队全场首次领先，也终结了雄狮的六连胜。",
+          "body_en": "Chicago Bears quarterback Caleb Williams threw a 6-yard touchdown pass to Rome Odunze with three seconds left to beat the Detroit Lions 39-35 on the road. It was the Bears' first lead of the game and ended Detroit's six-game win streak.",
+          "ref": 58,
+          "source": "The Guardian Sport",
+          "tag": "体育",
+          "url": "https://www.theguardian.com/sport/2026/nov/26/nfl-roundup-thanksgiving-scores-bears-lions-eagles-cowboys-chiefs-bills"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "X 平台上线青少年家长控制功能，距其前身创立已约20年。",
+    "福特发布 GT41 原型赛车，2027年重返世界耐力锦标赛，目标再赢勒芒。",
+    "欧洲赫拉探测器抵达DART撞击现场，发现小行星被撞后一片混乱。"
+  ],
+  "quick_en": [
+    "X has added parental controls for teenagers, roughly two decades after its predecessor launched.",
+    "Ford unveiled the GT41 prototype and will enter the World Endurance Championship in 2027, aiming to win Le Mans again.",
+    "Europe's Hera spacecraft reached the DART impact site and found a chaotic scene after the asteroid deflection test."
+  ]
+}
