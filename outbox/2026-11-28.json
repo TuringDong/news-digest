@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-28",
+  "subject": "AI 与科技日报 2026-11-28 · Daily AI & Tech Brief",
+  "meta": "统计窗口 2026-11-27 00:00 → 2026-11-28 07:45 (UTC+8)",
+  "headline_zh": "英伟达暂停东南亚芯片出货；美国多州起诉 SpaceX 与 Grok；欧盟预算峰会破裂",
+  "headline_en": "Nvidia pauses Southeast Asia chip shipments; US states sue SpaceX over Grok; EU budget summit collapses",
+  "sections": [
+    {
+      "title_zh": "AI 与芯片",
+      "title_en": "AI & Chips",
+      "items": [
+        {
+          "title_zh": "英伟达暂停对东南亚服务器出货",
+          "title_en": "Nvidia pauses server shipments to Southeast Asia",
+          "body_zh": "英伟达已通知制造伙伴暂停向马来西亚、新加坡、泰国和印度尼西亚交付服务器，配合美国收紧 AI 芯片流入中国的管控。此举直接冲击东南亚作为算力中转站的角色，当地数据中心项目可能面临延期。",
+          "body_en": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as Washington tightens its push to keep AI chips out of China. The move disrupts Southeast Asia's role as a compute way station and could delay local data-center projects.",
+          "ref": 7,
+          "source": "TechCrunch",
+          "tag": "地缘",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+        },
+        {
+          "title_zh": "美国多州起诉 SpaceX，要求阻止 Grok 生成非法图像",
+          "title_en": "US states sue SpaceX to stop Grok generating illegal images",
+          "body_zh": "弗吉尼亚州总检察长琼斯与雷菲尔德联合多州提起诉讼，指控 xAI 的 Grok 生成儿童性剥削图像和非自愿私密影像，并要求母公司 SpaceX 承担责任。这是州级执法对生成式 AI 内容失控的最新一次直接出手。",
+          "body_en": "Virginia Attorney General Jay Jones and colleagues filed suit against SpaceX, the parent of xAI and Grok, over the chatbot's creation and promotion of child sexual abuse material and non-consensual images. It marks the latest direct state-level enforcement action against runaway generative AI content.",
+          "ref": 2,
+          "source": "Hacker News",
+          "tag": "安全",
+          "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform"
+        },
+        {
+          "title_zh": "OpenAI 反诉苹果窃取商业秘密",
+          "title_en": "OpenAI counter-sues Apple for trade secret theft",
+          "body_zh": "在苹果 7 月提起的商业秘密诉讼中，OpenAI 提出反诉，指控苹果自身窃取 OpenAI 的商业秘密，并胁迫同时为两家公司供货的供应商。OpenAI 称一名员工从苹果跳槽六个月后返回，用个人账户带回了 OpenAI 硬件设备的详细资料。",
+          "body_en": "OpenAI has counter-sued Apple in the trade secrets case Apple filed in July, accusing Apple of stealing OpenAI's secrets and coercing shared suppliers. OpenAI claims an employee who left for OpenAI and returned to Apple six months later carried back detailed hardware specs via a personal account.",
+          "ref": 34,
+          "source": "IT之家",
+          "tag": "诉讼",
+          "url": "https://www.ithome.com/1/033/780.htm"
+        },
+        {
+          "title_zh": "DeepSeek 灰度测试“消耗额度”展示",
+          "title_en": "DeepSeek tests showing per-chat token costs",
+          "body_zh": "DeepSeek 移动端小范围测试“显示本轮消耗额度”功能，可展示单次对话的 Token 消耗及估算金额，个人用户目前仍可免费使用。此举被部分网友解读为收费前兆，官方尚未说明后续定价。",
+          "body_en": "DeepSeek's mobile app is testing a feature that shows the token consumption and estimated cost of each conversation, though individual users can still use the service free. Some users read it as a prelude to paid tiers, but the company has not announced pricing.",
+          "ref": 28,
+          "source": "量子位",
+          "tag": "产品",
+          "url": "https://www.qbitai.com/2026/11/513305.html"
+        },
+        {
+          "title_zh": "商汤大装置获信通院 Token 工厂最高评级",
+          "title_en": "SenseTime wins top Token Factory rating from CAICT",
+          "body_zh": "商汤大装置 Token 工厂获得中国信通院 Token 工厂智算能力评估“全栈服务型·领先级”认证，为全国首批首家。该评级为国内算力服务能力提供了官方参照。",
+          "body_en": "SenseTime's Token Factory has received the China Academy of Information and Communications Technology's top 'full-stack service, leading' rating for token-factory compute, the first such certification in the country. The rating gives an official benchmark for domestic compute-service capability.",
+          "ref": 26,
+          "source": "量子位",
+          "tag": "算力",
+          "url": "https://www.qbitai.com/2026/11/513346.html"
+        },
+        {
+          "title_zh": "洛杉矶学区屏蔽谷歌 AI Overview",
+          "title_en": "LA schools block Google's AI Overview",
+          "body_zh": "洛杉矶联合学区在谷歌更新 AI 政策后仍决定屏蔽其 AI Overview 功能，理由是内容准确性与学生数据风险。这是教育系统对生成式搜索摘要进入课堂的又一次抵制。",
+          "body_en": "The Los Angeles Unified School District has blocked Google's AI Overview despite the company's latest AI policy update, citing accuracy and student-data concerns. It is another pushback from education systems against generative search summaries in classrooms.",
+          "ref": 91,
+          "source": "Google AI 检索",
+          "tag": "教育",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeHg2T09iaURrWGVzdFFYWkVvNHpLZFRocVNPNHBxQURWVmpiLWZzR3NZRnlwamdWNzJCWVRrWHV0bWR5eFdUZDd1LVdrMC1xZjNXQlREaUVrUGFwZ0xXQm1DYkZBelNTUjVsdEJGRXVMQlpoVm1kb1IxWV9tN2l0SjBxMGtVTloyQk54MEc3R01jNHBZS0M3WURYVmJpREtKSmc?oc=5"
+        }
+      ]
+    },
+    {
+      "title_zh": "政策与市场",
+      "title_en": "Policy & Market",
+      "items": [
+        {
+          "title_zh": "智利对苹果提起反垄断诉讼，寻求 8000 万美元罚款",
+          "title_en": "Chile sues Apple, seeks $80 million fine",
+          "body_zh": "智利国家竞争管理局 11 月 27 日向竞争法庭起诉苹果，指控其自 2019 年以来在 iOS 应用分发和应用内付费市场妨碍自由竞争，要求罚款 8000 万美元并开放 App Store。这是拉美监管机构对苹果应用商店模式的又一次正面挑战。",
+          "body_en": "Chile's National Economic Prosecutor filed an antitrust suit against Apple on Nov. 27, alleging the company has restricted competition in iOS app distribution and in-app payments since at least 2019. It seeks an $80 million fine and an order to open the App Store, another direct challenge in Latin America to Apple's model.",
+          "ref": 31,
+          "source": "IT之家",
+          "tag": "监管",
+          "url": "https://www.ithome.com/1/033/783.htm"
+        },
+        {
+          "title_zh": "英特尔被曝为换取拨款向特朗普政府让出 10% 股份",
+          "title_en": "Intel reportedly gave Trump 10% stake to unlock grants",
+          "body_zh": "Ars Technica 报道称，英特尔面临压力，需向美国政府让出 10% 股份才能解锁数十亿美元承诺拨款。这反映出产业政策与股权干预之间的边界正在模糊。",
+          "body_en": "Ars Technica reports that Intel faced pressure to surrender a 10% stake to the US government to unlock billions in promised grants. The episode shows how blurred the line has become between industrial policy and equity intervention.",
+          "ref": 18,
+          "source": "Ars Technica",
+          "tag": "产业",
+          "url": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/"
+        },
+        {
+          "title_zh": "有线电视与 IPTV 开机广告禁令生效",
+          "title_en": "China's cable and IPTV boot-ad ban takes effect",
+          "body_zh": "广电总局两项新规 11 月 27 日施行，全面禁止有线电视与 IPTV 开机广告，违规最高罚 10 万元，覆盖超 6 亿用户。智能电视厂商的开屏广告暂不受此限。",
+          "body_en": "Two new rules from China's film and TV regulator took effect Nov. 27, banning boot-up ads on cable TV and IPTV with fines of up to 100,000 yuan, covering more than 600 million users. Smart-TV makers' splash ads are not covered for now.",
+          "ref": 30,
+          "source": "IT之家",
+          "tag": "政策",
+          "url": "https://www.ithome.com/1/033/784.htm"
+        }
+      ]
+    },
+    {
+      "title_zh": "其他要闻",
+      "title_en": "Beyond Tech",
+      "items": [
+        {
+          "title_zh": "欧盟预算峰会无果而终",
+          "title_en": "EU budget summit ends without a deal",
+          "body_zh": "布鲁塞尔欧盟峰会因 1.7 万亿欧元预算与乌克兰援助分歧提前结束，法国和德国希望在年底前达成协议，部分领导人担忧勒庞胜选影响后续预算谈判。",
+          "body_en": "The EU summit in Brussels broke up early over a 1.7 trillion euro budget and Ukraine funding, with France and Germany pushing for a year-end deal and some leaders worried a Le Pen victory could upend talks.",
+          "ref": 83,
+          "source": "Google News World",
+          "tag": "地缘",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOWVXOVY0VDdvcFY0bDVROG81bEdsVWxiVTlzODhDYm5ILWtFMjlpMFVseWZQb0t2WnE2Q20xQTlPVlVoS09Cd2xRRGZiZTYxcGdWRmFkRUU1X294UHJHYkVUSklCLU43d3pjTlh6OWJPNDFjNmNCT05EeEw4QXBabzhFRG9jVjlxR0hnVUU5RlhLZU5IVjRmN205TXo4ZnNyOXfSAaIBQVVfeXFMT0tqZlRIeF9HNXZmM0NqOEFHenJYTWlqSGp1Z3ZxbElEUjYzRXBCOFR5MU44NTdQd0p0ZEZmQlBQN0Q5STlLWFdCNUhDNV9wem1FUWxoS0E0ODB3cmRoNEd1QkNhaEFqNTdZeDBoeUdHR1hZOFoxRG5oMGdfWFV0X09reTRUS2p6d3dtNXMwVFJLUEVLZHZ2N01Za0FXdmNZMUpB?oc=5"
+        },
+        {
+          "title_zh": "加拿大最高法院基本维持魁北克世俗法",
+          "title_en": "Canada's top court largely upholds Quebec secularism law",
+          "body_zh": "加拿大最高法院裁定魁北克禁止公职人员佩戴显眼宗教符号的法律合宪，仅作有限度保留。该判决凸显少数群体权利与政府“但书条款”权力之间的紧张。",
+          "body_en": "Canada's Supreme Court ruled Quebec's ban on conspicuous religious symbols for public servants constitutionally valid, with limited exceptions. The decision highlights tension between minority rights and governments' use of the notwithstanding clause.",
+          "ref": 51,
+          "source": "The Guardian World",
+          "tag": "社会",
+          "url": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols"
+        },
+        {
+          "title_zh": "西班牙大选投票，Vox 领导人或成造王者",
+          "title_en": "Spain votes, with Vox's Abascal poised as kingmaker",
+          "body_zh": "西班牙首相桑切斯在选前最后集会上试图逆转民调，主要对手指责其不诚实。极右翼 Vox 领导人阿巴斯卡尔可能成为组阁关键，选举结果将影响欧洲政治版图。",
+          "body_en": "Spanish PM Pedro Sánchez made a final pitch to defy the polls as rivals accused him of dishonesty. Far-right Vox leader Santiago Abascal could emerge as kingmaker, with the result set to shape Europe's political map.",
+          "ref": 86,
+          "source": "Google News World",
+          "tag": "地缘",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPX1AxaFV1YTZ1VFB6MmVETG5iUmpxLWNEbjVDejhPZjJIVml6ZExzVGdxdGlmQUtfbkJ6ZUVWMzd6TDVVb1BsT1UtVXdXa3llbjFKbkFyQUJRdjJiUFdhVmxKdXpIemxhcDlLN1JpTDdHX3dhUzBQUmZRMGR6ZzZEOXNwWUFmVjU2ckRNcUI4TVVxT2ZHQWQ0RFdyZDBxajRrM3N2N0RhYw?oc=5"
+        },
+        {
+          "title_zh": "泽连斯基批评特朗普与普京“奇怪”友谊",
+          "title_en": "Zelensky criticises 'strange' Trump-Putin friendship",
+          "body_zh": "泽连斯基在 BBC 采访中表达对美国的失望，称华盛顿未在结束战争的谈判中对俄罗斯施加足够压力。此番表态正值乌克兰准备迎接又一个严冬。",
+          "body_en": "In a BBC interview, Zelensky voiced frustration with the US, saying Washington is not pressing Russia hard enough in talks to end the war. The remarks come as Ukraine braces for another punishing winter.",
+          "ref": 44,
+          "source": "BBC World",
+          "tag": "地缘",
+          "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title_zh": "体育与娱乐",
+      "title_en": "Sports & Culture",
+      "items": [
+        {
+          "title_zh": "《GTA 6》发售首周，女主角演员致谢粉丝",
+          "title_en": "GTA 6 launches; Lucia actress thanks fans",
+          "body_zh": "《GTA 6》迎来发售首周，女主角露西娅的扮演者曼尼·L·佩雷斯发文致谢，透露自己为这一角色投入近十年，很可能在开发初期就已确定出演。该作被视为史上最大娱乐产品发布之一。",
+          "body_en": "Grand Theft Auto VI is in its first week on sale, and Manny L. Perez, who plays protagonist Lucia, thanked fans and said she spent nearly a decade on the role, suggesting she was cast early in development. The game is being billed as one of the biggest entertainment launches ever.",
+          "ref": 32,
+          "source": "IT之家",
+          "tag": "娱乐",
+          "url": "https://www.ithome.com/1/033/782.htm"
+        },
+        {
+          "title_zh": "爱尔兰 38-14 胜澳大利亚，获国家锦标赛第五",
+          "title_en": "Ireland beat Australia 38-14 to finish fifth",
+          "body_zh": "爱尔兰在伦敦以 38-14 击败澳大利亚，以五记达阵结束首届国家锦标赛，最终排名第五。",
+          "body_en": "Ireland beat Australia 38-14 in London with five tries to finish fifth in the inaugural Nations Championship.",
+          "ref": 56,
+          "source": "BBC Sport",
+          "tag": "体育",
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw987l0ej11mo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "quick_zh": [
+    "韦东奕再获大奖，攻克近 140 年数学难题，获两位院士共同提名。",
+    "我国成功发射遥感五十号 04 星，用于国土普查、农作物估产和防灾减灾。",
+    "信长星当选中共江苏省委书记。"
+  ],
+  "quick_en": [
+    "Chinese mathematician Wei Dongyi wins another major award for cracking a nearly 140-year-old problem, nominated by two academicians.",
+    "China launched the Yaogan-50 04 satellite for land surveys, crop estimation and disaster relief.",
+    "Xin Changxing elected Communist Party secretary of Jiangsu province."
+  ]
+}
